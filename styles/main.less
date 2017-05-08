@@ -5,16 +5,20 @@
   --space-lg: 2em;
   --bg-color: #fff;
 }
-@bg: #ccc;
+@bg: #FAEA18;
+
+@primary: #394EFF;
 @bg-text: #fff;
 @color-accent: #000;
 @color-text-body: darken(@color-accent,10%);
-@color-text-links: #394EFF;
+@color-text-links: #ED1C24;
 @starship: #000;
 body {
+  font-family: letter-gothic-std, monospace;
+  font-style: normal;
+  font-weight: 400;
   // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   // font-family: "franklin-gothic-urw",sans-serif;
-  font-family: "franklin-gothic-urw",sans-serif;
   line-height: 1.52;
   color: @color-accent;
   background-color: #fff;
@@ -26,7 +30,7 @@ body {
 }
 .bg {
   background: rgba(255,255,255,0);
-  background: linear-gradient(180deg, rgba(255,255,255,0) 160px, @bg 40%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 160px, @bg 50%, rgba(255,255,255,0) 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -55,7 +59,7 @@ ul {
   li {
     flex: 1 0 33.3333%;
     padding: 0;
-    margin: 0 0 0 2.6rem;
+    margin: 0 0 1rem 2.6rem;
     text-indent: 1.4rem;
     &:before {
       letter-spacing: 7px;
@@ -64,13 +68,12 @@ ul {
       font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
       // content: '—— ';
-      content: '\2F';
+      content: '\25B6';
       margin-left: -3.8rem;
     }
   }
 }
-li,
-p {
+li, p {
   line-height: 1.5;
   font-size: ~"calc(12px + .5vw)";
   margin: 0 0 1rem;
@@ -78,21 +81,18 @@ p {
 header {
   margin: 2rem 0;
   position: relative;
-  font-family: "franklin-gothic-urw",sans-serif;
+
   color: @color-accent;
   .intro-text > * {
-    margin: 0 1rem 0 0;
+    margin: 0  0 0;
   }
-  .headshot {
-    min-height: 200px;
-    max-height: 200px;
-    height: 200px;
-    max-width: 100%;
-    background-position: center center;
-  }
+
   h1 {
-    font-weight: 100;
-    font-size: ~"calc(16px + 2vw)";
+    font-family: eloquent-jf-small-caps-pro, serif;
+    font-style: italic;
+    font-weight: 400;
+    color: @primary;
+    font-size: ~"calc(60px + 2vw)";
     line-height: 1.2;
     b {
       color: darken(@color-accent, 5%);
@@ -100,10 +100,18 @@ header {
   }
   h2 {
     font-size: ~"calc(14px + 1vw)";
+    b {
+      background-color: @primary;
+      color: #fff;
+      white-space: nowrap;
+
+
+    }
   }
   h1,
   h2 {
     margin: 0;
+
   }
 }
 #sections {
@@ -114,22 +122,14 @@ header {
     position: relative;
     margin: 3rem 0 0;
     @media only screen and (min-width: 37.5em) {
-      &:nth-child(1) {
-        width: 100%;
-      }
-      &:nth-child(2) {
-        width: 80%;
-      }
-      &:nth-child(3) {
-        width: 70%;
-      }
-      &:nth-child(4) {
-        width: 90%;
-      }
+      &:nth-child(1) { width: 100%; }
+      &:nth-child(2) { width: 100%; }
+      &:nth-child(3) { width: 100%; }
+      &:nth-child(4) { width: 100%; }
     }
     > div {
       // margin: 0 0 3rem 4rem;
-      border-top: solid 0.4rem @starship;
+      // border-top: solid 0.4rem @starship;
       // padding: 1rem;
       background: #fff;
       // width: 100%;
@@ -160,7 +160,7 @@ header {
     }
     h2 {
       // font-family: "franklin-gothic-urw",sans-serif;
-      font-family: @ff-monosten-a;
+      font-family: "eloquent-jf-small-caps-pro",serif;
       color: #fff;
       background: @starship;
       font-weight: normal;
@@ -170,7 +170,8 @@ header {
       // transform-origin: left top 0;
       // float: left;
       // display: inline !important;
-      font-size: ~"calc(10px + .5vw)";
+      font-size: ~"calc(30px + .5vw)";
+      font-style: italic;
       text-transform: uppercase;
       margin: 0;
     }
@@ -264,4 +265,56 @@ img {
 }
 footer {
   margin-bottom: 3rem;
+}
+
+
+.week,.dates {
+  display: flex;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+/* OTHER STYLES */
+
+.week {
+  width: 100%
+}
+.dates .day {
+  text-align: center;
+  color: #444;
+
+}
+.legend {
+  margin: 2rem 0;
+  .week .day {
+  }
+
+
+}
+.week .day {
+  color: #444;
+  padding: 5px;
+  background-color: transparentize(white, 0.30);
+  box-shadow:
+    -1px -1px #000,
+    inset -1px -1px 0 0 #000;
+  &.hide {
+    visibility: hidden;
+  }
+  &.workshop {
+    background: #FFEB3B;
+  }
+  &.mentoring {
+    background: #FBC02D;
+
+    &.afternoon {
+      // background: #FFF9C4
+      background-color: #FBC02D;
+      background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKklEQVQYV2P8fUD3PwMUsNhfYmCECYA4fw7qQQRgHJBCxv////8HycAAAPEWFbZzyducAAAAAElFTkSuQmCC) repeat;
+    }
+  }
 }
