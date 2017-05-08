@@ -6,7 +6,6 @@
   --bg-color: #fff;
 }
 @bg: #FAEA18;
-
 @primary: #394EFF;
 @bg-text: #fff;
 @color-accent: #000;
@@ -53,9 +52,6 @@ header {
 ul {
   list-style: none;
   padding: 0;
-  // margin: 0;
-  // display: flex;
-  // flex-wrap: wrap;
   li {
     flex: 1 0 33.3333%;
     padding: 0;
@@ -81,12 +77,10 @@ li, p {
 header {
   margin: 2rem 0;
   position: relative;
-
   color: @color-accent;
   .intro-text > * {
     margin: 0  0 0;
   }
-
   h1 {
     font-family: eloquent-jf-small-caps-pro, serif;
     font-style: italic;
@@ -94,9 +88,7 @@ header {
     color: @primary;
     font-size: ~"calc(60px + 2vw)";
     line-height: 1.2;
-    b {
-      color: darken(@color-accent, 5%);
-    }
+    b { color: darken(@color-accent, 5%); }
   }
   h2 {
     font-size: ~"calc(14px + 1vw)";
@@ -104,15 +96,9 @@ header {
       background-color: @primary;
       color: #fff;
       white-space: nowrap;
-
-
     }
   }
-  h1,
-  h2 {
-    margin: 0;
-
-  }
+  h1, h2 { margin: 0; }
 }
 #sections {
   display: flex;
@@ -180,17 +166,12 @@ header {
 section#hire-me {
   h2 {
     font-family: "franklin-gothic-urw",sans-serif;
-    // font-family: @ff-monosten-a;
     color: #fff;
     background: @starship;
     font-weight: normal;
     display: inline;
     padding: 0.2rem 0.4rem 0.4rem;
-    // transform-origin: left top 0;
-    // float: left;
-    // display: inline !important;
     font-size: ~"calc(18px + .5vw)";
-    // text-transform: uppercase;
     margin: 0;
   }
   h3 {
@@ -199,7 +180,6 @@ section#hire-me {
     letter-spacing: 0.07vw;
     text-transform: uppercase;
     font-weight: normal;
-
   }
   margin: 6rem 0;
   .btn {
@@ -266,55 +246,47 @@ img {
 footer {
   margin-bottom: 3rem;
 }
-
-
 .week,.dates {
   display: flex;
 }
-
 .day {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
 }
 
-/* OTHER STYLES */
 
-.week {
-  width: 100%
-}
 .dates .day {
   text-align: center;
   color: #444;
-
 }
 .legend {
   margin: 2rem 0;
-  .week .day {
+  &.week {
+    width: 50%
   }
-
-
 }
-.week .day {
-  color: #444;
-  padding: 5px;
-  background-color: transparentize(white, 0.30);
-  box-shadow:
+.week {
+  width: 100%;
+  .day {
+    color: #000;
+    padding: 5px;
+    background-color: transparentize(white, 0.30);
+    box-shadow:
     -1px -1px #000,
     inset -1px -1px 0 0 #000;
-  &.hide {
-    visibility: hidden;
-  }
-  &.workshop {
-    background: #FFEB3B;
-  }
-  &.mentoring {
-    background: #FBC02D;
-
-    &.afternoon {
-      // background: #FFF9C4
-      background-color: #FBC02D;
-      background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKklEQVQYV2P8fUD3PwMUsNhfYmCECYA4fw7qQQRgHJBCxv////8HycAAAPEWFbZzyducAAAAAElFTkSuQmCC) repeat;
+    &.hide {
+      visibility: hidden;
+    }
+    &.workshop {
+      background: #FFEB3B;
+    }
+    &.mentoring {
+      background: #FBC02D;
+      &.afternoon {
+        background-color: #FBC02D;
+        background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKklEQVQYV2P8fUD3PwMUsNhfYmCECYA4fw7qQQRgHJBCxv////8HycAAAPEWFbZzyducAAAAAElFTkSuQmCC) repeat;
+      }
     }
   }
 }
