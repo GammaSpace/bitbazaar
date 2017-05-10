@@ -365,11 +365,11 @@ p b {
 .gifs {
   margin: 0 0 3vh;
 }
-span.name {
-  font-family: 'Playfair Display', serif;
-  font-weight: 100;
-  font-style: italic;
+.name {
   letter-spacing: 1px;
+  font-family: Raleway, serif;
+  font-weight: 900;
+  font-style: italic;
 }
 header {
   height: 33vh;
@@ -381,6 +381,7 @@ header h3 {
   display: inline;
 }
 header h1 {
+  letter-spacing: 1px;
   font-family: Raleway, serif;
   font-weight: 900;
   font-style: italic;
@@ -433,9 +434,9 @@ header h2 b {
 #sections section#dates h4 {
   font-family: 'Raleway', sans-serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-align: center;
 }
 #sections section > div {

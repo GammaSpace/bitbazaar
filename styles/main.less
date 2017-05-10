@@ -94,11 +94,12 @@ li, p {
   margin: 0 0 3vh;
 
 }
-span.name {
-  font-family: 'Playfair Display', serif;
-  font-weight: 100;
-  font-style: italic;
+
+.name {
   letter-spacing: 1px;
+  font-family: Raleway, serif;
+  font-weight: 900;
+  font-style: italic;
 
 }
 header {
@@ -110,9 +111,7 @@ header {
   h1,h3 { display: inline }
 
   h1 {
-    font-family: Raleway, serif;
-    font-weight: 900;
-    font-style: italic;
+    .name;
     color: @primary;
     font-size: ~"calc(60px + 2vw)";
     line-height: 1.2;
@@ -157,9 +156,9 @@ header {
       h4 {
         font-family: 'Raleway', sans-serif;
         font-style: italic;
-        font-weight: 300;
+        font-weight: 900;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         text-align: center;
       }
     }
