@@ -295,6 +295,7 @@
 }
 body {
   font-family: 'Karla', sans-serif;
+  font-size: calc(16px + .5vw);
   font-style: normal;
   line-height: 1.52;
   color: #394EFF;
@@ -343,7 +344,6 @@ ul li:before {
 li,
 p {
   line-height: 1.5;
-  font-size: calc(12px + .5vw);
   margin: 0 0 1rem;
 }
 li b,
@@ -354,7 +354,6 @@ p b {
 #lead {
   font-weight: 900;
   font-size: calc(12px + 1vw);
-  margin-top: 3rem;
 }
 #lead::first-line {
   font-size: calc(12px + 2vw);
@@ -363,7 +362,7 @@ p b {
   margin: 0 4vw;
 }
 .gifs {
-  margin: 0 0 3vh;
+  margin: 3vh 0;
 }
 .name {
   letter-spacing: 1px;
@@ -372,7 +371,6 @@ p b {
   font-style: italic;
 }
 header {
-  height: 33vh;
   max-width: 72rem;
   position: relative;
 }
@@ -520,6 +518,9 @@ footer a > *::-moz-selection {
 .dates .day b {
   color: #394EFF;
   font-weight: normal;
+}
+.legend.week .day {
+  font-size: 12px;
 }
 .week {
   width: 100%;

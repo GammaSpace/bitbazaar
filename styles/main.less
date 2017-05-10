@@ -17,6 +17,8 @@
 
 body {
   font-family: 'Karla', sans-serif;
+  font-size: ~"calc(16px + .5vw)";
+
   font-style: normal;
   line-height: 1.52;
   color: @primary;
@@ -69,7 +71,6 @@ ul {
 }
 li, p {
   line-height: 1.5;
-  font-size: ~"calc(12px + .5vw)";
   margin: 0 0 1rem;
   b {
     background: #FFEB3B;
@@ -82,8 +83,6 @@ li, p {
   }
   font-weight: 900;
   font-size: ~"calc(12px + 1vw)";
-  margin-top: 3rem;
-
 
 }
 .container {
@@ -91,7 +90,7 @@ li, p {
 }
 .gifs {
   // height: 33vh;
-  margin: 0 0 3vh;
+  margin: 3vh 0;
 
 }
 
@@ -103,7 +102,6 @@ li, p {
 
 }
 header {
-  height: 33vh;
   max-width: 72rem;
   position: relative;
   // font-family: 'Raleway', sans-serif;
@@ -263,6 +261,10 @@ footer {
 .legend {
 
   &.week {
+    .day {
+      font-size: 12px;
+    }
+
   }
 }
 .week {
