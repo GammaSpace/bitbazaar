@@ -16,7 +16,7 @@
 
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-style: normal;
   line-height: 1.52;
   color: @primary;
@@ -37,10 +37,7 @@ body {
   height: 100vh;
   z-index: -100;
 }
-#content {
-  transition: height 5s ease 3s;
-  // max-width: 92vw;
-}
+
 #intro, header {
   p:first-of-type {
     // font-weight: 700;
@@ -81,13 +78,9 @@ li, p {
 }
 #lead {
   &::first-line {
-
-
     font-size: ~"calc(12px + 2vw)";
-
-
   }
-  font-family: 'Karla', sans-serif;
+  font-weight: 900;
   font-size: ~"calc(12px + 1vw)";
   margin-top: 3rem;
 
@@ -102,7 +95,7 @@ li, p {
 
 }
 span.name {
-  font-family: eloquent-jf-small-caps-pro, serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 100;
   font-style: italic;
   letter-spacing: 1px;
@@ -117,8 +110,8 @@ header {
   h1,h3 { display: inline }
 
   h1 {
-    font-family: eloquent-jf-small-caps-pro, serif;
-    font-weight: 100;
+    font-family: Raleway, serif;
+    font-weight: 900;
     font-style: italic;
     color: @primary;
     font-size: ~"calc(60px + 2vw)";
@@ -181,26 +174,6 @@ header {
       // flex: 0 0 auto;
       margin-top: 0;
     }
-    .section-content {
-      padding: 1rem;
-      // flex: 0 0 calc(100% - 2rem);
-      position: relative;
-      // @media (min-width: 24em) {
-      //   // width: calc(50% - 2rem);
-      //   flex: 0 0 calc(50% - 2 rem);
-      // }
-      // ul {
-      //   li {
-      //     flex: 1 0 calc(50% - 5rem);
-      //   }
-      // }
-    }
-    .section-image {
-      min-height: 200px;
-      max-width: 100%;
-      // background-size: cover;
-      background-position: center center;
-    }
     h2 {
       font-family: 'Raleway', sans-serif;
       color: @primary;
@@ -227,9 +200,7 @@ img {
   position: relative;
 
 }
-.amp {
-  font-family: @ff-monosten-a;
-}
+
 footer {
   margin: 3rem;
   text-align: center;

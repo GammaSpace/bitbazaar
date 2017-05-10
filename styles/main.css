@@ -294,7 +294,7 @@
   --bg-color: #fff;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-style: normal;
   line-height: 1.52;
   color: #394EFF;
@@ -313,9 +313,6 @@ body {
   width: 100%;
   height: 100vh;
   z-index: -100;
-}
-#content {
-  transition: height 5s ease 3s;
 }
 #intro p:first-of-type,
 header p:first-of-type {
@@ -355,7 +352,7 @@ p b {
   font-weight: normal;
 }
 #lead {
-  font-family: 'Karla', sans-serif;
+  font-weight: 900;
   font-size: calc(12px + 1vw);
   margin-top: 3rem;
 }
@@ -369,7 +366,7 @@ p b {
   margin: 0 0 3vh;
 }
 span.name {
-  font-family: eloquent-jf-small-caps-pro, serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 100;
   font-style: italic;
   letter-spacing: 1px;
@@ -384,8 +381,8 @@ header h3 {
   display: inline;
 }
 header h1 {
-  font-family: eloquent-jf-small-caps-pro, serif;
-  font-weight: 100;
+  font-family: Raleway, serif;
+  font-weight: 900;
   font-style: italic;
   color: #394EFF;
   font-size: calc(60px + 2vw);
@@ -447,15 +444,6 @@ header h2 b {
   display: flex;
   margin-top: 0;
 }
-#sections section .section-content {
-  padding: 1rem;
-  position: relative;
-}
-#sections section .section-image {
-  min-height: 200px;
-  max-width: 100%;
-  background-position: center center;
-}
 #sections section h2 {
   font-family: 'Raleway', sans-serif;
   color: #394EFF;
@@ -474,9 +462,6 @@ img {
 }
 .content {
   position: relative;
-}
-.amp {
-  font-family: 'monostena', 'Consolas', 'monospace';
 }
 footer {
   margin: 3rem;
