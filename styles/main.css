@@ -548,6 +548,7 @@ footer a > *::-moz-selection {
   border-bottom: none;
   z-index: 200;
   color: #fff;
+  display: inline-block;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   outline: none;
