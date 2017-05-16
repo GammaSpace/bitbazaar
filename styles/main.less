@@ -139,17 +139,11 @@ header {
   justify-content: flex-start;
   flex-flow: column nowrap;
   section {
-    position: relative;
+    // position: relative;
     margin: 3rem 0 0;
     padding: 3rem 0;
     border-top: solid 10px;
 
-    @media only screen and (min-width: 37.5em) {
-      &:nth-child(1) { width: 100%; }
-      &:nth-child(2) { width: 100%; }
-      &:nth-child(3) { width: 100%; }
-      &:nth-child(4) { width: 100%; }
-    }
     &#dates {
       h4 {
         font-family: 'Raleway', sans-serif;
@@ -160,17 +154,7 @@ header {
         text-align: center;
       }
     }
-    > div {
-      // margin: 0 0 3rem 4rem;
-      // border-top: solid 0.4rem @starship;
-      // padding: 1rem;
-      background: #fff;
-      // width: 100%;
-      position: relative;
-      display: flex;
-      // flex: 0 0 auto;
-      margin-top: 0;
-    }
+
     h2 {
       font-family: 'Raleway', sans-serif;
       color: @primary;
@@ -247,7 +231,9 @@ footer {
   flex-basis: 0;
 }
 
-
+.month {
+  margin: 0 1rem
+}
 .dates .day {
   text-align: center;
   color: lighten(@primary,20%);

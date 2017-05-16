@@ -410,24 +410,9 @@ header h2 b {
   flex-flow: column nowrap;
 }
 #sections section {
-  position: relative;
   margin: 3rem 0 0;
   padding: 3rem 0;
   border-top: solid 10px;
-}
-@media only screen and (min-width: 37.5em) {
-  #sections section:nth-child(1) {
-    width: 100%;
-  }
-  #sections section:nth-child(2) {
-    width: 100%;
-  }
-  #sections section:nth-child(3) {
-    width: 100%;
-  }
-  #sections section:nth-child(4) {
-    width: 100%;
-  }
 }
 #sections section#dates h4 {
   font-family: 'Raleway', sans-serif;
@@ -436,12 +421,6 @@ header h2 b {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-}
-#sections section > div {
-  background: #fff;
-  position: relative;
-  display: flex;
-  margin-top: 0;
 }
 #sections section h2 {
   font-family: 'Raleway', sans-serif;
@@ -508,6 +487,9 @@ footer a > *::-moz-selection {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+}
+.month {
+  margin: 0 1rem;
 }
 .dates .day {
   text-align: center;
