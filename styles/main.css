@@ -488,8 +488,24 @@ footer a > *::-moz-selection {
   flex-shrink: 1;
   flex-basis: 0;
 }
-.month {
-  margin: 0 1rem;
+.Grid-cell.month {
+  margin: 0;
+}
+@media (min-width: 384px) {
+  .Grid-cell.month {
+    margin: 0;
+  }
+  .Grid-cell.month:first-child {
+    margin-left: 0;
+  }
+  .Grid-cell.month:last-child {
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) {
+  .Grid-cell.month {
+    margin: 0 1rem;
+  }
 }
 .dates .day {
   text-align: center;
