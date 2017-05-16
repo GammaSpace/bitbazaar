@@ -230,21 +230,37 @@ footer {
   flex-shrink: 1;
   flex-basis: 0;
 }
-.Grid-cell.month { margin: 0}
+.logo {
+  img {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+}
+header {
+  text-align: center;
+  h1 { font-size: ~"calc(32px + 2vw)"; }
+}
 
-@media (min-width: @break-sm) {
+@media (min-width: @break-lg) {
   .logo {
     img {
-      text-align: center;
-      float: none;
-      margin: 0 auto;
-      display: block;
+      text-align: left;
+      margin: 0;
+
     }
   }
   header {
-    text-align: center;
-    h1 { font-size: ~"calc(32px + 2vw)"; }
+    text-align: left;
+    h1 { font-size: ~"calc(60px + 2vw)"; }
   }
+}
+
+
+.Grid-cell.month { margin: 0}
+
+@media (min-width: @break-sm) {
   .Grid-cell {
     &.month {
       margin: 0;
