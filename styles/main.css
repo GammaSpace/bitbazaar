@@ -605,6 +605,7 @@ header h1 {
   text-align: center;
 }
 .btn-3d:hover span {
+  padding: .7rem 1.2rem 0;
   -webkit-transform: rotateX(90deg) translateY(-18px);
   transform: rotateX(90deg) translateY(-18px);
   background-color: #394EFF;
