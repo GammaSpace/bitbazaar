@@ -1,14 +1,13 @@
-@import "fonts";
 @import "Grid";
 :root {
   --space: 1.5em;
   --space-lg: 2em;
   --bg-color: #fff;
 }
-@primary: #394EFF;
+@primary: #F5303A;
 @secondary: #FFF5CC;
 // @bg: #FFD640;
-@bg: #59EA5F;
+@bg: RGB(196, 144, 255);
 @bg-text: #fff;
 @color-text-body: @primary;
 @color-text-links: @primary;
@@ -16,8 +15,8 @@
 
 
 body {
-  font-family: 'Karla', sans-serif;
-  font-size: ~"calc(16px + .5vw)";
+  font-family: 'Cutive Mono';
+  font-size: ~"calc(12px + .5vw)";
 
   font-style: normal;
   line-height: 1.52;
@@ -30,8 +29,9 @@ body {
   }
 }
 .bg {
-  background: rgba(255,255,255,0);
-  background: linear-gradient(180deg, rgba(255,255,255,0) 160px, @bg 50%, rgba(255,255,255,0) 100%);
+  // background: rgba(255,255,255,0);
+  // background-image: url(../images/socmed/twitter_bg.png);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0, @bg 0%, rgba(255,255,255,0) 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -43,7 +43,7 @@ body {
 #intro, header {
   p:first-of-type {
     // font-weight: 700;
-    font-size: ~"calc(16px + .7vw)";
+    font-size: ~"calc(12px + .7vw)";
     line-height: 1.3;
     margin-top: 1rem;
   }
@@ -96,7 +96,7 @@ li, p {
 
 .name {
   letter-spacing: 1px;
-  font-family: Raleway, serif;
+  // font-family: Raleway, serif;
   font-weight: 900;
   font-style: italic;
 
@@ -118,7 +118,7 @@ header {
   small.tagline {
     font-size: ~"calc(12px + .5vw)";
     // font-family: letter-gothic-std, monospace;
-    font-family: 'Raleway', sans-serif;
+    // font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-weight: 100;
     text-transform: uppercase;
@@ -142,11 +142,11 @@ header {
     // position: relative;
     margin: 3rem 0 0;
     padding: 3rem 0;
-    border-top: solid 10px;
+    // border-top: solid 2px;
 
     &#dates {
       h4 {
-        font-family: 'Raleway', sans-serif;
+        // font-family: 'Raleway', sans-serif;
         font-style: italic;
         font-weight: 900;
         text-transform: uppercase;
@@ -156,7 +156,7 @@ header {
     }
 
     h2 {
-      font-family: 'Raleway', sans-serif;
+      // font-family: 'Raleway', sans-serif;
       color: @primary;
       font-weight: 100;
       letter-spacing: 0.07vw;
