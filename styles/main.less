@@ -20,7 +20,7 @@
 body {
   // font-family: 'Cutive Mono';
   font-family: 'Courier New', monospace;
-  font-size: ~"calc(12px + .5vw)";
+  font-size: ~"calc(11px + .5vw)";
 
   font-style: normal;
   line-height: 1.52;
@@ -60,6 +60,12 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  &.past {
+    li {
+      float: left;
+      padding-right: 1rem;
+    }
+  }
   li {
     flex: 1 0 33.3333%;
     padding: 0;
@@ -281,7 +287,6 @@ header {
     }
   }
   header {
-    text-align: left;
     h1 { font-size: ~"calc(60px + 2vw)"; }
   }
 }

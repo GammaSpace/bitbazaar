@@ -4,8 +4,7 @@ textarea,
 body * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Cutive Mono';
-  font-weight: 900; }
+  font-family: 'Cutive Mono'; }
   input::after, input::before,
   select::after,
   select::before,
