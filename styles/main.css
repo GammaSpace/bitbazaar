@@ -547,3 +547,11 @@ header h1 {
 .legend.week .day {
   font-size: 12px;
 }
+#thank-you h2 {
+  text-align: center;
+}
+#thank-you h3 {
+  text-align: center;
+  display: block;
+  font-size: calc(42px + .7vw);
+}
