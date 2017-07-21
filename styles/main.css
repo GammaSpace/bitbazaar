@@ -320,6 +320,84 @@ header p:first-of-type {
   line-height: 1.3;
   margin-top: 1rem;
 }
+.game .project,
+.game .label {
+  color: #FE6849;
+}
+.game:before {
+  content: '\002751';
+  color: #FE6849;
+  margin-left: 0;
+}
+.comics .project,
+.comics .label {
+  color: #0E48FB;
+}
+.comics:before {
+  content: '\002751';
+  color: #0E48FB;
+  margin-left: 0;
+}
+#lineup h2 span {
+  font-size: 1rem;
+}
+.legend li {
+  flex: 1 0 33.3333%;
+  padding: 0;
+  margin: 0;
+  text-indent: 0;
+  display: inline;
+  font-size: calc(12px + .5vw);
+  line-height: 3rem;
+}
+.legend li span {
+  white-space: nowrap;
+}
+.legend li .project,
+.legend li .label {
+  text-transform: uppercase;
+  padding: 0 .3rem;
+  background: linear-gradient(to left, #fff 0%, #eee 100%);
+}
+ul.lineup li {
+  flex: 1 0 33.3333%;
+  padding: 0;
+  margin: 0;
+  text-indent: 0;
+  display: inline;
+  font-size: calc(12px + .5vw);
+  line-height: 3rem;
+}
+ul.lineup li span {
+  white-space: nowrap;
+}
+ul.lineup li .project,
+ul.lineup li .label {
+  text-transform: uppercase;
+  padding: 0 .3rem;
+  background: linear-gradient(to left, #fff 0%, #eee 100%);
+}
+ul.lineup.week .day {
+  font-size: 12px;
+}
+ul.lineup li.game .project,
+ul.lineup li.game .label {
+  color: #FE6849;
+}
+ul.lineup li.game:before {
+  content: '\002751';
+  color: #FE6849;
+  margin-left: 0;
+}
+ul.lineup li.comics .project,
+ul.lineup li.comics .label {
+  color: #0E48FB;
+}
+ul.lineup li.comics:before {
+  content: '\002751';
+  color: #0E48FB;
+  margin-left: 0;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -363,7 +441,7 @@ p {
 }
 li b,
 p b {
-  background: #E6FFE8;
+  background: linear-gradient(to left, #fff 0%, #eee 100%);
   font-weight: normal;
 }
 li strong,

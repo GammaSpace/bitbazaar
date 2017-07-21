@@ -57,6 +57,68 @@ a {
     margin-top: 1rem;
   }
 }
+
+.game {
+  .project, .label {
+    color: #FE6849;
+  }
+  &:before {
+    content: '\002751';
+    color: #FE6849;
+    margin-left: 0;
+
+  }
+}
+.comics {
+  .project, .label {
+    color: #0E48FB;
+  }
+  &:before {
+    content: '\002751';
+    color: #0E48FB;
+    margin-left: 0;
+  }
+}
+
+#lineup {
+  h2 span {
+    font-size: 1rem;
+  }
+}
+.legend {
+  li {
+
+    flex: 1 0 33.3333%;
+    padding: 0;
+    margin: 0;
+    text-indent: 0;
+    display: inline;
+    font-size: ~"calc(12px + .5vw)";
+    line-height: 3rem;
+    span {
+      white-space: nowrap;
+    }
+    .project, .label {
+      text-transform: uppercase;
+      padding: 0 .3rem;
+      background:  linear-gradient(to left, #fff 0%, #eee 100%);
+    }
+  }
+
+}
+  ul.lineup {
+    .legend;
+    li {
+      &.game {
+        .game;
+      }
+      &.comics {
+        .comics;
+      }
+    }
+
+  }
+
 ul {
   list-style: none;
   padding: 0;
@@ -107,7 +169,7 @@ li, p {
   line-height: 1.5;
   margin: 0 0 1rem;
   b {
-    background: #E6FFE8;
+    background:  linear-gradient(to left, #fff 0%, #eee 100%);
     font-weight: normal;
   }
   strong {
