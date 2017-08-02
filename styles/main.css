@@ -346,9 +346,7 @@ header p:first-of-type {
   padding: 0;
   margin: 0;
   text-indent: 0;
-  display: inline;
-  font-size: calc(12px + .5vw);
-  line-height: 3rem;
+  font-size: calc(11px + .5vw);
 }
 .legend li span {
   white-space: nowrap;
@@ -359,14 +357,15 @@ header p:first-of-type {
   padding: 0 .3rem;
   background: linear-gradient(to left, #fff 0%, #eee 100%);
 }
+ul.lineup {
+  column-count: 2;
+}
 ul.lineup li {
   flex: 1 0 33.3333%;
   padding: 0;
   margin: 0;
   text-indent: 0;
-  display: inline;
-  font-size: calc(12px + .5vw);
-  line-height: 3rem;
+  font-size: calc(11px + .5vw);
 }
 ul.lineup li span {
   white-space: nowrap;
