@@ -358,7 +358,7 @@ header p:first-of-type {
   background: linear-gradient(to left, #fff 0%, #eee 100%);
 }
 ul.lineup {
-  column-count: 2;
+  margin: 0;
 }
 ul.lineup li {
   flex: 1 0 33.3333%;
