@@ -38,7 +38,7 @@ body {
 a {
   color: inherit;
 }
-li, p {
+p {
   line-height: 1.5;
   margin: 0 0 1rem;
   b {
@@ -55,6 +55,11 @@ li, p {
 .container {
   margin: 0 4vw;
   width: 70vw;
+  @media (min-width: @break-sm) {
+    margin: 0 auto;
+    width: 90vw;
+  }
+
 }
 #sections {
   display: flex;
@@ -78,6 +83,15 @@ table {
   th, td, tr {
     text-align: left;
     padding: .5rem .8rem;
+  }
+  th {
+    background-color: #fff;
+  }
+  tr {
+    background-color: #eee;
+    &.odd, &.header {
+      background-color: #fff;
+    }
   }
   th {
     border-bottom: solid 2px #000;
