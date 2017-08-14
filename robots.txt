@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /exhibitor-info.html
+Disallow: /exhibitor-info

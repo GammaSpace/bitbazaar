@@ -1,0 +1,131 @@
+@import "Grid";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+:root {
+  --space: 1.5em;
+  --space-lg: 2em;
+  --bg-color: #fff;
+}
+@primary: #000;
+@secondary: #FFF5CC;
+
+@bg: @primary;
+@bg-text: #fff;
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: ~"calc(11px + .5vw)";
+  font-style: normal;
+  line-height: 1.52;
+  color: @primary;
+  background-color: #fff;
+  text-rendering: optimizeLegibility;
+  margin: 4vh 0;
+  @media only screen and (min-width: 37.5em) {
+    // max-width: 72rem;
+  }
+}
+a {
+  color: inherit;
+}
+li, p {
+  line-height: 1.5;
+  margin: 0 0 1rem;
+  b {
+    background:  linear-gradient(to left, #fff 0%, #eee 100%);
+    font-weight: normal;
+  }
+  strong {
+    font-weight: 900;
+    background: yellow;
+    padding: .1rem .3rem;
+
+  }
+}
+.container {
+  margin: 0 4vw;
+  width: 70vw;
+}
+#sections {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  section {
+  margin-top: 3rem;
+  border-top: solid 4px #000;
+    h2 {
+      line-height: 4rem;
+      // font-size: ~"calc(40px + .5vw)";
+      margin: 0;
+    }
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto 1rem auto;
+  th, td, tr {
+    text-align: left;
+    padding: .5rem .8rem;
+  }
+  th {
+    border-bottom: solid 2px #000;
+  }
+  td {
+    border-bottom: solid 1px #ccc;
+  }
+  .time { white-space: nowrap;}
+}
+#schedule {
+  .bank {
+
+    margin: -1em 0 1em -1em;
+
+
+    .table {
+
+
+      width: 100%;
+      background: rgba(147, 128, 108, 0.1);
+      border-radius: 3px;
+      position: relative;
+
+
+      position: relative;
+      .table-number {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 1px 6px;
+        background: #000;
+        color: #fff;
+        font-size: 11px;
+      }
+      .exhibitors {
+        align-self: center;
+        height: 100%;
+        // .Grid();
+        // .Grid--center();
+        .exhibitor {
+          padding: 1rem;
+          text-align: center;
+          font-size: 11px;
+          overflow: hidden;
+          white-space: nowrap;
+
+        }
+      }
+    }
+  }
+}
