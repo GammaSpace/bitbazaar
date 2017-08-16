@@ -298,6 +298,8 @@ body {
   text-rendering: optimizeLegibility;
   margin: 4vh 0;
 }
+@media only screen and (min-width: 37.5em) {
+}
 .hidden {
   display: none;
 }
@@ -508,6 +510,23 @@ header h2 b {
   margin: 3rem 0 0;
   padding: 3rem 0;
 }
+#sections section#action {
+  margin: 0 auto 1rem auto;
+  background: #eee;
+  width: 100%;
+  text-align: center;
+}
+#sections section#action p {
+  margin: 0;
+}
+#sections section#about .logos h3,
+#sections section#about .logos img {
+  text-align: center;
+}
+#sections section#about .logos img {
+  margin: 0 auto;
+  display: block;
+}
 #sections section#dates h4 {
   font-style: italic;
   font-weight: 900;
@@ -536,40 +555,6 @@ img {
 footer {
   margin: 3rem;
   text-align: center;
-}
-footer a {
-  transition: all 0.2s ease-in-out;
-  color: #000;
-  font-weight: 700;
-  text-decoration: none;
-  background-image: linear-gradient(#000000 0%, #000 100%);
-  background: linear-gradient(135deg, #000, #000);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 95%;
-  text-shadow: 3px 0 #fff, 2px 0 #fff, 1px 0 #fff, -1px 0 #fff, -2px 0 #fff, -3px 0 #fff;
-}
-@media (-webkit-min-device-pixel-ratio: 1.75), (min-resolution: 168dpi) {
-  footer a {
-    background-image: linear-gradient(#000000 0%, #000 100%);
-    background-position: 0 93%;
-  }
-}
-footer a:hover {
-  color: #000000;
-  background-image: linear-gradient(to bottom, #000000 0%, #000000 100%);
-}
-footer a::selection,
-footer a > *::selection {
-  background-color: #a6a6a6;
-  color: #000;
-  text-shadow: none;
-}
-footer a::-moz-selection,
-footer a > *::-moz-selection {
-  background-color: #a6a6a6;
-  color: #000;
-  text-shadow: none;
 }
 .week,
 .dates {

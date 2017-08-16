@@ -248,7 +248,26 @@ header {
     margin: 3rem 0 0;
     padding: 3rem 0;
     // border-top: solid 2px;
-
+    &#action {
+      margin: 0 auto 1rem auto;
+      background: #eee;
+      width: 100%;
+      text-align: center;
+      p {
+        margin: 0
+      }
+    }
+    &#about {
+      .logos {
+        h3,img {
+          text-align: center;
+        }
+        img {
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    }
     &#dates {
       h4 {
         // font-family: 'Raleway', sans-serif;
@@ -292,41 +311,12 @@ footer {
   text-align: center;
 
   a {
-    transition: all 0.2s ease-in-out;
-    color: @primary;
-    font-weight: 700;
-    text-decoration: none;
-    background-image: linear-gradient(desaturate(@color-text-links, 0.25) 0%, @color-text-links 100%);
-    background: linear-gradient(135deg, @color-text-links, @color-text-links);
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
-    background-position: 0 95%;
-    @media (-webkit-min-device-pixel-ratio: 1.75), (min-resolution: 168dpi) {
-      background-image: linear-gradient(desaturate(@color-text-links, 0.25) 0%, @color-text-links 100%);
-      background-position: 0 93%;
-    }
-    text-shadow: 3px 0 @bg-text, 2px 0 @bg-text, 1px 0 @bg-text, -1px 0 @bg-text, -2px 0 @bg-text, -3px 0 @bg-text;
-    &:hover {
-      color: darken(@color-text-links, 30%);
-      background-image: linear-gradient(to bottom, darken(@color-text-links, 30%) 0%, darken(@color-text-links, 30%) 100%);
-    }
-    &,
-    > * {
-      &::selection {
-        background-color: lighten(@color-text-links, 65%);
-        color: @color-text-body;
-        text-shadow: none;
-      }
-      &::-moz-selection {
-        background-color: lighten(@color-text-links, 65%);
-        color: @color-text-body;
-        text-shadow: none;
-      }
+
     }
   }
 
 
-}
+
 .week,.dates {
   display: flex;
 }
