@@ -666,7 +666,7 @@ header h1 {
   font-family: 'Roboto Mono', monospace;
 }
 #schedule .bank .table {
-  width: 100%;
+  max-width: 100%;
   background: #fff;
   border-radius: 3px;
   position: relative;
