@@ -160,7 +160,7 @@
     padding: 2rem 0 0 2rem;
   }
 }
-@media (768px) {
+@media (min-width: 768px) {
   .large-Grid--gutters {
     margin: -1rem 0 1rem -1rem;
   }
@@ -204,7 +204,7 @@
   width: 75% !important;
   flex: none !important;
 }
-@media (384px) {
+@media (min-width: 384px) {
   .u-small-full {
     width: 100% !important;
     flex: none !important;
@@ -230,7 +230,7 @@
     flex: none !important;
   }
 }
-@media (576px) {
+@media (min-width: 576px) {
   .u-med-full {
     width: 100% !important;
     flex: none !important;
@@ -256,7 +256,7 @@
     flex: none !important;
   }
 }
-@media (768px) {
+@media (min-width: 768px) {
   .u-large-full {
     width: 100% !important;
     flex: none !important;
@@ -287,23 +287,15 @@
   --space-lg: 2em;
   --bg-color: #fff;
 }
-input,
-select,
-textarea,
-body * {
+html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-input::after,
-input::before,
-select::after,
-select::before,
-textarea::after,
-textarea::before,
-body *::after,
-body *::before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 .table {
   border: solid 1px #000;
@@ -647,10 +639,8 @@ header h1 {
   display: block;
   font-size: calc(42px + .7vw);
 }
-#schedule .Grid--guttersXl {
-  margin: 0;
-}
 #schedule .bank {
+  flex: 1 1 100%;
   margin-top: 1rem;
   padding: 0 1rem 1rem 1rem;
 }
@@ -666,7 +656,7 @@ header h1 {
   font-family: 'Roboto Mono', monospace;
 }
 #schedule .bank .table {
-  max-width: 100%;
+  width: 100%;
   background: #fff;
   border-radius: 3px;
   position: relative;
