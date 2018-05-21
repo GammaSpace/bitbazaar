@@ -167,6 +167,12 @@ fieldset {
   color: #000;
   display: block;
   line-height: 1; }
+  .checkbox label b,
+  .form-radio label b {
+    text-transform: uppercase;
+    color: blue;
+    padding: 3px 8px;
+    font-family: 'IBM Plex Mono'; }
 
 .checkbox input,
 .form-radio input {
