@@ -340,6 +340,10 @@ p.lead {
   font-weight: 200;
   font-family: 'IBM Plex Mono', monospace;
 }
+h2,
+h3 {
+  color: #3455F5;
+}
 p.lead {
   line-height: 1.8;
   font-size: calc(12px + .7vw);
