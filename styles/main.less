@@ -1,6 +1,6 @@
 @import "forms.css";
 @import "Grid";
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,700|IBM+Plex+Mono:200');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|Old+Standard+TT:400,400i,700');
 
 :root {
   --space: 1.5em;
@@ -47,7 +47,7 @@ html {
 
   }
   body {
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Old Standard TT', serif;
 
     font-size: ~"calc(11px + .5vw)";
 
@@ -198,10 +198,10 @@ html {
     margin: 0 0 1rem;
     b {
       background:  linear-gradient(to left, #fff 0%, #eee 100%);
-      font-weight: normal;
+      font-weight: 700;
     }
     strong {
-      font-weight: 900;
+      font-weight: 700;
     }
   }
   #lead {
@@ -262,7 +262,6 @@ html {
       white-space: nowrap;
     }
     h2 {
-      font-size: ~"calc(14px + 1vw)";
 
       b  {
         color: @primary;
@@ -313,23 +312,21 @@ html {
 
         }
       }
+  .header-container {
+    background-color: @primary;
 
       h2 {
-
-        background-color: @primary;
+        font-size: ~"calc(12px + 1vw)";
+        font-family: 'Old Standard TT', serif;
+        font-style: italic;
         color: #fff;
         font-weight: 100;
         letter-spacing: 0.07vw;
-        display: inline;
-        line-height: 4rem;
-        padding: 0.2rem 0.4rem;
-        // transform-origin: left top 0;
-        // float: left;
-        // display: inline !important;
-        font-size: ~"calc(40px + .5vw)";
         text-transform: uppercase;
+        padding: 10px 0 4px 0;
         margin: 0;
       }
+    }
     }
   }
 
@@ -425,7 +422,15 @@ flex-direction: column;
 
     }
   }
-
+.soon {
+  font-size: 80%;
+  color: #444;
+  background:  linear-gradient(to left, #fff 0%, #EBFEBF 100%);
+  font-weight: normal;
+}
+.info strong {
+  font-family: 'IBM Plex Mono'
+}
   #thank-you {
     h2 {
 
