@@ -533,6 +533,31 @@ body.info {
 header {
   position: relative;
 }
+header h4 {
+  text-align: center;
+}
+header .intro-text > div {
+  padding: 10px;
+}
+header .intro-text {
+  display: flex;
+  align-items: top;
+  justify-content: space-evenly;
+}
+header .logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+header .logos .x {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Old Standard TT';
+}
+header .logos img {
+  max-width: 200px;
+}
 header h1,
 header h3 {
   display: inline;
