@@ -151,7 +151,7 @@ a {
 ul.lineup {
   @mixin legend;
   margin: 0;
-  & @nest li {
+  @nest & li {
     &.game {
       @mixin game;
     }
@@ -260,14 +260,14 @@ body.info {
 }
 header {
 
-  h4 {
+  @nest & h4 {
     text-align: center
   }
-  .intro-text > div {
+  @nest & .intro-text > div {
     padding: 10px;
   }
 
-  .intro-text {
+  @nest & .intro-text {
     @media (min-width: @break-lg) {
       align-items: top;
       justify-content: space-evenly;
@@ -275,19 +275,19 @@ header {
     }
 
   }
-  .logos {
+  @nest & .logos {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 3rem;
-    .x {
+    @nest & .x {
       font-size: 40px;
 
       font-weight: 700;
 
       font-family: 'Old Standard TT';
     }
-    img {
+    @nest & img {
       max-width: 200px
     }
   }
@@ -295,9 +295,9 @@ header {
   position: relative;
 
 
-  h1,h3 { display: inline }
+  @nest & h1, & h3 { display: inline }
 
-  h1 {
+  @nest & h1 {
     @mixin name;
     color: var(--color-primary);
     font-size: ~"calc(60px + 2vw)";

@@ -11,9 +11,9 @@ extends(src='layout.sgr')
       header
         .container
           .logos
-            img(src='images/bit_bazaar_logo_290x334.png' alt='Bit Bazaar Logo' width='200')
+            img(src='img/bit_bazaar_logo_290x334.png' alt='Bit Bazaar Logo' width='200')
             span.x ×
-            img(src='images/internet-black-market-logo.png' alt='internet-black-market-logo')
+            img(src='img/internet-black-market-logo.png' alt='internet-black-market-logo')
           .intro-text
             .bb
               p.lead
@@ -64,7 +64,8 @@ extends(src='layout.sgr')
 
             p
               each(loop="project in dato.project")
-                p {{project.name}}
+                p {{project.name}} • {{ project.creator.name }}
+                  b {{ project.category }}
             .Grid.Grid--gutters.Grid--full.large-Grid--fit
               .Grid-cell.Grid-cell--top
                 ul.info
@@ -83,7 +84,7 @@ extends(src='layout.sgr')
                   li
                     strong What we're looking for from comics folks:
                     |  Self-published books, comics, and zines; webcomics, small press, collectives, illustrators. Bring all of your goodies – patches, posters, pins, novels, stickers, download codes, collectibles, totes, etc.!
-                img(src='/images/bb2014.jpg', alt='')
+                img(src='/img/bb2014.jpg', alt='')
               .Grid-cell.Grid-cell--top
                 form(name='exhibitor-application-summer-2018', netlify='', netlify-honeypot='bot-field', action='thank-you')
                   .form-radio
@@ -196,7 +197,7 @@ extends(src='layout.sgr')
                     | No fee. Instead, we encourage you to make a
                     a(href='https://www.canadahelps.org/en/charities/toronto-media-arts-centre/') tax-deductible donation
                     |  to the Toronto Media Arts Centre, a charitable organization that houses media arts organizations and provides accessible exhibition, education and production opportunities to our community.
-                img(src='/images/jen-snack.jpg', alt='')
+                img(src='/img/jen-snack.jpg', alt='')
               .Grid-cell.Grid-cell--top
                 form(name='food-application-summer-2018', netlify='', netlify-honeypot='bot-field', action='thank-you')
                   .form-group
