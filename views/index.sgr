@@ -6,14 +6,14 @@ extends(src='layout.sgr')
       .container
         p
           | July 13-14, 2018 •
-          a(href='https://www.tomediaarts.org', target='_blank') Toronto Media Arts Centre
+          a(href='https://www.tomediaarts.org' target='_blank') Toronto Media Arts Centre
     .content
       header
         .container
           .logos
-            img(src='images/bit_bazaar_logo_290x334.png', alt='Bit Bazaar Logo', width='200')
+            img(src='images/bit_bazaar_logo_290x334.png' alt='Bit Bazaar Logo' width='200')
             span.x ×
-            img(src='images/internet-black-market-logo.png', alt='internet-black-market-logo')
+            img(src='images/internet-black-market-logo.png' alt='internet-black-market-logo')
           .intro-text
             .bb
               p.lead
@@ -62,7 +62,6 @@ extends(src='layout.sgr')
               h2 Apply to Show your Game, Comics or Internet-ish Things
           .container
 
-            p {{{ JSON.stringify(dato.project) }}}
             p
               each(loop="project in dato.project")
                 p {{project.name}}
@@ -122,7 +121,7 @@ extends(src='layout.sgr')
                       | Food & drink vendors,
                       a(href='#food') apply below
                       | !
-                    
+
                   .form-group
                     input(type='email', required='required', name='email', autocorrect='off', autocapitalize='off')
                     label.control-label(for='input') Your Email
