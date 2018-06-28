@@ -83,6 +83,8 @@ extends(src='layout.sgr')
                   span.label Comics
                 li.yami
                   span.label Yami-Ichi
+                li.art
+                  span.label Yami-Ichi
 
               ol.lineup
                 each(loop="project in dato.project")
