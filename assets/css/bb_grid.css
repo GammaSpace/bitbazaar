@@ -23,15 +23,15 @@
 }
 
 .Grid--top {
-  align-itrems: flex-start;
+  align-items: flex-start;
 }
 
 .Grid--bottom {
-  align-itrems: flex-end;
+  align-items: flex-end;
 }
 
 .Grid--center {
-  align-itrems: center;
+  align-items: center;
 }
 
 .Grid--justifyCenter {
