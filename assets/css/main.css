@@ -380,7 +380,6 @@ header {
     }
     @nest & .header-container {
       background-color: #000;
-
       @nest & h2 {
         font-size: calc(12px + 1vw);
         font-family: 'Old Standard TT', serif;
