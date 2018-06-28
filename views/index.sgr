@@ -111,14 +111,22 @@ extends(src='layout.sgr')
                     else
                       span.project {{project.name}}
                     span.org {{ project.creator.name }}
+                 if(condition='project.category == "Art"')
+                  li.art
+                    if(condition='project.link')
+                      span.project
+                        a(href="{{ project.link }}") {{project.name}}
+                    else
+                      span.project {{project.name}}
+                    span.org {{ project.creator.name }}
 
 
 
       #sections.content(role='main')
-        section#application.art
+        section#application
           .header-container
             .container
-              h2 Apply to Show your Internet-ish Things
+              h2 Apply to Show your Internet-ish Things!
           .container
             .Grid.Grid--gutters.Grid--full.large-Grid--fit
               .Grid-cell.Grid-cell--top

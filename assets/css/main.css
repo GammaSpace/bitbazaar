@@ -177,6 +177,8 @@ a {
  }
 @mixin legend yami, #000 { }
 
+@mixin legend art, #444 { }
+
 
 
 
