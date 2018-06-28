@@ -179,9 +179,9 @@ extends(src='layout.sgr')
                     label.control-label(for='textarea') If not, describe:
                     i.bar
                   p
-                    | By submitting this application, you agree to abide by the
+                    | By submitting this application, you agree to abide by the&nbsp;
                     a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md' target='_blank') Gamma Space Code of Conduct
-                    |  and the
+                    |  and the&nbsp;
                     a(href='https://ournetworks.ca/code-of-conduct/') Our Networks Code of Conduct
                     | .
                   .button-container
