@@ -183,7 +183,7 @@ a {
 ul {
   list-style: none;
   padding: 0;
-  @nest & &.past {
+  &.past {
     @nest & li {
       float: left;
       padding-right: 1rem;
@@ -194,13 +194,12 @@ ul {
     padding: 0;
     margin: 0 0 1rem 2.6rem;
     text-indent: 1.4rem;
-    @nest & &.spring {
-      @nest & &:before {
+    &.spring {
+      &:before {
         content: '\002601';
-      @nest &   color: #555;
       }
     }
-    @nest & &.summer {
+    &.summer {
       &:before {
         content: '\2600';
         color: #FFD640;
@@ -437,7 +436,7 @@ header {
 
 @media (min-width: @break-sm) {
   .Grid-cell {
-    @nest & &.month {
+    &.month {
       margin: 0;
       &:first-child {
         margin-left: 0
