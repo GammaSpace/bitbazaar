@@ -53,7 +53,7 @@ extends(src='layout.sgr')
               p
                 em
                   | The
-                  a(href='https://ournetworks.ca/', target='_blank') Our Networks
+                  a(href='https://ournetworks.ca/' target='_blank') Our Networks
                   |  Kickoff Party will follow from 10 p.m.-late
       #sections.content(role='main')
         section#application.art
@@ -84,38 +84,38 @@ extends(src='layout.sgr')
                   li
                     strong What we're looking for from comics folks:
                     |  Self-published books, comics, and zines; webcomics, small press, collectives, illustrators. Bring all of your goodies – patches, posters, pins, novels, stickers, download codes, collectibles, totes, etc.!
-                img(src='/img/bb2014.jpg', alt='')
+                img(src='/img/bb2014.jpg' alt='')
               .Grid-cell.Grid-cell--top
-                form(name='exhibitor-application-summer-2018', netlify='', netlify-honeypot='bot-field', action='thank-you')
+                form(name='exhibitor-application-summer-2018' netlify='' netlify-honeypot='bot-field' action='thank-you')
                   .form-radio
                     .radio
                       label
-                        input(type='radio', name='category', checked='checked', value='video game')
+                        input(type='radio' name='category' checked='checked' value='video game')
                         i.helper
                         | Video game
                     .radio
                       label
-                        input(type='radio', name='category', value='yami-ichi')
+                        input(type='radio' name='category' value='yami-ichi')
                         i.helper
                         | Internet-ish things
                     .radio
                       label
-                        input(type='radio', name='category', value='analog game')
+                        input(type='radio' name='category' value='analog game')
                         i.helper
                         | Board, card or tabletop game
                     .radio
                       label
-                        input(type='radio', name='category', value='analog game')
+                        input(type='radio' name='category' value='analog game')
                         i.helper
                         | Outdoor/big game
                     .radio
                       label
-                        input(type='radio', name='category', value='comics')
+                        input(type='radio' name='category' value='comics')
                         i.helper
-                        | Comics, zines and illustrators
+                        | Comics zines and illustrators
                     .radio
                       label
-                        input(type='radio', name='category', value='art')
+                        input(type='radio' name='category' value='art')
                         i.helper
                         | Art/performance
                     p.soon
@@ -124,44 +124,44 @@ extends(src='layout.sgr')
                       | !
 
                   .form-group
-                    input(type='email', required='required', name='email', autocorrect='off', autocapitalize='off')
+                    input(type='email' required='required' name='email' autocorrect='off' autocapitalize='off')
                     label.control-label(for='input') Your Email
                     i.bar
                   .Grid.Grid--gutters
                     .Grid-cell
                       .form-group
-                        input(type='text', required='required', name='first_name')
+                        input(type='text' required='required' name='first_name')
                         label.control-label(for='input') Your First Name
                         i.bar
                     .Grid-cell
                       .form-group
-                        input(type='text', required='required', name='last_name')
+                        input(type='text' required='required' name='last_name')
                         label.control-label(for='input') Your Last Name
                         i.bar
                   .form-group
-                    input(type='text', required='required', name='project_name')
+                    input(type='text' required='required' name='project_name')
                     label.control-label(for='input') Project Name
                     i.bar
                   .form-group
-                    input(type='text', required='required', name='company_name')
+                    input(type='text' required='required' name='company_name')
                     label.control-label(for='input') Group or Company Name
                     i.bar
                   fieldset
                     .form-group
-                      input(type='text', required='required', name='link')
+                      input(type='text' required='required' name='link')
                       label.control-label(for='input') Download, demo, or image/video link
                       i.bar
                     .form-group
-                      textarea(required='required', name='project_description')
+                      textarea(required='required' name='project_description')
                       label.control-label(for='textarea') Short description
                       i.bar
                     .form-group
-                      textarea(required='required', name='offer')
+                      textarea(required='required' name='offer')
                       label.control-label(for='textarea') What are you selling?
                       i.bar
                   .checkbox
                     label
-                      input(type='checkbox', name='all_ages_content')
+                      input(type='checkbox' name='all_ages_content')
                       i.helper
                       | Content is appropriate for all ages
                   .form-group
@@ -170,7 +170,7 @@ extends(src='layout.sgr')
                     i.bar
                   p
                     | By submitting this application, you agree to abide by the
-                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md', target='_blank') Gamma Space Code of Conduct
+                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md' target='_blank') Gamma Space Code of Conduct
                     |  and the
                     a(href='https://ournetworks.ca/code-of-conduct/') Our Networks Code of Conduct
                     | .
@@ -197,45 +197,45 @@ extends(src='layout.sgr')
                     | No fee. Instead, we encourage you to make a
                     a(href='https://www.canadahelps.org/en/charities/toronto-media-arts-centre/') tax-deductible donation
                     |  to the Toronto Media Arts Centre, a charitable organization that houses media arts organizations and provides accessible exhibition, education and production opportunities to our community.
-                img(src='/img/jen-snack.jpg', alt='')
+                img(src='/img/jen-snack.jpg' alt='')
               .Grid-cell.Grid-cell--top
-                form(name='food-application-summer-2018', netlify='', netlify-honeypot='bot-field', action='thank-you')
+                form(name='food-application-summer-2018' netlify='' netlify-honeypot='bot-field' action='thank-you')
                   .form-group
-                    input(type='email', required='required', name='email', autocorrect='off', autocapitalize='off')
+                    input(type='email' required='required' name='email' autocorrect='off' autocapitalize='off')
                     label.control-label(for='input') Your Email
                     i.bar
                   .Grid.Grid--gutters
                     .Grid-cell
                       .form-group
-                        input(type='text', required='required', name='first_name')
+                        input(type='text' required='required' name='first_name')
                         label.control-label(for='input') Your First Name
                         i.bar
                     .Grid-cell
                       .form-group
-                        input(type='text', required='required', name='last_name')
+                        input(type='text' required='required' name='last_name')
                         label.control-label(for='input') Your Last Name
                         i.bar
                   .form-group
-                    input(type='text', required='required', name='company_name')
+                    input(type='text' required='required' name='company_name')
                     label.control-label(for='input') Company Name
                     i.bar
                   .form-group
-                    textarea(required='required', name='company_bio')
+                    textarea(required='required' name='company_bio')
                     label.control-label(for='textarea') Company bio (short and sweet!)
                     i.bar
                   fieldset
                     .form-group
-                      textarea(required='required', name='menu')
+                      textarea(required='required' name='menu')
                       label.control-label(for='textarea') Proposed menu
                       i.bar
                     .form-group
-                      textarea(required='required', name='requirements', placeholder='What equipment will you bring and what power/water/refrigeration requirements do you have? How much table/counter space do you need?')
+                      textarea(required='required' name='requirements' placeholder='What equipment will you bring and what power/water/refrigeration requirements do you have? How much table/counter space do you need?')
                       label.control-label(for='textarea') Booth requirements
                       i.bar
-                  input(type='hidden', name='category', checked='checked', value='food')
+                  input(type='hidden' name='category' checked='checked' value='food')
                   p
                     | By submitting this application, you agree to abide by the
-                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md', target='_blank') Gamma Space Code of Conduct
+                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md' target='_blank') Gamma Space Code of Conduct
                     |  and the
                     a(href='https://ournetworks.ca/code-of-conduct/') Our Networks Code of Conduct
                     | .
@@ -251,9 +251,9 @@ extends(src='layout.sgr')
             |  •
             a(href='http://eepurl.com/cUIMsH') Sign up to volunteer!
     footer.footer.content(role='contentinfo')
-      span(itemscope='', itemtype='http://schema.org/Organization')
-        link(itemprop='url', href='https://gammaspace.ca')
+      span(itemscope='' itemtype='http://schema.org/Organization')
+        link(itemprop='url' href='https://gammaspace.ca')
         | © 2018
         a(href='http://gammaspace.ca') Gamma Space
         |  -
-        a(href='https://twitter.com/TheBitBazaar', rel='me', itemprop='sameAs') Twitter
+        a(href='https://twitter.com/TheBitBazaar' rel='me' itemprop='sameAs') Twitter

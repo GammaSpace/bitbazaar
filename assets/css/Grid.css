@@ -1,7 +1,10 @@
-@break-sm: 384px;
-@break-md: 576px;
-@break-lg: 768px;
-
+:root {
+  @custom-media --small  (min-width: 280px) and (max-width: 374px);
+  @custom-media --mobile  (min-width: 375px) and (max-width: 767px);
+  @custom-media --tablet (min-width: 768px) and (max-width: 1024px);
+  @custom-media --desktop (min-width: 1025px);
+  @custom-media --desktop-xl (min-width: 1225px);
+}
 
 .Grid {
   display: flex;
@@ -71,7 +74,7 @@
   flex: 0 0 25%;
 }
 
-@media (min-width: @break-sm) {
+@media (--small) {
   .small-Grid--fit > .Grid-cell {
     flex: 1;
   }
@@ -89,7 +92,7 @@
   }
 }
 
-@media (min-width: @break-md) {
+@media (--small) {
   .med-Grid--fit > .Grid-cell {
     flex: 1;
   }
@@ -107,7 +110,7 @@
   }
 }
 
-@media (min-width: @break-lg) {
+@media (--tablet) {
   .large-Grid--fit > .Grid-cell {
     flex: 1;
   }
@@ -146,7 +149,7 @@
   padding: 2rem 0 0 2rem;
 }
 
-@media (min-width: @break-sm) {
+@media (--small) {
   .small-Grid--gutters {
     margin: -1rem 0 1rem -1rem;
   }
@@ -167,7 +170,7 @@
   }
 }
 
-@media (min-width: @break-md) {
+@media (--small) {
   .med-Grid--gutters {
     margin: -1rem 0 1rem -1rem;
   }
@@ -188,7 +191,7 @@
   }
 }
 
-@media (min-width: @break-lg) {
+@media (--tablet) {
   .large-Grid--gutters {
     margin: -1rem 0 1rem -1rem;
   }
@@ -240,7 +243,7 @@
   flex: none !important;
 }
 
-@media (min-width: @break-sm) {
+@media (--small) {
   .u-small-full {
     width: 100% !important;
     flex: none !important;
@@ -267,7 +270,7 @@
   }
 }
 
-@media (min-width: @break-md) {
+@media (--small) {
   .u-med-full {
     width: 100% !important;
     flex: none !important;
@@ -294,7 +297,7 @@
   }
 }
 
-@media (min-width: @break-lg) {
+@media (--tablet) {
   .u-large-full {
     width: 100% !important;
     flex: none !important;

@@ -26,10 +26,8 @@ module.exports = {
   reshape: htmlStandards({
     parser: sugarml,
     locals: (ctx) => { return Object.assign(locals)},
-    minify: env === 'production'
   }),
   postcss: cssStandards({
-    warnForDuplicates: env !== 'production',
     appendPlugins: postcssMixins()
   }),
   babel: jsStandards(),

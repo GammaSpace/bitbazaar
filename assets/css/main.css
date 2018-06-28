@@ -1,5 +1,5 @@
 @import "forms.css";
-@import "Grid";
+@import "Grid.css";
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|Old+Standard+TT:400,400i,700');
 @import "schedule";
 
@@ -165,24 +165,24 @@ ul.lineup {
 ul {
   list-style: none;
   padding: 0;
-  &.past {
-    li {
+  @nest & &.past {
+    @nest & li {
       float: left;
       padding-right: 1rem;
     }
   }
-  li {
+  @nest & li {
     flex: 1 0 33.3333%;
     padding: 0;
     margin: 0 0 1rem 2.6rem;
     text-indent: 1.4rem;
-    &.spring {
-      &:before {
+    @nest & &.spring {
+      @nest & &:before {
         content: '\002601';
-        color: #555;
+      @nest &   color: #555;
       }
     }
-    &.summer {
+    @nest & &.summer {
       &:before {
         content: '\2600';
         color: #FFD640;
@@ -211,11 +211,11 @@ ul {
 li, p {
   line-height: 1.5;
   margin: 0 0 1rem;
-  b {
+  @nest & b {
     background:  linear-gradient(to left, #fff 0%, #eee 100%);
     font-weight: 700;
   }
-  strong {
+  @nest & strong {
     font-weight: 700;
   }
 }
@@ -252,7 +252,7 @@ body.info {
   color: #fff;
   padding: 10px 0;
   margin: 0 0 3vh;
-  p {
+  @nest & @nest & p {
     text-align: center;
     font-family: "IBM Plex Mono";
     margin: 0;
@@ -266,9 +266,8 @@ header {
   @nest & .intro-text > div {
     padding: 10px;
   }
-
   @nest & .intro-text {
-    @media (min-width: @break-lg) {
+    @media (--tablet), (--desktop), (--desktop-xl) {
       align-items: top;
       justify-content: space-evenly;
       display: flex;
@@ -304,7 +303,7 @@ header {
     line-height: 1.2;
     margin-right: 1rem;
   }
-  small.tagline {
+  @nest & small.tagline {
     font-size: ~"calc(12px + .5vw)";
 
 
@@ -313,9 +312,9 @@ header {
     letter-spacing: 5px;
     white-space: nowrap;
   }
-  h2 {
+  @nest & h2 {
 
-    b  {
+    @nest & b  {
       color: var(--color-primary);
       white-space: nowrap;
     }
@@ -325,37 +324,34 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-flow: column nowrap;
-  section {
+  @nest & section {
 
     margin: 3rem 0 0;
     padding: 3rem 0;
 
-    &#schedule {
+    @nest & &#schedule {
       margin: 0;
     }
-    &#action {
+    @nest & &#action {
       margin: 0 auto 0 auto;
       background: #eee;
       width: 100%;
       text-align: center;
 
-      p {
+      @nest & p {
         margin: 0
       }
     }
-    &#about {
-      .logos {
-        h3,img {
-
-        }
-        img {
+    @nest & &#about {
+      @nest & .logos {
+        @nest & img {
           margin: 0 auto;
           display: block;
         }
       }
     }
-    &#dates {
-      h4 {
+    @nest & &#dates {
+      @nest & h4 {
 
         font-style: italic;
         font-weight: 900;
@@ -364,10 +360,10 @@ header {
 
       }
     }
-    .header-container {
+    @nest & .header-container {
       background-color: var(--color-primary);
 
-      h2 {
+      @nest & h2 {
         font-size: ~"calc(12px + 1vw)";
         font-family: 'Old Standard TT', serif;
         font-style: italic;
@@ -395,10 +391,6 @@ img {
 footer {
   margin: 3rem;
 
-
-  a {
-
-  }
 }
 
 
@@ -411,25 +403,15 @@ footer {
   flex-shrink: 1;
   flex-basis: 0;
 }
-.logo {
-  img {
 
-  }
-}
 header {
 
-  h1 { font-size: ~"calc(32px + 2vw)"; }
+  @nest & h1 { font-size: ~"calc(32px + 2vw)"; }
 }
 
-@media (min-width: @break-lg) {
-  .logo {
-    img {
-
-
-    }
-  }
+@media (--tablet) {
   header {
-    h1 { font-size: ~"calc(60px + 2vw)"; }
+    @nest & h1 { font-size: ~"calc(60px + 2vw)"; }
   }
 }
 
@@ -438,7 +420,7 @@ header {
 
 @media (min-width: @break-sm) {
   .Grid-cell {
-    &.month {
+    @nest & &.month {
       margin: 0;
       &:first-child {
         margin-left: 0
@@ -450,7 +432,7 @@ header {
   }
 }
 
-@media (min-width: @break-lg) {
+@media (--tablet) {
   .Grid-cell.month { margin: 0 1rem}
 }
 
@@ -460,15 +442,15 @@ header {
   color: lighten(var(--color-primary),20%);
   font-size: 14px;
   padding-bottom: 8px;
-  b {
+  @nest & b {
     color: var(--color-primary);
     font-weight: normal;
   }
 }
 .legend {
 
-  &.week {
-    .day {
+  @nest & &.week {
+    @nest & .day {
       font-size: 12px;
     }
 
@@ -484,10 +466,8 @@ header {
   font-family: 'IBM Plex Mono'
 }
 #thank-you {
-  h2 {
 
-  }
-  h3 {
+  @nest & h3 {
 
     display: block;
     font-size: ~"calc(42px + .7vw)";
@@ -499,5 +479,4 @@ header {
   letter-spacing: 1px;
   text-transform: uppercase;
   background:  linear-gradient(to right, #000 0%, #444 100%);
-
 }
