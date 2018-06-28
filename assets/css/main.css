@@ -360,7 +360,7 @@ header {
         margin: 0
       }
     }
-    @nest & &#about {
+    &#about {
       @nest & .logos {
         @nest & img {
           margin: 0 auto;
@@ -368,7 +368,7 @@ header {
         }
       }
     }
-    @nest & &#dates {
+    &#dates {
       @nest & h4 {
 
         font-style: italic;
