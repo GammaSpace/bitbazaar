@@ -8,8 +8,6 @@
   --space: 1.5em;
   --space-lg: 2em;
   --bg-color: #fff;
-
-
   --color-primary: #000;
   --color-secondary: #FFF5CC;
   --color-bg: var(--color-primary);
@@ -37,7 +35,6 @@ html {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
-
 
 
 .table {
