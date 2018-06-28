@@ -7,3 +7,6 @@
 /.DS_Store
 Grid.css
 .DS_Store
+/.env
+/node_modules
+/public
