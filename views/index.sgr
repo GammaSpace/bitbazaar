@@ -84,7 +84,7 @@ extends(src='layout.sgr')
                 li.yami
                   span.label Yami-Ichi
                 li.art
-                  span.label Yami-Ichi
+                  span.label Art
 
               ol.lineup
                 each(loop="project in dato.project")

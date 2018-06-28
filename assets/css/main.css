@@ -177,7 +177,7 @@ a {
  }
 @mixin legend yami, #000 { }
 
-@mixin legend art, #444 { }
+@mixin legend art, #FF0078 { }
 
 
 
@@ -192,7 +192,7 @@ ul {
     }
   }
   @nest & li {
-    flex: 1 0 33.3333%;
+    flex: 1 0 0;
     padding: 0;
     margin: 0 0 1rem 2.6rem;
     text-indent: 1.4rem;
