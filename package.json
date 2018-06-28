@@ -10,7 +10,7 @@
   "dependencies": {
     "postcss-mixins": "^6.2.0",
     "reshape-standard": "^3.3.0",
-    "spike": "^2.2.1",
+    "spike": "^2.2.2",
     "spike-css-standards": "^4.0.0",
     "spike-datocms": "^2.4.0",
     "spike-js-standards": "^2.1.0",
