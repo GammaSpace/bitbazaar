@@ -6,14 +6,14 @@ extends(src='layout.sgr')
       .container
         p
           | July 13-14, 2018 •
-          a(href='https://www.tomediaarts.org' target='_blank') Toronto Media Arts Centre
+          a(href='https://www.tomediaarts.org', target='_blank') Toronto Media Arts Centre
     .content
       header
         .container
           .logos
-            img(src='img/bit_bazaar_logo_290x334.png' alt='Bit Bazaar Logo' width='200')
+            img(src='images/bit_bazaar_logo_290x334.png', alt='Bit Bazaar Logo', width='200')
             span.x ×
-            img(src='img/internet-black-market-logo.png' alt='internet-black-market-logo')
+            img(src='images/internet-black-market-logo.png', alt='internet-black-market-logo')
           .intro-text
             .bb
               p.lead
@@ -37,6 +37,11 @@ extends(src='layout.sgr')
                 strong
                   b Saturday
                 |  July 14 • 12 p.m. – 6 p.m.
+              p
+                em
+                  | The
+                  a(href='https://www.facebook.com/tmprtantrumto/', target='_blank') Temper Tantrum
+                  |  1-Year Anniversary Party will follow!
             .yi
               p.lead
                 | Calling all vendors of
@@ -53,115 +58,70 @@ extends(src='layout.sgr')
               p
                 em
                   | The
-                  a(href='https://ournetworks.ca/' target='_blank') Our Networks
+                  a(href='https://ournetworks.ca/', target='_blank') Our Networks
                   |  Kickoff Party will follow from 10 p.m.-late
+          p
+            each(loop="project in dato.project")
+              p {{project.name}} • {{ project.creator.name }}
+                b {{ project.category }}
       #sections.content(role='main')
         section#application.art
           .header-container
             .container
-              h2 Apply to Show your Game, Comics or Internet-ish Things
+              h2 Apply to Show your Internet-ish Things
           .container
-
-            p
-              each(loop="project in dato.project")
-                p {{project.name}} • {{ project.creator.name }}
-                  b {{ project.category }}
             .Grid.Grid--gutters.Grid--full.large-Grid--fit
               .Grid-cell.Grid-cell--top
                 ul.info
                   li
-                    | Applications are open until June 21 and exhibitors will be selected and notified on a rolling basis.
+                    | Applications for games & comics exhibitors are now closed. Yami-Ichi submissions are open until July 1 and will be selected and notified on a rolling basis.
                   li PWYC table fee: Suggested ~ $20 for half-table, $40 for full table
                   li The venue is air-conditioned and barrier-free.
                   li High-speed wi-fi is available.
                   li You'll get half or all of a 6-foot table, power and 2 chairs.
-                  li
-                    strong What we're looking for from games exhibitors:
-                    |  Video games, board games, card games, tabletop games, artist collectives, tiny/weird interactive things and VR experiences are all welcome. Bring a complete version or playable demo
-                    b plus
-                    |  one-of-a-kind, handmade/DIY
-                    |                   items, boxed games, or other physical treasures to sell. We have outdoor space, too, if your game is neant to be played in a park!
-                  li
-                    strong What we're looking for from comics folks:
-                    |  Self-published books, comics, and zines; webcomics, small press, collectives, illustrators. Bring all of your goodies – patches, posters, pins, novels, stickers, download codes, collectibles, totes, etc.!
-                img(src='/img/bb2014.jpg' alt='')
+                img(src='/images/bb2014.jpg', alt='')
               .Grid-cell.Grid-cell--top
-                form(name='exhibitor-application-summer-2018' netlify='' netlify-honeypot='bot-field' action='thank-you')
-                  .form-radio
-                    .radio
-                      label
-                        input(type='radio' name='category' checked='checked' value='video game')
-                        i.helper
-                        | Video game
-                    .radio
-                      label
-                        input(type='radio' name='category' value='yami-ichi')
-                        i.helper
-                        | Internet-ish things
-                    .radio
-                      label
-                        input(type='radio' name='category' value='analog game')
-                        i.helper
-                        | Board, card or tabletop game
-                    .radio
-                      label
-                        input(type='radio' name='category' value='analog game')
-                        i.helper
-                        | Outdoor/big game
-                    .radio
-                      label
-                        input(type='radio' name='category' value='comics')
-                        i.helper
-                        | Comics zines and illustrators
-                    .radio
-                      label
-                        input(type='radio' name='category' value='art')
-                        i.helper
-                        | Art/performance
-                    p.soon
-                      | Food & drink vendors,
-                      a(href='#food') apply below
-                      | !
-
+                form(name='exhibitor-application-summer-2018', netlify='', netlify-honeypot='bot-field', action='thank-you')
+                  input(type='hidden', name='category', value='yami-ichi')
                   .form-group
-                    input(type='email' required='required' name='email' autocorrect='off' autocapitalize='off')
+                    input(type='email', required='required', name='email', autocorrect='off', autocapitalize='off')
                     label.control-label(for='input') Your Email
                     i.bar
                   .Grid.Grid--gutters
                     .Grid-cell
                       .form-group
-                        input(type='text' required='required' name='first_name')
+                        input(type='text', required='required', name='first_name')
                         label.control-label(for='input') Your First Name
                         i.bar
                     .Grid-cell
                       .form-group
-                        input(type='text' required='required' name='last_name')
+                        input(type='text', required='required', name='last_name')
                         label.control-label(for='input') Your Last Name
                         i.bar
                   .form-group
-                    input(type='text' required='required' name='project_name')
+                    input(type='text', required='required', name='project_name')
                     label.control-label(for='input') Project Name
                     i.bar
                   .form-group
-                    input(type='text' required='required' name='company_name')
-                    label.control-label(for='input') Group or Company Name
+                    input(type='text', name='company_name')
+                    label.control-label(for='input') Group Name
                     i.bar
                   fieldset
                     .form-group
-                      input(type='text' required='required' name='link')
+                      input(type='text', required='required', name='link')
                       label.control-label(for='input') Download, demo, or image/video link
                       i.bar
                     .form-group
-                      textarea(required='required' name='project_description')
+                      textarea(required='required', name='project_description')
                       label.control-label(for='textarea') Short description
                       i.bar
                     .form-group
-                      textarea(required='required' name='offer')
+                      textarea(required='required', name='offer')
                       label.control-label(for='textarea') What are you selling?
                       i.bar
                   .checkbox
                     label
-                      input(type='checkbox' name='all_ages_content')
+                      input(type='checkbox', name='all_ages_content')
                       i.helper
                       | Content is appropriate for all ages
                   .form-group
@@ -170,7 +130,7 @@ extends(src='layout.sgr')
                     i.bar
                   p
                     | By submitting this application, you agree to abide by the
-                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md' target='_blank') Gamma Space Code of Conduct
+                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md', target='_blank') Gamma Space Code of Conduct
                     |  and the
                     a(href='https://ournetworks.ca/code-of-conduct/') Our Networks Code of Conduct
                     | .
@@ -197,45 +157,45 @@ extends(src='layout.sgr')
                     | No fee. Instead, we encourage you to make a
                     a(href='https://www.canadahelps.org/en/charities/toronto-media-arts-centre/') tax-deductible donation
                     |  to the Toronto Media Arts Centre, a charitable organization that houses media arts organizations and provides accessible exhibition, education and production opportunities to our community.
-                img(src='/img/jen-snack.jpg' alt='')
+                img(src='/images/jen-snack.jpg', alt='')
               .Grid-cell.Grid-cell--top
-                form(name='food-application-summer-2018' netlify='' netlify-honeypot='bot-field' action='thank-you')
+                form(name='food-application-summer-2018', netlify='', netlify-honeypot='bot-field', action='thank-you')
                   .form-group
-                    input(type='email' required='required' name='email' autocorrect='off' autocapitalize='off')
+                    input(type='email', required='required', name='email', autocorrect='off', autocapitalize='off')
                     label.control-label(for='input') Your Email
                     i.bar
                   .Grid.Grid--gutters
                     .Grid-cell
                       .form-group
-                        input(type='text' required='required' name='first_name')
+                        input(type='text', required='required', name='first_name')
                         label.control-label(for='input') Your First Name
                         i.bar
                     .Grid-cell
                       .form-group
-                        input(type='text' required='required' name='last_name')
+                        input(type='text', required='required', name='last_name')
                         label.control-label(for='input') Your Last Name
                         i.bar
                   .form-group
-                    input(type='text' required='required' name='company_name')
+                    input(type='text', required='required', name='company_name')
                     label.control-label(for='input') Company Name
                     i.bar
                   .form-group
-                    textarea(required='required' name='company_bio')
+                    textarea(required='required', name='company_bio')
                     label.control-label(for='textarea') Company bio (short and sweet!)
                     i.bar
                   fieldset
                     .form-group
-                      textarea(required='required' name='menu')
+                      textarea(required='required', name='menu')
                       label.control-label(for='textarea') Proposed menu
                       i.bar
                     .form-group
-                      textarea(required='required' name='requirements' placeholder='What equipment will you bring and what power/water/refrigeration requirements do you have? How much table/counter space do you need?')
+                      textarea(required='required', name='requirements', placeholder='What equipment will you bring and what power/water/refrigeration requirements do you have? How much table/counter space do you need?')
                       label.control-label(for='textarea') Booth requirements
                       i.bar
-                  input(type='hidden' name='category' checked='checked' value='food')
+                  input(type='hidden', name='category', checked='checked', value='food')
                   p
                     | By submitting this application, you agree to abide by the
-                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md' target='_blank') Gamma Space Code of Conduct
+                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md', target='_blank') Gamma Space Code of Conduct
                     |  and the
                     a(href='https://ournetworks.ca/code-of-conduct/') Our Networks Code of Conduct
                     | .
@@ -251,9 +211,10 @@ extends(src='layout.sgr')
             |  •
             a(href='http://eepurl.com/cUIMsH') Sign up to volunteer!
     footer.footer.content(role='contentinfo')
-      span(itemscope='' itemtype='http://schema.org/Organization')
-        link(itemprop='url' href='https://gammaspace.ca')
+      span(itemscope='', itemtype='http://schema.org/Organization')
+        link(itemprop='url', href='https://gammaspace.ca')
         | © 2018
         a(href='http://gammaspace.ca') Gamma Space
         |  -
-        a(href='https://twitter.com/TheBitBazaar' rel='me' itemprop='sameAs') Twitter
+        a(href='https://twitter.com/TheBitBazaar', rel='me', itemprop='sameAs') Twitter
+
