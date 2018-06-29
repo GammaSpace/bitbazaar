@@ -1,0 +1,54 @@
+#schedule {
+
+  & .bank {
+    flex: 1 1 100%;
+    margin-top: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    &.morning { background: RGBA(255, 219, 99, 1.00); }
+    &.afternoon { background: RGBA(149, 204, 255, .4); }
+
+    h3 {
+      text-align: center;
+      font-weight: 900;
+      font-family: 'Roboto Mono', monospace;
+
+    }
+
+
+    .table {
+
+      width: 100%;
+      background: #fff;
+      // background: rgba(147, 128, 108, 0.2);
+      border-radius: 3px;
+      position: relative;
+      box-shadow: 1px 1px;
+      font-family: 'Roboto Mono', monospace;
+
+      .table-number {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 1px 6px;
+        background: #000;
+        color: #fff;
+        font-size: 14px;
+      }
+      .exhibitors {
+        align-self: center;
+        height: 100%;
+
+        .exhibitor {
+          font-family: 'Roboto Condensed', sans-serif;
+
+          // padding: 1rem;
+          text-align: center;
+          font-size: 13px;
+          overflow: hidden;
+          white-space: nowrap;
+
+        }
+      }
+    }
+  }
+}

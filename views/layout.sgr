@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    title Bit Bazaar Summer 2018
+    meta(name='description' content='')
+    meta(name='twitter:card' content='summary')
+    meta(name='twitter:site' content='@TheBitBazaar')
+    meta(name='twitter:creator' content='@TheBitBazaar')
+    meta(property='og:url' content='https://www.bitbazaar.world')
+    meta(property='og:title' content='Bit Bazaar')
+    meta(property='og:image' content='https://www.bitbazaar.world/images/summer-2017/13991246030_fe228e83e8_z.jpg')
+    meta(name='description' content='A unique showcase of indie games, comics and zines presented by Gamma Space')
+    meta(name='keywords' content='bit bazaar, videogames, zine fair, toronto, videogames')
+    meta(name='author' content='')
+    title
+      | Bit Bazaar: A unique celebration of the art and craft of videogames, in the tradition of zine fairs.
+    meta(property='og:description' content='Bit Bazaar: A unique celebration of the art and craft of videogames in the tradition of zine fairs.')
+    meta(name='viewport' content='width=device-width initial-scale=1.0')
+    link(rel='stylesheet' href='css/main.css')
+
+  body
+    main(role='main' id='{{ pageId }}')
+      block(name='content')
+
+    block(name='javascript')
+      script(src='js/main.js' defer)

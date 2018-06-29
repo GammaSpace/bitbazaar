@@ -1,9 +1,4 @@
-/prepros.cfg
-/.netlify
-/.jshintrc
-/.gitattributes
-/.editorconfig
-/.bowerrc
-/.DS_Store
-Grid.css
 .DS_Store
+node_modules
+public
+/.env

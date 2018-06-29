@@ -1,0 +1,280 @@
+extends(src='layout.sgr')
+  block(name='content')
+
+    .bg
+    .signup
+      .container
+        p
+          | July 13-14, 2018 •
+          a(href='https://www.tomediaarts.org' target='_blank') Toronto Media Arts Centre
+    .content
+      header
+        .container
+          .logos
+            img(src='img/bit_bazaar_logo_290x334.png' alt='Bit Bazaar Logo' width='200')
+            span.x ×
+            img(src='img/internet-black-market-logo.png' alt='internet-black-market-logo')
+          .intro-text
+            .bb
+
+              p.lead
+                | Toronto's&nbsp;
+                b.games 🎮 video game flea market
+                |  /&nbsp;
+                b.zines 📚 comic + zine pop-up
+                |  /&nbsp;
+                b.food 🌮 food + beer celebration
+                |  is back for its 9
+                sup th
+                |  edition!
+              div.button-wrap
+                a(href='#food' target='_blank' class='fancy') Food Vendors - Apply Now!
+
+              p
+                b Play minty-fresh games!
+                |  Buy one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys—direct from 50+ independent game developers!
+              p
+                strong
+                  b Friday
+                |  July 13 • 3 p.m. – 9 p.m.
+              p
+                strong
+                  b Saturday
+                |  July 14 • 12 p.m. – 6 p.m.
+              div(md).
+                _The [Temper Tantrum](https://www.facebook.com/tmprtantrumto/) 1-Year Anniversary Party will follow!_
+
+
+
+            .yi
+              p.lead
+                | Calling all vendors of internet-ish things
+                | — be prepared to gather and exchange goods from the backstreets of the Internet at Toronto's first&nbsp;
+                a(href='http://yami-ichi.biz/' target='_blank') Yami-Ichi
+                | !
+
+              div.button-wrap
+                a(href='#application' target='_blank' class='fancy') Yami-Ichi Vendors - Apply Now!
+
+              p
+                | S*%t happens. Didn't used to. Like when some small off-handed private comment turns into an SNS flame war. Or worrying about not getting enough “Likes”. The Youtube videos you can't watch anymore because somebody complained. Or the apps you can't play because they were rejected by Apple. Once upon a time, the Internet was supposed to be a place for "liberty". Nowadays it's so uptight. So let's turn off, log-out, and drop in, on the real world. The Internet Yami-Ichi is a flea market for “browsing” face-to-face. Take your own Internet liberties* here, with us. * But no dangerous or illegal goods, please! This black market wants to remain free and useful!
+              p
+                strong
+                  b Friday
+                |  July 13 • 3 p.m. – 9 p.m.
+
+
+                div(md).
+                  _The [Our Networks](https://ournetworks.ca) 1-Year kickoff party will follow!_
+
+
+
+
+      section#lineup
+        .container
+          h2 Lineup
+          p More TBA soon!
+          .Grid.Grid--gutters.Grid--full.large-Grid--fit
+            .Grid-cell
+              ul.legend
+                li.game
+                  span.label Games
+                li.comics
+                  span.label Comics
+                li.yami
+                  span.label Yami-Ichi
+                li.art
+                  span.label Art
+
+              ol.lineup
+                each(loop="project in dato.project")
+                 if(condition='project.category == "Yami-Ichi"')
+                  li.yami
+                    if(condition='project.link')
+                      span.project
+                        a(href="{{ project.link }}") {{project.name}}
+                    else
+                      span.project {{project.name}}
+                    span.org {{ project.creator.name }}
+                 if(condition='project.category == "Comics"')
+                  li.comics
+                    if(condition='project.link')
+                      span.project
+                        a(href="{{ project.link }}") {{project.name}}
+                    else
+                      span.project {{project.name}}
+                    span.org {{ project.creator.name }}
+
+                 if(condition='project.category == "Games"')
+                  li.game
+                    if(condition='project.link')
+                      span.project
+                        a(href="{{ project.link }}") {{project.name}}
+                    else
+                      span.project {{project.name}}
+                    span.org {{ project.creator.name }}
+                 if(condition='project.category == "Art"')
+                  li.art
+                    if(condition='project.link')
+                      span.project
+                        a(href="{{ project.link }}") {{project.name}}
+                    else
+                      span.project {{project.name}}
+                    span.org {{ project.creator.name }}
+
+
+
+      #sections.content(role='main')
+        section#application
+          .header-container
+            .container
+              h2 Apply to Show your Internet-ish Things!
+          .container
+            .Grid.Grid--gutters.Grid--full.large-Grid--fit
+              .Grid-cell.Grid-cell--top
+                ul.info
+                  li
+                    | Applications for games & comics exhibitors are now closed. Yami-Ichi submissions are open until July 1 and will be selected and notified on a rolling basis.
+                  li PWYC table fee: Suggested ~ $20 for half-table, $40 for full table
+                  li The venue is air-conditioned and barrier-free.
+                  li High-speed wi-fi is available.
+                  li You'll get half or all of a 6-foot table, power and 2 chairs.
+                img(src='/img/bb2014.jpg' alt='')
+              .Grid-cell.Grid-cell--top
+                form(name='exhibitor-application-summer-2018' netlify='' netlify-honeypot='bot-field' action='thank-you')
+                  input(type='hidden' name='category' value='yami-ichi')
+                  .form-group
+                    input(type='email' required='required' name='email' autocorrect='off' autocapitalize='off')
+                    label.control-label(for='input') Your Email
+                    i.bar
+                  .Grid.Grid--gutters
+                    .Grid-cell
+                      .form-group
+                        input(type='text' required='required' name='first_name')
+                        label.control-label(for='input') Your First Name
+                        i.bar
+                    .Grid-cell
+                      .form-group
+                        input(type='text' required='required' name='last_name')
+                        label.control-label(for='input') Your Last Name
+                        i.bar
+                  .form-group
+                    input(type='text' required='required' name='project_name')
+                    label.control-label(for='input') Project Name
+                    i.bar
+                  .form-group
+                    input(type='text' name='company_name')
+                    label.control-label(for='input') Group Name
+                    i.bar
+                  fieldset
+                    .form-group
+                      input(type='text' required='required' name='link')
+                      label.control-label(for='input') Download, demo, or image/video link
+                      i.bar
+                    .form-group
+                      textarea(required='required' name='project_description')
+                      label.control-label(for='textarea') Short description
+                      i.bar
+                    .form-group
+                      textarea(required='required' name='offer')
+                      label.control-label(for='textarea') What are you selling?
+                      i.bar
+                  .checkbox
+                    label
+                      input(type='checkbox' name='all_ages_content')
+                      i.helper
+                      | Content is appropriate for all ages
+                  .form-group
+                    textarea(name='content_warning')
+                    label.control-label(for='textarea') If not, describe:
+                    i.bar
+                  p
+                    | By submitting this application, you agree to abide by the&nbsp;
+                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md' target='_blank') Gamma Space Code of Conduct
+                    |  and the&nbsp;
+                    a(href='https://ournetworks.ca/code-of-conduct/') Our Networks Code of Conduct
+                    | .
+                  .button-container
+                    button.button
+                      span Submit
+                  p.hidden
+                    input(name='bot-field')
+        section#food.food
+          .header-container
+            .container
+              h2 Apply to be a Food/Beverage Vendor
+          .container
+            .Grid.Grid--gutters.Grid--full.large-Grid--fit
+              .Grid-cell.Grid-cell--top
+                ul.info
+                  li
+                    strong What we're looking for:
+                    |  Street food, fried food, baked goods, sweet treats, handheld snacks, beer and non-alcoholic deliciousness!
+                  li
+                    | Applications are open until June 28, and vendors will be selected and notified on a rolling basis.
+                  li The venue is air-conditioned and barrier-free.
+                  li
+                    | No fee. Instead, we encourage you to make a
+                    a(href='https://www.canadahelps.org/en/charities/toronto-media-arts-centre/') tax-deductible donation
+                    |  to the Toronto Media Arts Centre, a charitable organization that houses media arts organizations and provides accessible exhibition, education and production opportunities to our community.
+                img(src='/img/jen-snack.jpg' alt='')
+              .Grid-cell.Grid-cell--top
+                form(name='food-application-summer-2018' netlify='' netlify-honeypot='bot-field' action='thank-you')
+                  .form-group
+                    input(type='email' required='required' name='email' autocorrect='off' autocapitalize='off')
+                    label.control-label(for='input') Your Email
+                    i.bar
+                  .Grid.Grid--gutters
+                    .Grid-cell
+                      .form-group
+                        input(type='text' required='required' name='first_name')
+                        label.control-label(for='input') Your First Name
+                        i.bar
+                    .Grid-cell
+                      .form-group
+                        input(type='text' required='required' name='last_name')
+                        label.control-label(for='input') Your Last Name
+                        i.bar
+                  .form-group
+                    input(type='text' required='required' name='company_name')
+                    label.control-label(for='input') Company Name
+                    i.bar
+                  .form-group
+                    textarea(required='required' name='company_bio')
+                    label.control-label(for='textarea') Company bio (short and sweet!)
+                    i.bar
+                  fieldset
+                    .form-group
+                      textarea(required='required' name='menu')
+                      label.control-label(for='textarea') Proposed menu
+                      i.bar
+                    .form-group
+                      textarea(required='required' name='requirements' placeholder='What equipment will you bring and what power/water/refrigeration requirements do you have? How much table/counter space do you need?')
+                      label.control-label(for='textarea') Booth requirements
+                      i.bar
+                  input(type='hidden' name='category' checked='checked' value='food')
+                  p
+                    | By submitting this application, you agree to abide by the
+                    a(href='https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md' target='_blank') Gamma Space Code of Conduct
+                    |  and the
+                    a(href='https://ournetworks.ca/code-of-conduct/') Our Networks Code of Conduct
+                    | .
+                  .button-container
+                    button.button
+                      span Submit
+                  p.hidden
+                    input(name='bot-field')
+        section#action
+          p
+            | 💌&nbsp;
+            a(href='mailto:hello@thebitbazaar.com') Get in touch
+            |  •&nbsp;
+            a(href='http://eepurl.com/cUIMsH') Sign up to volunteer!
+    footer.footer.content(role='contentinfo')
+      span(itemscope='' itemtype='http://schema.org/Organization')
+        link(itemprop='url' href='https://gammaspace.ca')
+        | © 2018&nbsp;
+        a(href='http://gammaspace.ca') Gamma Space&nbsp;
+        |  -&nbsp;
+        a(href='https://twitter.com/TheBitBazaar' rel='me' itemprop='sameAs') Twitter
+
