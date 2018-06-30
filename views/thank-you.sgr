@@ -6,16 +6,16 @@ extends(src='layout.sgr')
             .container
               h4 July 13-14, 2018 • Toronto Media Arts Centre
               .logos
-                img(src='images/bit_bazaar_logo_290x334.png', alt='Bit Bazaar Logo', width='200')
+                img(src='images/bit_bazaar_logo_290x334.png alt='Bit Bazaar Logo width='200')
                 span.x ×
-                img(src='images/internet-black-market-logo.png', alt='internet-black-market-logo')
+                img(src='images/internet-black-market-logo.png alt='internet-black-market-logo')
               h2 Thanks, we've received your application and will be in touch soon!
               h3(style='font-size: 70px;') 
           #sections.content(role='main')
         footer.footer.content(role='contentinfo')
-          span(itemscope='', itemtype='http://schema.org/Organization')
-            link(itemprop='url', href='https://gammaspace.ca')
+          span(itemscope=' itemtype='http://schema.org/Organization')
+            link(itemprop='url href='https://gammaspace.ca')
             | © 2018
             a(href='http://gammaspace.ca') Gamma Space
             |  -
-            a(href='https://twitter.com/TheBitBazaar', rel='me', itemprop='sameAs') Twitter
+            a(href='https://twitter.com/TheBitBazaar rel='me itemprop='sameAs') Twitter
