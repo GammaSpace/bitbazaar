@@ -283,6 +283,7 @@ header {
   }
   @nest & .intro-text > div {
     padding: 10px;
+    flex: 1 1 0;
   }
   @nest & .intro-text {
     @media (--tablet), (--desktop), (--desktop-xl) {
