@@ -101,19 +101,29 @@ a {
 
 #lineup {
   background-color: #eee;
-  h2 span {
+  @nest & h2 span {
     font-size: 1rem;
   }
 
-
 }
-
-.legend, .lineup {
+.legend {
   margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lineup {
+  margin: 0;
+  list-style: none;
+  padding: 0;
 
   @nest & li {
     margin: 0;
     padding: 0;
+    @media (--tablet), (--desktop), (--desktop-xl) {
+      display: flex;
+      justify-content: space-between;
+
+    }
   }
 }
 .legend {
@@ -124,8 +134,10 @@ a {
   background: #fff;
   box-shadow: 12px 12px #ccc;
   margin: 2rem 0 4rem 0;
+  list-style: none;
   @nest & li {
-
+margin: 0;
+padding: 0;
   }
 }
 @define-mixin legend $type, $color {
@@ -168,15 +180,11 @@ a {
   }
 }
 
-@mixin legend game, #5360FF {
-
- }
-@mixin legend comics, #FE6849 {
-
- }
+@mixin legend game, #5360FF { }
+@mixin legend comics, #FE6849 { }
 @mixin legend yami, #000 { }
-
 @mixin legend art, #FF0078 { }
+@mixin legend food, #990990 { }
 
 
 

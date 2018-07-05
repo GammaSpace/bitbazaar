@@ -23,7 +23,7 @@ extends(src='layout.sgr')
                 |  /&nbsp;
                 b.zines 📚 comic + zine pop-up
                 |  /&nbsp;
-                b.food 🌮 food + beer celebration
+                b 🌮 food + beer celebration
                 |  is back for its 9
                 sup th
                 |  edition!
@@ -43,7 +43,7 @@ extends(src='layout.sgr')
               div(md).
                 _The [Temper Tantrum](https://www.facebook.com/tmprtantrumto/) 1-Year Anniversary Party will follow!_
 
-              img(src='/img/jen-snack.jpg' alt='')
+
 
 
             .yi
@@ -68,54 +68,83 @@ extends(src='layout.sgr')
       section#lineup
         .container
           h2 Lineup
-          p More TBA soon!
-          .Grid.Grid--gutters.Grid--full.large-Grid--fit
-            .Grid-cell
-              ul.legend
+
+          ul.legend
+            li.game
+              span.label Games
+            li.comics
+              span.label Comics
+            li.yami
+              span.label Yami-Ichi
+            li.art
+              span.label Art
+            li.food
+              span.label Food
+
+
+
+          h3.games Games
+          ol.lineup
+            each(loop="project in dato.project")
+              if(condition='project.category == "Games"')
                 li.game
-                  span.label Games
-                li.comics
-                  span.label Comics
+                  if(condition='project.link')
+                    span.project
+                      a(href="{{ project.link }}") {{project.name}}
+                  else
+                    span.project {{project.name}}
+                  span.org {{ project.creator.name }}
+
+          h3.food Food
+          ol.lineup
+            each(loop="project in dato.project")
+              if(condition='project.category == "Food"')
+                li.food
+                  if(condition='project.link')
+                    span.project
+                      a(href="{{ project.link }}") {{project.name}}
+                  else
+                    span.project {{project.name}}
+                  span.org {{ project.creator.name }}
+          // img(src='/img/jen-snack.jpg' alt='')
+
+          h3.yami Internet Yami-Ichi
+
+          ol.lineup
+            each(loop="project in dato.project")
+              if(condition='project.category == "Yami-Ichi"')
                 li.yami
-                  span.label Yami-Ichi
+                  if(condition='project.link')
+                    span.project
+                      a(href="{{ project.link }}") {{project.name}}
+                  else
+                    span.project {{project.name}}
+                  span.org {{ project.creator.name }}
+
+          h3.comics Comics
+          ol.lineup
+            each(loop="project in dato.project")
+              if(condition='project.category == "Comics"')
+                li.comics
+                  if(condition='project.link')
+                    span.project
+                      a(href="{{ project.link }}") {{project.name}}
+                  else
+                    span.project {{project.name}}
+                  span.org {{ project.creator.name }}
+
+
+          h3.art Art
+          ol.lineup
+            each(loop="project in dato.project")
+              if(condition='project.category == "Art"')
                 li.art
-                  span.label Art
-
-              ol.lineup
-                each(loop="project in dato.project")
-                 if(condition='project.category == "Yami-Ichi"')
-                  li.yami
-                    if(condition='project.link')
-                      span.project
-                        a(href="{{ project.link }}") {{project.name}}
-                    else
-                      span.project {{project.name}}
-                    span.org {{ project.creator.name }}
-                 if(condition='project.category == "Comics"')
-                  li.comics
-                    if(condition='project.link')
-                      span.project
-                        a(href="{{ project.link }}") {{project.name}}
-                    else
-                      span.project {{project.name}}
-                    span.org {{ project.creator.name }}
-
-                 if(condition='project.category == "Games"')
-                  li.game
-                    if(condition='project.link')
-                      span.project
-                        a(href="{{ project.link }}") {{project.name}}
-                    else
-                      span.project {{project.name}}
-                    span.org {{ project.creator.name }}
-                 if(condition='project.category == "Art"')
-                  li.art
-                    if(condition='project.link')
-                      span.project
-                        a(href="{{ project.link }}") {{project.name}}
-                    else
-                      span.project {{project.name}}
-                    span.org {{ project.creator.name }}
+                  if(condition='project.link')
+                    span.project
+                      a(href="{{ project.link }}") {{project.name}}
+                  else
+                    span.project {{project.name}}
+                  span.org {{ project.creator.name }}
 
 
 
