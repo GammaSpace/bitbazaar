@@ -124,8 +124,10 @@ a {
 .lineup {
   margin: 0;
   list-style: none;
-  padding: 0;
-  padding: 3rem;
+  padding: 10px;
+  @media (--tablet), (--desktop) {
+    padding: 3rem;
+  }
   &.games { background: color-mod(var(--color-flamingo) tint(60%)) }
   &.food { background: color-mod(var(--color-indigo) tint(70%)) }
   &.comics { background: color-mod(var(--color-teal) tint(80%)) }
@@ -133,10 +135,11 @@ a {
   &.yami-ichi { background: #fff; }
 
   @nest & li {
-    margin: 0;
+    margin: 0 0 10px 0;
     padding: 0;
     @media (--tablet), (--desktop), (--desktop-xl) {
       display: flex;
+      margin: 0;
       justify-content: space-between;
 
     }
@@ -161,12 +164,17 @@ padding: 0;
   li {
     flex: 1 0 33.3333%;
     padding: 0;
-    margin: 0;
     text-indent: 0;
     font-size: calc(11px + .5vw);
     & span {
     }
+    & .project {
+      display: block;
+      font-size: 18px;
+    }
+
     @media (--tablet), (--desktop), (--desktop-xl) {
+      margin: 0 ;
       & .project {
         font-size: 24px;
       }
@@ -180,7 +188,6 @@ padding: 0;
     color: $color;
     & .project, & .label {
       text-transform: uppercase;
-      padding: 0 .3rem;
       /* color: transparent !important;
       background-clip: text; */
       color: $color;
@@ -188,7 +195,6 @@ padding: 0;
 
     }
     &:before {
-      /* content: '\002751'; */
       color: $color;
       margin-left: 0;
     }
@@ -308,6 +314,7 @@ header {
   @nest & .intro-text > div {
     padding: 10px;
     flex: 1 1 0;
+    text-align: center;
   }
   @nest & .intro-text {
     @media (--tablet), (--desktop), (--desktop-xl) {
@@ -456,6 +463,8 @@ footer {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+  text-align: center;
+
 }
 
 header {
