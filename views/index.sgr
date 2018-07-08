@@ -7,6 +7,7 @@ extends(src='layout.sgr')
         p
           | July 13-14, 2018&nbsp;•&nbsp;
           a(href='https://www.tomediaarts.org' target='_blank') Toronto Media Arts Centre
+          |&nbsp;• 32 Lisgar Street
     .content
       header
         .container
@@ -30,7 +31,6 @@ extends(src='layout.sgr')
 
               a(href="https://www.facebook.com/tmprtantrumto/") Temper Tantrum Anniversary Party
               |&nbsp;w/ live tattooing, Muskoka beer tasting, DJ LL COOL WEI, art @ 9:30 p.m.
-
 
 
           .intro-text
@@ -58,24 +58,26 @@ extends(src='layout.sgr')
 
       section#lineup
         .container
-          h2 Lineup
+          h2 Vendor Lineup
 
           ul.legend
             li.game
-              span.label Games
+              span.label
+                a(href="#games") Games
             li.comics
-              span.label Comics
+              span.label
+                a(href="#comics") Comics
             li.yami
-              span.label Yami-Ichi
-            li.art
-              span.label Art
+              span.label
+                a(href="#yami-ichi") Yami-Ichi
             li.food
-              span.label Food
+              span.label
+                a(href="#food") Food
 
 
 
-          h3.games Games
-          ol.lineup
+          h3.games#games Games
+          ol.lineup.games
             each(loop="project in dato.project")
               if(condition='project.category == "Games"')
                 li.game
@@ -86,22 +88,9 @@ extends(src='layout.sgr')
                     span.project {{project.name}}
                   span.org {{ project.creator.name }}
 
-          h3.food Food
-          ol.lineup
-            each(loop="project in dato.project")
-              if(condition='project.category == "Food"')
-                li.food
-                  if(condition='project.link')
-                    span.project
-                      a(href="{{ project.link }}") {{project.name}}
-                  else
-                    span.project {{project.name}}
-                  span.org {{ project.creator.name }}
-          // img(src='/img/jen-snack.jpg' alt='')
+          h3.yami#yami-ichi Internet Yami-Ichi
 
-          h3.yami Internet Yami-Ichi
-
-          ol.lineup
+          ol.lineup.yami-ichi
             each(loop="project in dato.project")
               if(condition='project.category == "Yami-Ichi"')
                 li.yami
@@ -112,8 +101,20 @@ extends(src='layout.sgr')
                     span.project {{project.name}}
                   span.org {{ project.creator.name }}
 
-          h3.comics Comics
-          ol.lineup
+          ol.lineup.art#art
+            each(loop="project in dato.project")
+              if(condition='project.category == "Art"')
+                li.art
+                  if(condition='project.link')
+                    span.project
+                      a(href="{{ project.link }}") {{project.name}}
+                  else
+                    span.project {{project.name}}
+                  span.org {{ project.creator.name }}
+
+
+          h3.comics#comics Comics
+          ol.lineup.comics
             each(loop="project in dato.project")
               if(condition='project.category == "Comics"')
                 li.comics
@@ -124,18 +125,18 @@ extends(src='layout.sgr')
                     span.project {{project.name}}
                   span.org {{ project.creator.name }}
 
-
-          h3.art Art
-          ol.lineup
+          h3.food#food Food
+          ol.lineup.food
             each(loop="project in dato.project")
-              if(condition='project.category == "Art"')
-                li.art
+              if(condition='project.category == "Food"')
+                li.food
                   if(condition='project.link')
                     span.project
                       a(href="{{ project.link }}") {{project.name}}
                   else
                     span.project {{project.name}}
                   span.org {{ project.creator.name }}
+
 
 
       #sections.content(role='main')
