@@ -7,9 +7,9 @@ const pageId = require('spike-page-id')
 const sugarml = require('sugarml')
 const sugarss = require('sugarss')
 
-
 const SpikeDatoCMS = require('spike-datocms')
 const postcssMixins = require('postcss-mixins')
+const postcssColorFunc = require('postcss-color-mod-function')
 const markdownItAttrs = require('markdown-it-attrs')
 
 const locals = {}
@@ -33,7 +33,9 @@ module.exports = {
     markdownPlugins: [ markdownItAttrs]
   }),
   postcss: cssStandards({
-    appendPlugins: postcssMixins()
+    appendPlugins: [postcssMixins(), postcssColorFunc()],
+    locals: { Dato }
+
   }),
   babel: jsStandards(),
   plugins: [ Dato ]

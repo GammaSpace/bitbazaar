@@ -15,6 +15,10 @@
   --color-color-text-links: var(--color-primary);
   --color-starship: #000;
 
+  --color-teal: #00D1B1;
+  --color-red: #FD1A2E;
+  --color-flamingo: #FF93B4;
+  --color-indigo: #5949C6;
 
 
   @custom-media --mini  (min-width: 280px) and (max-width: 374px);
@@ -104,6 +108,12 @@ a {
   @nest & h2 span {
     font-size: 1rem;
   }
+  @nest & h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 46px;
+  }
 
 }
 .legend {
@@ -115,6 +125,12 @@ a {
   margin: 0;
   list-style: none;
   padding: 0;
+  padding: 3rem;
+  &.games { background: color-mod(var(--color-flamingo) tint(60%)) }
+  &.food { background: color-mod(var(--color-indigo) tint(70%)) }
+  &.comics { background: color-mod(var(--color-teal) tint(80%)) }
+  &.art { background: #000 }
+  &.yami-ichi { background: #fff; }
 
   @nest & li {
     margin: 0;
@@ -183,8 +199,8 @@ padding: 0;
 @mixin legend game, #5360FF { }
 @mixin legend comics, #FE6849 { }
 @mixin legend yami, #000 { }
-@mixin legend art, #FF0078 { }
-@mixin legend food, #990990 { }
+@mixin legend art, #fff { }
+@mixin legend food, var(--color-indigo) { }
 
 
 
@@ -553,7 +569,7 @@ display: inline-block;
 }
 
 .tagline {
-  color: #00D1B1;
+  color: var(--color-teal);
   @media (--tablet), (--desktop) {
     font-size: 42px;
   }
