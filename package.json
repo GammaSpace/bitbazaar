@@ -8,6 +8,8 @@
   },
   "bugs": "https://github.com//bitbazaar/issues",
   "dependencies": {
+    "dotenv": "^6.0.0",
+    "markdown-it-attrs": "^2.3.0",
     "postcss-mixins": "^6.2.0",
     "reshape-standard": "^3.3.0",
     "spike": "^2.2.2",

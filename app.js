@@ -10,6 +10,8 @@ const sugarss = require('sugarss')
 
 const SpikeDatoCMS = require('spike-datocms')
 const postcssMixins = require('postcss-mixins')
+const markdownItAttrs = require('markdown-it-attrs')
+
 const locals = {}
 
 const Dato = new SpikeDatoCMS({
@@ -28,6 +30,7 @@ module.exports = {
   reshape: htmlStandards({
     parser: sugarml,
     locals: (ctx) => { return Object.assign(locals)},
+    markdownPlugins: [ markdownItAttrs]
   }),
   postcss: cssStandards({
     appendPlugins: postcssMixins()

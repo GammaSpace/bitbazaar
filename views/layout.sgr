@@ -10,7 +10,7 @@ html
     meta(name='twitter:creator' content='@TheBitBazaar')
     meta(property='og:url' content='https://www.bitbazaar.world')
     meta(property='og:title' content='Bit Bazaar')
-    meta(property='og:image' content='https://www.bitbazaar.world/images/summer-2017/13991246030_fe228e83e8_z.jpg')
+    meta(property='og:image' content='https://www.bitbazaar.world/img/bb2014.jpg')
     meta(name='description' content='A unique showcase of indie games, comics and zines presented by Gamma Space')
     meta(name='keywords' content='bit bazaar, videogames, zine fair, toronto, videogames')
     meta(name='author' content='')

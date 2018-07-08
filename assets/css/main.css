@@ -101,19 +101,29 @@ a {
 
 #lineup {
   background-color: #eee;
-  h2 span {
+  @nest & h2 span {
     font-size: 1rem;
   }
 
-
 }
-
-.legend, .lineup {
+.legend {
   margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lineup {
+  margin: 0;
+  list-style: none;
+  padding: 0;
 
   @nest & li {
     margin: 0;
     padding: 0;
+    @media (--tablet), (--desktop), (--desktop-xl) {
+      display: flex;
+      justify-content: space-between;
+
+    }
   }
 }
 .legend {
@@ -124,8 +134,10 @@ a {
   background: #fff;
   box-shadow: 12px 12px #ccc;
   margin: 2rem 0 4rem 0;
+  list-style: none;
   @nest & li {
-
+margin: 0;
+padding: 0;
   }
 }
 @define-mixin legend $type, $color {
@@ -168,15 +180,11 @@ a {
   }
 }
 
-@mixin legend game, #5360FF {
-
- }
-@mixin legend comics, #FE6849 {
-
- }
+@mixin legend game, #5360FF { }
+@mixin legend comics, #FE6849 { }
 @mixin legend yami, #000 { }
-
 @mixin legend art, #FF0078 { }
+@mixin legend food, #990990 { }
 
 
 
@@ -266,7 +274,7 @@ body.info {
 }
 .signup {
   width: 100%;
-  background: #394EFF;
+  background: #5949C6;
   color: #fff;
   padding: 10px 0;
   margin: 0 0 3vh;
@@ -298,6 +306,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 3rem;
+    flex-direction: column;
     @nest & .x {
       font-size: 40px;
 
@@ -306,7 +315,8 @@ header {
       font-family: 'Old Standard TT';
     }
     @nest & img {
-      max-width: 200px
+      max-width: 200px;
+      margin: 1rem;
     }
   }
 
@@ -411,12 +421,22 @@ footer {
 
 }
 
+.schedule {
+  @media (--tablet), (--desktop) {
+    display: flex;
+    @nest & .date {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
 
+    }
+  }
+}
 
 .week,.dates {
   display: flex;
 }
-.day {
+.day, .date {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
@@ -466,6 +486,17 @@ header {
   }
 }
 
+h3.day {
+  @media (--tablet), (--desktop) {
+    font-size: 48px;
+
+}
+font-style: normal;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: -1px;
+color: #FD1A2E;
+}
 .soon {
   font-size: 80%;
   color: #444;
@@ -505,4 +536,15 @@ color: #fff;
 margin: 0 auto;
 font-family: "IBM Plex Mono";
 display: inline-block;
+}
+
+.tagline {
+  color: #00D1B1;
+  @media (--tablet), (--desktop) {
+    font-size: 42px;
+  }
+  text-align: center;
+  width: 60vw;
+margin: 0 auto 2rem auto;
+line-height: normal;
 }
