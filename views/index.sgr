@@ -15,7 +15,26 @@ extends(src='layout.sgr')
             img(src='img/bit_bazaar_logo_290x334.png' alt='Bit Bazaar Logo' width='200')
             span.x ×
             img(src='img/internet-black-market-logo.png' alt='internet-black-market-logo')
-          p.tagline A 2-day festival + flea market for video games, comics and Internet things
+
+          .intro-text
+            .bb
+
+              p.lead
+                | Toronto's&nbsp;
+                b.games 🎮 video game flea market
+                |  /&nbsp;
+                b.zines 📚 comic + zine pop-up
+                |  /&nbsp;
+                b 🌮 food + beer celebration
+                |  is back for its 9
+                sup th
+                |  edition.
+              p.lead
+                | Plus, gather and exchange goods from the backstreets of the Internet at Toronto's first&nbsp;
+                a(href='http://yami-ichi.biz/' target='_blank') Yami-Ichi
+                | &nbsp;🖥 brought to you by&nbsp;
+                a(href="https://ournetworks.ca") Our Networks
+                | !
           .schedule
             .friday.date
               h3.day Fri, July 13
@@ -31,28 +50,6 @@ extends(src='layout.sgr')
 
               a(href="https://www.facebook.com/tmprtantrumto/") Temper Tantrum Anniversary Party
               |&nbsp;w/ live tattooing, Muskoka beer tasting, DJ LL COOL WEI, art @ 9:30 p.m.
-
-
-          .intro-text
-            .bb
-
-              p.lead
-                | Toronto's&nbsp;
-                b.games 🎮 video game flea market
-                |  /&nbsp;
-                b.zines 📚 comic + zine pop-up
-                |  /&nbsp;
-                b 🌮 food + beer celebration
-                |  is back for its 9
-                sup th
-                |  edition!
-
-            .yi
-              p.lead
-                | Gather and exchange goods from the backstreets of the Internet at Toronto's first&nbsp;
-                a(href='http://yami-ichi.biz/' target='_blank') Yami-Ichi
-                | !
-                | &nbsp;🖥
 
 
 
@@ -155,11 +152,11 @@ extends(src='layout.sgr')
         |  -&nbsp;
         a(href='https://twitter.com/TheBitBazaar' rel='me' itemprop='sameAs') Twitter
 
-    block(name="javascript")
-      script(src="/js/vendor/tinysort.js")
-      script.
-        tinysort('.lineup.food li');
-        tinysort('.lineup.art li');
-        tinysort('.lineup.comics li');
-        tinysort('.lineup.games li');
+
+    script(src="/js/vendor/tinysort.js")
+    script.
+      tinysort('.lineup.food li');
+      tinysort('.lineup.art li');
+      tinysort('.lineup.comics li');
+      tinysort('.lineup.games li');
 
