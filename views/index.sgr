@@ -5,7 +5,7 @@ extends(src='layout.sgr')
     .signup
       .container
         p
-          | July 13-14, 2018 •
+          | July 13-14, 2018&nbsp;•&nbsp;
           a(href='https://www.tomediaarts.org' target='_blank') Toronto Media Arts Centre
     .content
       header
@@ -14,6 +14,25 @@ extends(src='layout.sgr')
             img(src='img/bit_bazaar_logo_290x334.png' alt='Bit Bazaar Logo' width='200')
             span.x ×
             img(src='img/internet-black-market-logo.png' alt='internet-black-market-logo')
+          p.tagline A 2-day festival + flea market for video games, comics and Internet things
+          .schedule
+            .friday.date
+              h3.day Fri, July 13
+
+              p.time 3-9 p.m.
+
+              a(href="https://ournetworks.ca") Our Networks kickoff party
+              | &nbsp;w/ THE LOVING ECHO @ 9:30 p.m.
+            .saturday.date
+              h3.day Sat, July 14
+
+              p.time noon–6 p.m.
+
+              a(href="https://www.facebook.com/tmprtantrumto/") Temper Tantrum Anniversary Party
+              |&nbsp;w/ live tattooing, Muskoka beer tasting, DJ LL COOL WEI, art @ 9:30 p.m.
+
+
+
           .intro-text
             .bb
 
@@ -28,40 +47,12 @@ extends(src='layout.sgr')
                 sup th
                 |  edition!
 
-
-              p
-                b Play minty-fresh games!
-                |  Buy one-of-a-kind, limited-edition and handmade/DIY items—pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys—direct from 50+ independent game developers!
-              p
-                strong
-                  b Friday
-                |  July 13 • 3 p.m. – 9 p.m.
-              p
-                strong
-                  b Saturday
-                |  July 14 • 12 p.m. – 6 p.m.
-              div(md).
-                _The [Temper Tantrum](https://www.facebook.com/tmprtantrumto/) 1-Year Anniversary Party will follow!_
-
-
-
-
             .yi
               p.lead
                 | Gather and exchange goods from the backstreets of the Internet at Toronto's first&nbsp;
                 a(href='http://yami-ichi.biz/' target='_blank') Yami-Ichi
                 | !
-
-              p
-                | S*%t happens. Didn't used to. Like when some small off-handed private comment turns into an SNS flame war. Or worrying about not getting enough “Likes”. The Youtube videos you can't watch anymore because somebody complained. Or the apps you can't play because they were rejected by Apple. Once upon a time, the Internet was supposed to be a place for "liberty". Nowadays it's so uptight. So let's turn off, log-out, and drop in, on the real world. The Internet Yami-Ichi is a flea market for “browsing” face-to-face. Take your own Internet liberties* here, with us. * But no dangerous or illegal goods, please! This black market wants to remain free and useful!
-              p
-                strong
-                  b Friday
-                |  July 13 • 3 p.m. – 9 p.m.
-
-
-                div(md).
-                  _The [Our Networks](https://ournetworks.ca) 1-Year kickoff party will follow!_
+                | &nbsp;🖥
 
 
 
