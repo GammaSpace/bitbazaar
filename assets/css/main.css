@@ -489,13 +489,27 @@ header {
 h3.day {
   @media (--tablet), (--desktop) {
     font-size: 48px;
-
+  }
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: #FD1A2E;
+  font-size: 32px;
 }
-font-style: normal;
+.saturday {
+  @media (--mini), (--mobile) {
+    margin-top: 3rem;
+  }
+}
+p.time {
+  font-size: 32px;
+  color: #FF93B4;
+  @media (--tablet), (--desktop) {
+    font-size: 48px;
+}
+
 font-weight: 900;
-text-transform: uppercase;
-letter-spacing: -1px;
-color: #FD1A2E;
 }
 .soon {
   font-size: 80%;
