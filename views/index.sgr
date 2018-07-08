@@ -155,11 +155,11 @@ extends(src='layout.sgr')
         |  -&nbsp;
         a(href='https://twitter.com/TheBitBazaar' rel='me' itemprop='sameAs') Twitter
 
-    block(name="javascript")
-      script(src="/js/vendor/tinysort.js")
-      script.
-        tinysort('.lineup.food li');
-        tinysort('.lineup.art li');
-        tinysort('.lineup.comics li');
-        tinysort('.lineup.games li');
+
+    script(src="/js/vendor/tinysort.js")
+    script.
+      tinysort('.lineup.food li');
+      tinysort('.lineup.art li');
+      tinysort('.lineup.comics li');
+      tinysort('.lineup.games li');
 
