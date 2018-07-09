@@ -40,16 +40,20 @@ extends(src='layout.sgr')
               h3.day Fri, July 13
 
               p.time 3-9 p.m.
+              p
+                em plus
+              p: a(href="https://ournetworks.ca") Our Networks kickoff party
+              p w/ THE LOVING ECHO @ 9:30 p.m.
 
-              a(href="https://ournetworks.ca") Our Networks kickoff party
-              | &nbsp;w/ THE LOVING ECHO @ 9:30 p.m.
             .saturday.date
               h3.day Sat, July 14
 
               p.time noon–6 p.m.
+              p
+                em plus
 
-              a(href="https://www.facebook.com/tmprtantrumto/") Temper Tantrum Anniversary Party
-              |&nbsp;w/ live tattooing, Muskoka beer tasting, DJ LL COOL WEI, art @ 9:30 p.m.
+              p: a(href="https://www.facebook.com/tmprtantrumto/") Temper Tantrum Anniversary Party
+              p w/ live tattooing, Muskoka beer tasting, DJ LL COOL WEI, art @ 9:30 p.m.
 
 
 
