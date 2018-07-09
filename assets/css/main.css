@@ -105,8 +105,17 @@ a {
 
 #lineup {
   background-color: #eee;
-  @nest & h2 span {
-    font-size: 1rem;
+  @nest & h2 {
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+    padding: 2rem 0 0 0;
+    @media (--tablet), (--desktop) {
+      font-size: 54px;
+    }
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
   }
   @nest & h3 {
     text-align: center;
@@ -120,6 +129,10 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
+  @nest & li {
+    text-align: center;
+
+  }
 }
 .lineup {
   margin: 0;
@@ -129,7 +142,7 @@ a {
     padding: 3rem;
   }
   &.games { background: color-mod(var(--color-flamingo) tint(60%)) }
-  &.food { background: color-mod(var(--color-indigo) tint(70%)) }
+  &.food { background: color-mod(var(--color-red) tint(90%)) }
   &.comics { background: color-mod(var(--color-teal) tint(80%)) }
   &.art { background: #000 }
   &.yami-ichi { background: #fff; }
@@ -155,8 +168,8 @@ a {
   margin: 2rem 0 4rem 0;
   list-style: none;
   @nest & li {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
   }
 }
 @define-mixin legend $type, $color {
@@ -206,7 +219,7 @@ padding: 0;
 @mixin legend comics, #FE6849 { }
 @mixin legend yami, #000 { }
 @mixin legend art, #fff { }
-@mixin legend food, var(--color-indigo) { }
+@mixin legend food, var(--color-teal) { }
 
 
 
@@ -224,7 +237,6 @@ ul {
     flex: 1 0 0;
     padding: 0;
     margin: 0 0 1rem 2.6rem;
-    text-indent: 1.4rem;
     &.spring {
       &:before {
         content: '\002601';
@@ -242,17 +254,6 @@ ul {
         content: '\002744';
         color: #0E48FB;
       }
-    }
-    &:before {
-      letter-spacing: 7px;
-      font-weight: 400;
-      font-style: normal;
-      font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
-
-      content: '\002043';
-      color: inherit;
-      margin-left: -3.8rem;
     }
   }
 }
@@ -445,7 +446,9 @@ footer {
 }
 
 .schedule {
+  margin: 2rem auto;
   @media (--tablet), (--desktop) {
+    margin: 4rem auto;
     display: flex;
     @nest & .date {
       flex: 1;
@@ -532,9 +535,9 @@ p.time {
   color: #FF93B4;
   @media (--tablet), (--desktop) {
     font-size: 48px;
-}
+  }
 
-font-weight: 900;
+  font-weight: 900;
 }
 .soon {
   font-size: 80%;
@@ -568,13 +571,13 @@ font-weight: 900;
 }
 .fancy {
   padding: 1rem 2rem;
-border-radius: 40rem;
-background: #FE6849;
-text-decoration: none;
-color: #fff;
-margin: 0 auto;
-font-family: "IBM Plex Mono";
-display: inline-block;
+  border-radius: 40rem;
+  background: #FE6849;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 auto;
+  font-family: "IBM Plex Mono";
+  display: inline-block;
 }
 
 .tagline {
@@ -584,6 +587,6 @@ display: inline-block;
   }
   text-align: center;
   width: 60vw;
-margin: 0 auto 2rem auto;
-line-height: normal;
+  margin: 0 auto 2rem auto;
+  line-height: normal;
 }
