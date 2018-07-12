@@ -167,6 +167,9 @@ extends(src='layout.sgr')
         a(href='http://gammaspace.ca') Gamma Space&nbsp;
         |  -&nbsp;
         a(href='https://twitter.com/TheBitBazaar' rel='me' itemprop='sameAs') Twitter
+        | &nbsp;
+        a(href='/img/Makerdao.pdf') Makerdao
+
 
 
     script(src="/js/vendor/tinysort.js")
