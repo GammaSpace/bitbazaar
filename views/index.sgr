@@ -55,7 +55,19 @@ extends(src='layout.sgr')
               p: a(href="https://www.facebook.com/tmprtantrumto/") Temper Tantrum Anniversary Party
               p w/ live tattooing, Muskoka beer tasting, DJ LL COOL WEI, art @ 9:30 p.m.
 
+      section#venue
+        .container
+          h3 About the venue
+          div(md).
+            The Toronto Media Arts Centre is a 30,000 square foot centre for film, video, games, and community in the heart of West Queen West – home to Gamma Space, Dames Making Games, Charles Street Video and CFMDC.
 
+            ♿️ [Barrier-free, accessible space](https://policies.tomediaarts.org/policies/accessibility.html)
+
+            🚗 [Parking available in the Green P lot right in the building](https://parking.greenp.com/parking-info/carpark-info/261_45-abell-street.html)
+
+            🚃 Just steps from the Queen St West @ Abell St streetcar stop
+
+            🗺 [Directions and more info on finding TMAC](https://www.tomediaarts.org/location)
 
       section#lineup
         .container
@@ -155,6 +167,7 @@ extends(src='layout.sgr')
         a(href='http://gammaspace.ca') Gamma Space&nbsp;
         |  -&nbsp;
         a(href='https://twitter.com/TheBitBazaar' rel='me' itemprop='sameAs') Twitter
+        
 
 
     script(src="/js/vendor/tinysort.js")
