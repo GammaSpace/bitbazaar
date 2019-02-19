@@ -5,7 +5,7 @@ extends(src='layout.sgr')
     .signup
       .container
         p
-          | July 13-14, 2018&nbsp;•&nbsp;
+          | August 3, 2019&nbsp;•&nbsp;
           a(href='https://www.tomediaarts.org' target='_blank') Toronto Media Arts Centre
           |&nbsp;• 32 Lisgar Street
     .content
@@ -13,8 +13,6 @@ extends(src='layout.sgr')
         .container
           .logos
             img(src='img/bit_bazaar_logo_290x334.png' alt='Bit Bazaar Logo' width='200')
-            span.x ×
-            img(src='img/internet-black-market-logo.png' alt='internet-black-market-logo')
 
           .intro-text
             .bb
@@ -22,52 +20,21 @@ extends(src='layout.sgr')
               p.lead
                 | Toronto's&nbsp;
                 b.games 🎮 video game flea market
-                |  /&nbsp;
-                b.zines 📚 comic + zine pop-up
-                |  /&nbsp;
-                b 🌮 food + beer celebration
-                |  is back for its 9
+                |  +&nbsp;
+                b.zines 📚 zine fair
+                |  +&nbsp;
+                b 🌮 snack fest
+                |  is back for its 10
                 sup th
                 |  edition.
-              p.lead
-                | Plus, gather and exchange goods from the backstreets of the Internet at Toronto's first&nbsp;
-                a(href='http://yami-ichi.biz/' target='_blank') Yami-Ichi
-                | &nbsp;🖥 brought to you by&nbsp;
-                a(href="https://ournetworks.ca") Our Networks
-                | !
+
           .schedule
             .friday.date
-              h3.day Fri, July 13
+              h3.day Saturday, August 3, 2019
+              p.time 12-7pm
+              p Applications open in May
 
-              p.time 3-9 p.m.
-              p
-                em plus
-              p: a(href="https://ournetworks.ca") Our Networks kickoff party
-              p w/ THE LOVING ECHO @ 9:30 p.m.
 
-            .saturday.date
-              h3.day Sat, July 14
-
-              p.time noon–6 p.m.
-              p
-                em plus
-
-              p: a(href="https://www.facebook.com/tmprtantrumto/") Temper Tantrum Anniversary Party
-              p w/ live tattooing, Muskoka beer tasting, DJ LL COOL WEI, art @ 9:30 p.m.
-
-      section#venue
-        .container
-          h3 About the venue
-          div(md).
-            The Toronto Media Arts Centre is a 30,000 square foot centre for film, video, games, and community in the heart of West Queen West – home to Gamma Space, Dames Making Games, Charles Street Video and CFMDC.
-
-            ♿️ [Barrier-free, accessible space](https://policies.tomediaarts.org/policies/accessibility.html)
-
-            🚗 [Parking available in the Green P lot right in the building](https://parking.greenp.com/parking-info/carpark-info/261_45-abell-street.html)
-
-            🚃 Just steps from the Queen St West @ Abell St streetcar stop
-
-            🗺 [Directions and more info on finding TMAC](https://www.tomediaarts.org/location)
 
       section#lineup
         .container
@@ -79,77 +46,24 @@ extends(src='layout.sgr')
                 a(href="#games") Games
             li.comics
               span.label
-                a(href="#comics") Comics
-            li.yami
-              span.label
-                a(href="#yami-ichi") Yami-Ichi
+                a(href="#comics") Comics &amp; Zines
             li.food
               span.label
-                a(href="#food") Food
+                a(href="#food") Snacks
 
 
 
           h3.games#games Games
           ol.lineup.games
-            each(loop="project in dato.project")
-              if(condition='project.category == "Games"')
-                li.game
-                  if(condition='project.link')
-                    span.project
-                      a(href="{{ project.link }}") {{project.name}}
-                  else
-                    span.project {{project.name}}
-                  span.org {{ project.creator.name }}
-
-          h3.yami#yami-ichi Internet Yami-Ichi
-
-          ol.lineup.yami-ichi
-            each(loop="project in dato.project")
-              if(condition='project.category == "Yami-Ichi"')
-                li.yami
-                  if(condition='project.link')
-                    span.project
-                      a(href="{{ project.link }}") {{project.name}}
-                  else
-                    span.project {{project.name}}
-                  span.org {{ project.creator.name }}
-
-          ol.lineup.art#art
-            each(loop="project in dato.project")
-              if(condition='project.category == "Art"')
-                li.art
-                  if(condition='project.link')
-                    span.project
-                      a(href="{{ project.link }}") {{project.name}}
-                  else
-                    span.project {{project.name}}
-                  span.org {{ project.creator.name }}
-
+            li.art: span.project TBA
 
           h3.comics#comics Comics
           ol.lineup.comics
-            each(loop="project in dato.project")
-              if(condition='project.category == "Comics"')
-                li.comics
-                  if(condition='project.link')
-                    span.project
-                      a(href="{{ project.link }}") {{project.name}}
-                  else
-                    span.project {{project.name}}
-                  span.org {{ project.creator.name }}
+            li: span.project TBA
 
           h3.food#food Food
           ol.lineup.food
-            each(loop="project in dato.project")
-              if(condition='project.category == "Food"')
-                li.food
-                  if(condition='project.link')
-                    span.project
-                      a(href="{{ project.link }}") {{project.name}}
-                  else
-                    span.project {{project.name}}
-                  span.org {{ project.creator.name }}
-
+            li.art: span.project TBA
 
 
       #sections.content(role='main')
@@ -163,17 +77,10 @@ extends(src='layout.sgr')
     footer.footer.content(role='contentinfo')
       span(itemscope='' itemtype='http://schema.org/Organization')
         link(itemprop='url' href='https://gammaspace.ca')
-        | © 2018&nbsp;
+        | © 2019&nbsp;
         a(href='http://gammaspace.ca') Gamma Space&nbsp;
         |  -&nbsp;
         a(href='https://twitter.com/TheBitBazaar' rel='me' itemprop='sameAs') Twitter
-        
 
 
-    script(src="/js/vendor/tinysort.js")
-    script.
-      tinysort('.lineup.food li');
-      tinysort('.lineup.art li');
-      tinysort('.lineup.comics li');
-      tinysort('.lineup.games li');
 
