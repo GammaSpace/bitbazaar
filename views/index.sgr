@@ -6,7 +6,7 @@ extends(src='layout.sgr')
       .container
         p
           | August 3, 2019&nbsp;•&nbsp;
-          a(href='https://www.tomediaarts.org' target='_blank') Toronto Media Arts Centre
+          a(href='https://www.tomediaarts.org' target='_blank') @TMAC
           |&nbsp;• 32 Lisgar Street
     .content
       header
