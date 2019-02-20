@@ -1,6 +1,4 @@
-# bitbazaar
-
-
+# bitbazaar 💌
 
 ## Setup
 
