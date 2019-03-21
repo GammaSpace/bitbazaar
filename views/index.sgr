@@ -5,7 +5,7 @@ extends(src='layout.sgr')
     .signup
       .container
         p
-          | August 3, 2019&nbsp;•&nbsp;
+          | June 22, 2019&nbsp;•&nbsp;
           a(href='https://www.tomediaarts.org' target='_blank') @TMAC
           |&nbsp;• 32 Lisgar Street
     .content
@@ -30,40 +30,40 @@ extends(src='layout.sgr')
 
           .schedule
             .friday.date
-              h3.day Saturday, August 3, 2019
+              h3.day Saturday, June 22, 2019
               p.time 12-7pm
-              p Applications open in May
+              p Applications open soon!
 
-
-
-      section#lineup
-        .container
-          h2 Vendor Lineup
-
-          ul.legend
-            li.game
-              span.label
-                a(href="#games") Games
-            li.comics
-              span.label
-                a(href="#comics") Comics &amp; Zines
-            li.food
-              span.label
-                a(href="#food") Snacks
-
-
-
-          h3.games#games Games
-          ol.lineup.games
-            li.art: span.project TBA
-
-          h3.comics#comics Comics
-          ol.lineup.comics
-            li: span.project TBA
-
-          h3.food#food Food
-          ol.lineup.food
-            li.art: span.project TBA
+      //
+      //
+      // section#lineup
+      //   .container
+      //     h2 Vendor Lineup
+      //
+      //     ul.legend
+      //       li.game
+      //         span.label
+      //           a(href="#games") Games
+      //       li.comics
+      //         span.label
+      //           a(href="#comics") Comics &amp; Zines
+      //       li.food
+      //         span.label
+      //           a(href="#food") Snacks
+      //
+      //
+      //
+      //     h3.games#games Games
+      //     ol.lineup.games
+      //       li.art: span.project TBA
+      //
+      //     h3.comics#comics Comics
+      //     ol.lineup.comics
+      //       li: span.project TBA
+      //
+      //     h3.food#food Food
+      //     ol.lineup.food
+      //       li.art: span.project TBA
 
 
       #sections.content(role='main')
