@@ -288,16 +288,9 @@ body.info {
   font-weight: 900;
 
 }
-.signup {
+.info {
   width: 100%;
   background: var(--color-primary);
-
-  @media (--mini), (--mobile) {
-    span.address {
-      display: none;
-
-    }
-  }
 
   color: #fff;
   padding: 10px 0;
