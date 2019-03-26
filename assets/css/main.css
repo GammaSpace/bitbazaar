@@ -7,7 +7,7 @@
   --space: 1.5em;
   --space-lg: 2em;
   --bg-color: #fff;
-  --color-primary: #000;
+  --color-primary: #F6553B;
   --color-secondary: #FFF5CC;
   --color-bg: var(--color-primary);
   --color-bg-text: #fff;
@@ -58,6 +58,9 @@ h2, h3 {
 p.lead {
   line-height: 1.8;
   font-size: calc(12px + .7vw);
+  @nest & b {
+    display: block;
+  }
 
 }
 body {
@@ -78,17 +81,7 @@ body {
 .hidden {
   display: none;
 }
-.bg {
 
-
-  background: linear-gradient(180deg, #FAF4ED 0, #ccc 0%, #fff 25%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: -100;
-}
 a {
   color: inherit;
 }
@@ -261,7 +254,7 @@ li, p {
   line-height: 1.5;
   margin: 0 0 1rem;
   @nest & b {
-    background:  linear-gradient(to left, #fff 0%, #eee 100%);
+    /* background:  linear-gradient(to left, #fff 0%, #eee 100%); */
     font-weight: 700;
   }
   @nest & strong {
@@ -297,7 +290,15 @@ body.info {
 }
 .signup {
   width: 100%;
-  background: #A083ED;
+  background: var(--color-primary);
+
+  @media (--mini), (--mobile) {
+    span.address {
+      display: none;
+
+    }
+  }
+
   color: #fff;
   padding: 10px 0;
   margin: 0 0 3vh;
@@ -387,7 +388,6 @@ header {
     }
     &#action {
       margin: 0 auto 0 auto;
-      background: #eee;
       width: 100%;
       text-align: center;
 
@@ -442,6 +442,7 @@ img {
 
 footer {
   margin: 3rem;
+  text-align: center;
 
 }
 
@@ -522,7 +523,7 @@ h3.day {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: -1px;
-  color: #FD1A2E;
+  color: var(--color-primary);
   font-size: 32px;
 }
 .saturday {
