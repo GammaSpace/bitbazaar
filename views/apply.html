@@ -50,7 +50,7 @@
               </div>
               <div class="Grid-cell Grid-cell--top">
 
-                <form name='exhibitor-application-summer-2019' action='thank-you' method='post'>
+                <form name='exhibitor-application-summer-2019' action='/thank-you' data-netlify="true" method='post'>
                   <input type='hidden' name='form-name' value='exhibitor-application-summer-2019' />
 
                   <div class="form-radio">
@@ -156,9 +156,8 @@
               <div class="Grid-cell Grid-cell--top">
 
 
-                <form name='food-application-summer-2019' action='thank-you' method='post'><input type='hidden' name='form-name' value='food-application-summer-2019' />
-
-
+                <form name='food-application-summer-2019' action='/thank-you' method='post' data-netlify="true"><input type='hidden' name='form-name' value='food-application-summer-2019' />
+>
 
                   <div class="form-group">
                     <input type="email" required="required" name="email" autocorrect="off" autocapitalize="off">
@@ -194,8 +193,9 @@
                       <label class="control-label" for="textarea">Proposed menu</label><i class="bar"></i>
                     </div>
                     <div class="form-group">
-                      <textarea required="required" name="requirements" placeholder="What equipment will you bring and what power/water/refrigeration requirements do you have? How much table/counter space do you need?"></textarea>
+                      <textarea required="required" name="requirements"></textarea>
                       <label class="control-label" for="textarea">Booth requirements</label><i class="bar"></i>
+                      <small>What equipment will you bring and what power/water/refrigeration requirements do you have? How much table/counter space do you need?</small>
 
                     </div>
                   </fieldset>
