@@ -1,42 +1,58 @@
 <extends src="layout.html">
   <block name="content">
-
-    <div class="bg"></div>
     <div class="info">
       <div class="container">
-        <p>June 22, 2019&nbsp;•&nbsp;<a href="https://www.tomediaarts.org" target="_blank">TMAC</a>
-
-        </p>
+        <p>June 22, 2019&nbsp;•&nbsp;<a href="https://www.tomediaarts.org" target="_blank">TMAC</a></p>
       </div>
     </div>
     <div class="content">
       <header>
         <div class="container">
           <div class="logos">
-            <img src="img/bit_bazaar_logo__orange.png" alt="Bit Bazaar Logo" width="200">
-          </div>
-          <div class="intro-text">
-            <div class="bb">
-              <p class="lead">Toronto’s&nbsp;<b class="games">🎮 video game flea market</b> +&nbsp;<b class="zines">📚 zine fair</b> +&nbsp;<b>🌮 snack fest</b> is back for its 10<sup>th</sup> edition.</p>
+            <div class="columnar">
+
+              <span class="row">
+                <span class="games">🎮 video game flea market</span>
+              </span>
+              <span class="row">
+                <span class="zines">📚 zine fair</span>
+              </span>
+              <span class="row">
+                <i class="fas fa-plus" style="color: #207DFC"></i>
+                <span class="snack">🌮 snack fest</span>
+              </span>
             </div>
-          </div>
-          <div class="schedule">
-            <div class="friday date">
-              <h3 class="day">Saturday, June 22, 2019</h3>
-              <p class="time">12-7pm</p>
-              <p>Free to apply, free to table. Applications open April 1!</p>
+            <img src="img/bit_bazaar_logo__blue.png" alt="Bit Bazaar Logo" width="200">
+            <!-- <p class="lead">Back for #10!</p> -->
+
+            <div class="schedule">
+              <div class="friday date">
+                <h3 class="day">Saturday, June 22, 2019</h3>
+                <p class="time">12-7pm</p>
+              </div>
+
             </div>
+
+            <div class="intro-text">
+              <div class="bb">
+                <p>Bit Bazaar is a free one-day fair showcasing Toronto's indie game designers, comic artists, zine-makers, illustrators and delicious food &amp; beverages by members of our community. Meet the makers, hand them money, swap a zine – or just make some cool new friends!</p>
+                </div>
+              </div>
           </div>
+
+
+          </div>
+        </header>
+        <div id="sections" class="content" role="main">
+
+          <section id="action">
+            <p>
+              <a href="/apply" class="button">Apply to Table</a>
+            </p>
+
+          </section>
         </div>
-      </header>
-      <div id="sections" class="content" role="main">
-        <section id="action">
-          <p>💌&nbsp;<a href="mailto:hello@thebitbazaar.com">Get in touch</a> •&nbsp;<a href="http://eepurl.com/cUIMsH">Sign up to volunteer!</a></p>
-        </section>
       </div>
-    </div>
-    <footer class="footer content" role="contentinfo">
-      <span itemscope itemtype="http://schema.org/Organization"><link itemprop="url" href="https://gammaspace.ca">© 2019&nbsp;<a href="http://gammaspace.ca">Gamma Space&nbsp;</a> -&nbsp;<a href="https://twitter.com/TheBitBazaar" rel="me" itemprop="sameAs">Twitter</a></span>
-    </footer>
-  </block>
-</extends>
+
+    </block>
+  </extends>

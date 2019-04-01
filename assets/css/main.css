@@ -20,6 +20,11 @@
   --color-flamingo: #FF93B4;
   --color-indigo: #5949C6;
 
+  --color-yellow: #f9fd50;
+  --color-blue: #0C60CE;
+  --color-green: #00bd56;
+  --color-light-green: #85ef47;
+
 
   @custom-media --mini  (min-width: 280px) and (max-width: 374px);
   @custom-media --mobile  (min-width: 375px) and (max-width: 767px);
@@ -63,6 +68,22 @@ p.lead {
   }
 
 }
+.columnar {
+  border-bottom: solid 3px #207DFC;
+  padding-bottom: 4px;
+  & .row {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    & span {
+      flex: 1;
+      font-family: 'IBM Plex Mono', Courier, 'Courier New', monospace;
+      color: var(--color-blue)
+    }
+
+  }
+
+}
 body {
   font-family: 'Old Standard TT', serif;
 
@@ -70,11 +91,15 @@ body {
 
   font-style: normal;
   line-height: 1.52;
-  color: var(--color-primary);
+  color: #000;
   background-color: #fff;
   text-rendering: optimizeLegibility;
   margin: 0 0 4vh 0;
   @media only screen and (min-width: 37.5em) {
+
+  }
+  & span.highlight {
+    background: var(--color-yellow)
 
   }
 }
@@ -220,34 +245,39 @@ a {
 ul {
   list-style: none;
   padding: 0;
-  &.past {
+  &.application-info {
     @nest & li {
-      float: left;
-      padding-right: 1rem;
+      flex: 1 0 33.3333%;
+      padding: 0;
+      margin: 0 0 1rem 2.6rem;
+      text-indent: 1.4rem;
+      &:before {
+        letter-spacing: 7px;
+        font-weight: 400;
+        font-style: normal;
+        content: '\002043';
+        color: inherit;
+        margin-left: -3.8rem;
+      }
     }
   }
-  @nest & li {
-    flex: 1 0 0;
+  &.social {
+    margin: 0;
     padding: 0;
-    margin: 0 0 1rem 2.6rem;
-    &.spring {
-      &:before {
-        content: '\002601';
+    list-style: none;
+    text-indent: 0;
+    & li {
+      margin: 0 4px;
+      display: inline;
+      & a {
+        text-decoration: none;
       }
-    }
-    &.summer {
       &:before {
-        content: '\2600';
-        color: #FFD640;
+      }
 
-      }
     }
-    &.winter {
-      &:before {
-        content: '\002744';
-        color: #0E48FB;
-      }
-    }
+
+
   }
 }
 li, p {
@@ -290,9 +320,9 @@ body.info {
 }
 .info {
   width: 100%;
-  background: var(--color-primary);
+  background: var(--color-yellow);
 
-  color: #fff;
+  color: #000;
   padding: 10px 0;
   margin: 0 0 3vh;
   @nest & p {
@@ -316,7 +346,9 @@ header {
       align-items: top;
       justify-content: space-evenly;
       display: flex;
-    }
+    };
+    font-size: calc(12px + 2vw);
+
 
   }
   @nest & .logos {
@@ -374,7 +406,10 @@ header {
   @nest & section {
 
     margin: 3rem 0 0;
-    padding: 3rem 0;
+    padding: 2rem;
+    @media (--tablet), (--desktop) {
+      padding: 0
+    }
 
     &#schedule {
       margin: 0;
@@ -442,7 +477,7 @@ footer {
 .schedule {
   margin: 2rem auto;
   @media (--tablet), (--desktop) {
-    margin: 4rem auto;
+    /* margin: 4rem auto; */
     display: flex;
     @nest & .date {
       flex: 1;
@@ -514,9 +549,8 @@ h3.day {
   }
   font-style: normal;
   font-weight: 900;
-  text-transform: uppercase;
   letter-spacing: -1px;
-  color: var(--color-primary);
+  color: var(--color-green);
   font-size: 32px;
 }
 .saturday {
@@ -526,13 +560,14 @@ h3.day {
 }
 p.time {
   font-size: 32px;
-  color: #FF93B4;
+  color: var(--color-light-green);
   @media (--tablet), (--desktop) {
     font-size: 48px;
   }
 
   font-weight: 900;
 }
+
 .soon {
   font-size: 80%;
   color: #444;
@@ -555,7 +590,7 @@ p.time {
   font-family: 'IBM Plex Mono';
   letter-spacing: 1px;
   text-transform: uppercase;
-  background:  linear-gradient(to right, #000 0%, #444 100%);
+  background: var(--color-blue);
 }
 .button-wrap {
   text-align: center;

@@ -1,0 +1,225 @@
+<extends src="layout.html">
+  <block name="content">
+
+    <div class="bg"></div>
+    <div class="info">
+      <div class="container">
+        <p>June 22, 2019&nbsp;•&nbsp;<a href="https://www.tomediaarts.org" target="_blank">TMAC</a>
+
+        </p>
+      </div>
+    </div>
+    <div class="content">
+      <header>
+        <div class="container">
+          <div class="logos">
+            <img src="img/bit_bazaar_logo__blue.png" alt="Bit Bazaar Logo" width="200">
+          </div>
+
+            <div class="schedule">
+              <div class="friday date">
+                <h3 class="day">Saturday, June 22, 2019</h3>
+                <p class="time">12-7pm</p>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div id="sections" class="content" role="main">
+
+          <section id="application">
+            <div class="header-container">
+              <div class="container">
+                <h2>Apply to Show your Game(s) and/or Zine(s)</h2>
+              </div>
+
+            </div>
+            <div class="container">
+
+              <div class="Grid Grid--gutters Grid--full large-Grid--fit">
+                <div class="Grid-cell Grid-cell--top">
+                  <ul class="application-info">
+                    <li>Applications close April 27.</li>
+                    <li>No application fee / no table fee.</li>
+                    <li>The venue is air-conditioned and barrier-free.</li>
+                    <li>High-speed wi-fi is available.</li>
+                    <li>Individuals, collectives, companies and indie publishers welcome.</li>
+                    <li>You’ll get half a 6-foot table, power and 2 chairs. If you need more/different space, we'll chat once selections are made.</li>
+                    <li>Works in progress are very welcome.</li>
+                    <li><strong>What we're looking for from games exhibitors:</strong> Video games, board games, card games, tabletop games, artist collectives, small weird interactive installations and VR experiences are all welcome. <span class="highlight">We're looking for something playable <b>plus</b> something physical or tactile to sell or trade (companion zine, print, pins and patches, etc.).</span></li>
+                      <li><strong>What we're looking for from zine/comics folks:</strong> Tech– or game-themed self-published books, comics and zines/fanzines; webcomics, small press, collectives, illustrators. Bring all of your goodies – patches, posters, pins, novels, stickers, download codes, collectibles, totes, etc.!</li>
+                    </ul>
+
+                  </div>
+                  <div class="Grid-cell Grid-cell--top">
+
+                    <form name='exhibitor-application-summer-2019' action='thank-you' method='post'>
+                      <input type='hidden' name='form-name' value='exhibitor-application-summer-2019' />
+
+                      <div class="form-radio">
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="category" checked="checked" value="video game"><i class="helper"></i>Video game
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="category" value="analog game" ><i class="helper"></i>Board, card or tabletop game
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="category" value="comics" ><i class="helper"></i>Comics, zines, books and other printed matter
+                          </label>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="email" required="required" name="email" autocorrect="off" autocapitalize="off">
+                        <label class="control-label" for="input">Your Email</label><i class="bar"></i>
+                      </div>
+                      <div class="Grid Grid--gutters">
+                        <div class="Grid-cell">
+                          <div class="form-group">
+                            <input type="text" required="required" name="first_name">
+                            <label class="control-label" for="input">Your First Name</label><i class="bar"></i>
+                          </div>
+                        </div>
+                        <div class="Grid-cell">
+                          <div class="form-group">
+                            <input type="text" required="required" name="last_name">
+                            <label class="control-label" for="input">Your Last Name</label><i class="bar"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" required="required" name="project_name">
+                        <label class="control-label" for="input">Project title(s)</label><i class="bar"></i>
+
+                      </div>
+                      <div class="form-group">
+                        <input type="text" required="required" name="company_name">
+                        <label class="control-label" for="input">Collective or company name</label><i class="bar"></i>
+                        <small>For individual artists, enter your name.</small>
+                      </div>
+                      <fieldset>
+                        <div class="form-group">
+                          <input type="text" required="required" name="link">
+                          <label class="control-label" for="input">Download, demo, or image/video link</label><i class="bar"></i>
+                          <small>For publishers/zines, please include 2-3 examples of work at this link.</small>
+
+                        </div>
+                        <div class="form-group">
+                          <textarea required="required" name="project_description"></textarea>
+                          <label class="control-label" for="textarea">Short description</label><i class="bar"></i>
+                        </div>
+                        <div class="form-group">
+                          <textarea required="required" name="offer"></textarea>
+                          <label class="control-label" for="textarea">What are you selling?</label><i class="bar"></i>
+                        </div>
+                      </fieldset>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" name="all_ages_content"><i class="helper"></i>Content is appropriate for all ages
+                        </label>
+                      </div>
+                      <div class="form-group">
+                        <textarea name="content_warning"></textarea>
+                        <label class="control-label" for="textarea">If not, describe:</label><i class="bar"></i>
+                      </div>
+                      <p> By submitting this application, you agree to abide by the <a href="https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md" target="_blank">TMAC Code of Conduct</a>.</p>
+                        <div class="button-container">
+                          <button class="button"><span>Submit</span></button>
+
+                        </div>
+                        <p class="hidden"><input name="bot-field"></p>
+                      </form>
+                    </div>
+                  </div>
+
+
+                </section>
+                <section id="food">
+                  <div class="header-container">
+                    <div class="container">
+                      <h2>Apply to be a Food/Beverage Vendor</h2>
+                    </div>
+                  </div>
+                  <div class="container">
+
+                    <div class="Grid Grid--gutters Grid--full large-Grid--fit">
+                      <div class="Grid-cell Grid-cell--top">
+
+                        <ul class="application-info">
+                          <li><strong>What we're looking for:</strong> Street food, fried food, baked goods, sweet treats, handheld snacks, beer and non-alcoholic deliciousness!</li>
+
+                        </ul>
+                        <img src="https://d33wubrfki0l68.cloudfront.net/e9f7193d6951bc8b92bc2ed311e655a2c6fc9940/6a248/images/santo-pecado.jpg" alt="">
+                      </div>
+                      <div class="Grid-cell Grid-cell--top">
+
+
+                        <form name='food-application-summer-2019' action='thank-you' method='post'><input type='hidden' name='form-name' value='food-application-summer-2019' />
+
+
+
+                          <div class="form-group">
+                            <input type="email" required="required" name="email" autocorrect="off" autocapitalize="off">
+                            <label class="control-label" for="input">Your Email</label><i class="bar"></i>
+                          </div>
+                          <div class="Grid Grid--gutters">
+                            <div class="Grid-cell">
+                              <div class="form-group">
+                                <input type="text" required="required" name="first_name">
+                                <label class="control-label" for="input">Your First Name</label><i class="bar"></i>
+                              </div>
+                            </div>
+                            <div class="Grid-cell">
+                              <div class="form-group">
+                                <input type="text" required="required" name="last_name">
+                                <label class="control-label" for="input">Your Last Name</label><i class="bar"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" required="required" name="company_name">
+                            <label class="control-label" for="input">Company Name</label><i class="bar"></i>
+                          </div>
+
+                          <div class="form-group">
+                            <textarea required="required" name="project_description"></textarea>
+                            <label class="control-label" for="textarea">Company bio (short and sweet!)</label><i class="bar"></i>
+                          </div>
+                          <fieldset>
+
+                            <div class="form-group">
+                              <textarea required="required" name="offer"></textarea>
+                              <label class="control-label" for="textarea">Proposed menu</label><i class="bar"></i>
+                            </div>
+                            <div class="form-group">
+                              <textarea required="required" name="requirements" placeholder="What equipment will you bring and what power/water/refrigeration requirements do you have? How much table/counter space do you need?"></textarea>
+                              <label class="control-label" for="textarea">Booth requirements</label><i class="bar"></i>
+
+                            </div>
+                          </fieldset>
+
+                          <p> By submitting this application, you agree to abide by the <a href="https://github.com/GammaSpace/policies/blob/master/code-of-conduct.md" target="_blank">Gamma Space Code of Conduct</a> and the <a href="https://ournetworks.ca/code-of-conduct/">Our
+                            Networks Code of Conduct</a>.</p>
+                            <div class="button-container">
+                              <button class="button"><span>Submit</span></button>
+                            </div>
+                            <p class="hidden"><input name="bot-field"></p>
+                          </form>
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </section>
+
+
+                </div>
+              </div>
+            </div>
+
+            </block>
+          </extends>
