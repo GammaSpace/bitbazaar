@@ -71,6 +71,7 @@ p.lead {
 .columnar {
   border-bottom: solid 3px #207DFC;
   padding-bottom: 4px;
+  font-size: 26px;
   & .row {
     display: flex;
     text-align: right;
