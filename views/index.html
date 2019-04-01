@@ -1,10 +1,5 @@
 <extends src="layout.html">
   <block name="content">
-    <div class="info">
-      <div class="container">
-        <p>June 22, 2019&nbsp;•&nbsp;<a href="https://www.tomediaarts.org" target="_blank">TMAC</a></p>
-      </div>
-    </div>
     <div class="content">
       <header>
         <div class="container">
@@ -21,17 +16,31 @@
                 <span class="snack">🌮 snack fest</span>
               </span>
             </div>
-            <img src="img/bit_bazaar_logo__blue.png" alt="Bit Bazaar Logo" width="200">
+            <!-- <img src="img/bit_bazaar_logo__blue.png" alt="Bit Bazaar Logo" width="200"> -->
+            <include src="includes/bit_bazaar_logo.svg"></include>
+
+
             <!-- <p class="lead">Back for #10!</p> -->
             <div class="schedule">
               <div class="friday date">
-                <h3 class="day">Saturday, June 22, 2019</h3>
+                <h3>
+                <span class="day">
+                  Saturday
+                </span>
+                <span class="date">
+                  June 22
+                </span>
+                <span class="year">
+                  2019
+                </span>
+                </h3>
                 <p class="time">12-7pm</p>
               </div>
             </div>
             <div class="intro-text">
               <div class="bb">
-                <p>Bit Bazaar is a free one-day fair showcasing Toronto's indie game designers, comic artists, zine-makers, illustrators and delicious food &amp; beverages by members of our community. Meet the makers, hand them money, swap a zine – or just make some cool new friends!</p>
+                <p>Bit Bazaar is a free one-day fair showcasing Toronto's indie game designers, comic artists, zine-makers and DIY creators – with tasty snacks &amp; sips by members of our community.</p>
+                  <p>Meet the makers, hand them money, swap a zine – or just make some cool new friends!</p>
               </div>
             </div>
           </div>
