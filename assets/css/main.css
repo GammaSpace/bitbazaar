@@ -68,6 +68,13 @@ p.lead {
   }
 
 }
+#app-nav {
+
+    text-align: center;
+    font-size: 28px;
+    margin: 2rem 0;
+
+}
 .columnar {
   border-bottom: solid 3px #207DFC;
   padding-bottom: 4px;
