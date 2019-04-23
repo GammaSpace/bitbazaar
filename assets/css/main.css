@@ -330,7 +330,6 @@ body.info {
 }
 
 #logo {
-  width: 80%;
   @nest & path {
     fill: var(--color-blue);
   }
@@ -386,14 +385,13 @@ header {
 
     @nest & .x {
       font-size: 40px;
-
+      margin: 0 1rem;
       font-weight: 700;
 
       font-family: 'Old Standard TT';
     }
     @nest & img, & svg {
       max-width: 200px;
-      margin: 1rem;
     }
   }
 
