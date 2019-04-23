@@ -1,7 +1,11 @@
 <extends src="layout.html">
   <block name="content">
     <div class="content">
-      <include src="includes/bit_bazaar_logo.svg"></include>
+      <header>
+        <div class="container">
+          <include src="includes/logos.html"></include>
+        </div>
+      </header>
       <div id="app-nav">
         <a href="#games-and-zines">Games/Zines/Comics</a> ▼ <a href="#food">Food/Beverage Vendors</a>
       </div>
@@ -44,7 +48,7 @@
                     </div>
                     <div class="radio">
                       <label>
-                        <input type="radio" name="category" value="comics" ><i class="helper"></i>Comics, zines, books and other printed matter
+                        <input type="radio" name="category" value="comics" ><i class="helper"></i>Tech zine (comics, books, other printed matter ok!)
                       </label>
                     </div>
                   </div>

@@ -64,21 +64,28 @@ p.lead {
   line-height: 1.8;
   font-size: calc(12px + .7vw);
   @nest & b {
-    display: block;
+    display: block;border-bottom: 1px solid #000;
   }
 
 }
 #app-nav {
 
-    text-align: center;
-    font-size: 28px;
-    margin: 2rem 0;
+  text-align: center;
+  font-size: 28px;
+  margin: 2rem 0;
 
 }
 .columnar {
   border-bottom: solid 3px #207DFC;
   padding-bottom: 4px;
-  font-size: 26px;
+  font-size: 18px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  @media (--tablet), (--desktop) {
+    width: 400px;
+    font-size: 26px;
+  }
   & .row {
     display: flex;
     text-align: right;
@@ -324,13 +331,12 @@ body.info {
 
 #logo {
   width: 80%;
-  margin: 2rem auto;
   @nest & path {
     fill: var(--color-blue);
   }
   @media (--tablet), (--desktop) {
-    width: 300px;
-}
+    width: 200px;
+  }
 }
 
 @define-mixin name {
@@ -359,7 +365,6 @@ header {
   @nest & .intro-text > div {
     padding: 10px;
     flex: 1 1 0;
-    text-align: center;
   }
   @nest & .intro-text {
     @media (--tablet), (--desktop), (--desktop-xl) {
@@ -367,16 +372,16 @@ header {
       justify-content: space-evenly;
       display: flex;
     };
-    font-size: calc(12px + 2vw);
+    font-size: calc(12px + 1vw);
 
 
   }
   @nest & .logos {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 3rem;
-    flex-direction: column;
+    flex-direction: row;
 
 
     @nest & .x {
@@ -386,7 +391,7 @@ header {
 
       font-family: 'Old Standard TT';
     }
-    @nest & img {
+    @nest & img, & svg {
       max-width: 200px;
       margin: 1rem;
     }
@@ -435,12 +440,14 @@ header {
       margin: 0;
     }
     &#action {
-      margin: 0 auto 0 auto;
+      margin: 0 auto 3rem auto;
       width: 100%;
       text-align: center;
+      display: flex;
 
       @nest & p {
-        margin: 0
+        margin: 0 auto 1rem auto;
+        display: flex;
       }
     }
     &#about {
@@ -568,7 +575,7 @@ h3 {
   }
   @nest & span.day, & span.year {
     font-size: calc(16px + .05vw);
-display: none;
+    display: none;
     font-weight: normal;
 
     letter-spacing: 1px;
@@ -604,10 +611,17 @@ p.time {
   font-family: 'IBM Plex Mono'
 }
 #thank-you {
-
+  @nest & .thanks-text {
+    padding: 0 3rem;
+  }
+  @nest & .thanks-text p {
+    text-align: center;
+    font-size: calc(32px + .7vw);
+  }
   @nest & h3 {
 
     display: block;
+
     font-size: calc(42px + .7vw);
 
   }
