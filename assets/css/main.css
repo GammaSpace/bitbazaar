@@ -392,7 +392,10 @@ header {
     }
     @nest & img, & svg {
       max-width: 200px;
-    }
+
+      min-height: 100px;
+
+      height: auto;    }
   }
 
   position: relative;
