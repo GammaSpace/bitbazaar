@@ -140,6 +140,9 @@ a {
 
 #lineup {
   background-color: #eee;
+ 
+
+
   @nest & h2 {
     text-align: center;
     font-size: 28px;
@@ -172,19 +175,70 @@ a {
 .lineup {
   margin: 0;
   list-style: none;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 12px;
+  padding: 0;
   @media (--tablet), (--desktop) {
-    padding: 3rem;
+    /* padding: 3rem; */
   }
-  &.games { background: color-mod(var(--color-flamingo) tint(60%)) }
+  /* &.games { background: color-mod(var(--color-flamingo) tint(60%)) }
   &.food { background: color-mod(var(--color-red) tint(90%)) }
   &.comics { background: color-mod(var(--color-teal) tint(80%)) }
   &.art { background: #000 }
-  &.yami-ichi { background: #fff; }
+  &.yami-ichi { background: #fff; } */
 
   @nest & li {
-    margin: 0 0 10px 0;
     padding: 0;
+    
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    @nest &:nth-child(3n) {
+      @nest & .content h4 {
+        color: #FF96B6;
+        transform: rotate(3deg);
+      }
+    }    @nest &:nth-child(5n) {
+      @nest & .content h4 {
+        color: #ADDADD;
+        transform: rotate(5deg);
+      }
+    }
+    @nest &:nth-child(6n), &:first-child {
+      @nest & .content h4 {
+        color: #EACEAC;
+        transform: rotate(-4deg);
+      }
+    }
+    @nest &:nth-child(7n) {
+      @nest & .content h4 {
+        color: #F9FD50;
+        transform: rotate(-4deg);
+      }
+    }
+    @nest & .content {
+      width: 100%;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @nest & h4 {
+        background: #000;
+        color: #fff;
+        padding: 4px 8px;
+        @nest & small.category {
+          text-transform: uppercase;
+          font-size: 12px;
+          letter-spacing: 1px;
+        }
+        @nest & small.creators:not(:empty):not(:last-child):after {
+          content: " + ";
+        
+        }
+      }
+    }
     @media (--tablet), (--desktop), (--desktop-xl) {
       display: flex;
       margin: 0;
@@ -193,6 +247,8 @@ a {
     }
   }
 }
+
+
 .legend {
   align-items: top;
   justify-content: space-around;
@@ -663,3 +719,4 @@ header {
     margin: 0 auto 2rem auto;
     line-height: normal;
   }
+

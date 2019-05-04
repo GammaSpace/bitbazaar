@@ -10,16 +10,10 @@ const postcssMixins = require('postcss-mixins')
 const postcssColorFunc = require('postcss-color-mod-function')
 const markdownItAttrs = require('markdown-it-attrs')
 
+const env = process.env.SPIKE_ENV
+const Records = require('spike-records')
 const locals = {}
 
-const Dato = new SpikeDatoCMS({
-  addDataTo: locals,
-  token: process.env.dato_api_key,
-  models: [{
-    name: 'project'
-  }],
-  json: 'data.json'
-})
 
 module.exports = {
   devtool: 'source-map',
@@ -32,10 +26,34 @@ module.exports = {
   }),
   postcss: cssStandards({
     appendPlugins: [postcssMixins(), postcssColorFunc()],
-    locals: { Dato }
 
   }),
   babel: jsStandards(),
-  plugins: [ Dato ]
-
+  plugins: [
+    new Records({
+      addDataTo: locals,
+      projects: {
+        graphql: {
+          url: 'https://graphql.datocms.com/',
+          query: ` {
+            allProjects(filter: {editions: {eq: "950754"}}, orderBy: [name_ASC], first: 100) {
+              name
+              category
+              creator { name }
+              image { url }
+            }
+          }`,
+          variables: {
+            startDate: new Date()
+          },
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+            Authorization: 'Bearer c7beb611e7b4ed9a3c3015e12875a0'
+          }
+        },
+        transform: (res) => res.data.allProjects
+      }
+    })
+  ]
 }

@@ -38,17 +38,33 @@
               <p class="time">12-7pm</p>
             </div>
           </div>
+
           <div id="sections" class="content" role="main">
-            <section id="action">
-              <p>
-                <a href="/apply" class="button">Apply to Table</a>
-              </p>
-            </section>
+
+            <ol class="lineup games">
+              <each loop="project in projects">
+                <li style='{{ project.image ? "background-image: url(" + project.image.url + "?htn=2&fit=crop&w=400)" : "background-color: #0C60CE"}}'>
+                  <div class="content">
+
+                    <h4>
+                      <small class="category">{{ project.category }}</small><br>
+                      {{ project.name }}<br>
+                      <if condition="project.creator[0].name !== project.name">
+                        <each loop="creator in project.creator">
+                          <small class="creators">{{ creator.name }}</small>
+                        </each>
+                      </if>
+                    </h4>
+                  </div>
+                </li>
+              </each>
+            </ol>
           </div>
           <div class="intro-text">
             <div class="bb">
               <div class="text">
-                <p><b>Bit Bazaar</b> is a free one-day fair showcasing Toronto's indie game designers, comic artists, zine-makers and DIY creators – with tasty snacks &amp; sips by members of our community.</p>
+                <p><b>Bit Bazaar</b> is a free one-day fair showcasing Toronto's indie game designers, comic artists,
+                  zine-makers and DIY creators – with tasty snacks &amp; sips by members of our community.</p>
                 <p>Meet the makers, hand them money, swap a zine – or just make some cool new friends!</p>
 
               </div>
@@ -59,9 +75,11 @@
 
             <div class="ttz">
 
-              <p><b>Toronto Tech Zines</b> (TTZ) is a unique gathering space for everyone from artists to coders and illustrators to activists— anyone who wants to think about technology on paper.</p>
-                <p>TTZ is a place for zines about internet infrastructure, love, surveillance, gentrification, dance, futurism, accessibility, games, race, food, geometry, indigineity, instagram, earth, and more.</p>
-                <p>A project by <a href="https://onesandzeros.ca/">Ones and Zeroes</a>.</p>
+              <p><b>Toronto Tech Zines</b> (TTZ) is a unique gathering space for everyone from artists to coders and
+                illustrators to activists— anyone who wants to think about technology on paper.</p>
+              <p>TTZ is a place for zines about internet infrastructure, love, surveillance, gentrification, dance,
+                futurism, accessibility, games, race, food, geometry, indigineity, instagram, earth, and more.</p>
+              <p>A project by <a href="https://onesandzeros.ca/">Ones and Zeroes</a>.</p>
 
             </div>
           </div>
