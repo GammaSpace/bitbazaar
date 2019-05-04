@@ -53,12 +53,23 @@ html {
 }
 h1,h2,h3,h4, p.lead {
   font-weight: 200;
-  font-family: 'IBM Plex Mono', Courier, 'Courier New', monospace;
+  /* font-family: 'IBM Plex Mono', Courier, 'Courier New', monospace; */
 
 
 }
 h2, h3 {
   color: #3455F5
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @media (--tablet), (--desktop) {
+  font-size: 42px;
+}
+
 }
 p.lead {
   line-height: 1.8;
@@ -102,6 +113,7 @@ p.lead {
 body {
   font-family: 'Old Standard TT', serif;
   font-size: 20px;
+  margin: 0;
   @media (--tablet), (--desktop) {
     font-size: 18px;
   }
@@ -111,10 +123,7 @@ body {
   color: #000;
   background-color: #fff;
   text-rendering: optimizeLegibility;
-  margin: 0 0 4vh 0;
-  @media only screen and (min-width: 37.5em) {
 
-  }
   & span.highlight {
     background: var(--color-yellow)
 
@@ -127,14 +136,7 @@ body {
 a {
   color: inherit;
 }
-#intro, header {
-  p:first-of-type {
 
-    font-size: calc(12px + .7vw);
-
-
-  }
-}
 
 
 
@@ -175,12 +177,15 @@ a {
 .lineup {
   margin: 0;
   list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 12px;
-  padding: 0;
+  padding: 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 0;
   @media (--tablet), (--desktop) {
-    /* padding: 3rem; */
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
   }
   /* &.games { background: color-mod(var(--color-flamingo) tint(60%)) }
   &.food { background: color-mod(var(--color-red) tint(90%)) }
@@ -190,11 +195,12 @@ a {
 
   @nest & li {
     padding: 0;
-    
-    height: 200px;
+    /* height: 200px; */
     background-size: cover;
     background-position: center center;
     display: flex;
+    flex: 1 1 auto;
+    width: 100%;
     @nest &:nth-child(3n) {
       @nest & .content h4 {
         color: #FF96B6;
@@ -224,18 +230,30 @@ a {
       display: flex;
       align-items: center;
       justify-content: center;
+      @nest & a {
+        height: 100%;
+        width: 100%;
+      }
       @nest & h4 {
-        background: #000;
         color: #fff;
-        padding: 4px 8px;
+        font-size: 28px;
+
+        @nest & > * {
+          background: #000;
+          padding: 4px 8px;
+        }
+        @nest & small {
+          font-size: 14px;
+          font-family: 'IBM Plex Mono', Courier, 'Courier New', monospace;
+
+        }
         @nest & small.category {
           text-transform: uppercase;
           font-size: 12px;
           letter-spacing: 1px;
         }
-        @nest & small.creators:not(:empty):not(:last-child):after {
+        @nest & .creators:not(:empty):not(:last-child):after {
           content: " + ";
-        
         }
       }
     }
@@ -401,10 +419,10 @@ body.info {
 }
 .info {
   width: 100%;
-  background: var(--color-yellow);
-  color: #000;
+  background: #FFE7EA;
+  color: #0C60CE;
   padding: 10px 0;
-  margin: 0 0 1rem;
+  margin: 0;
   @nest & p {
     font-size: 14px;
     text-align: center;
@@ -413,20 +431,34 @@ body.info {
   }
 }
 header {
-
+  @nest & .container {
+    display: flex;
+    margin: 3rem auto;
+    padding: 0 3rem;
+    flex-wrap: wrap;
+    
+  }
   @nest & h4 {
     text-align: center
   }
-  @nest & .intro-text > div {
-    padding: 10px;
+  @nest & .about-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  @nest & .about-text .content > div {
+    padding: 24px;
+    width: 50%;
     flex: 1 1 0;
   }
-  @nest & .intro-text {
+  @nest & .about-text .content {
     @media (--tablet), (--desktop), (--desktop-xl) {
+      
+      margin: 0 auto;
       align-items: top;
       justify-content: space-evenly;
       display: flex;
-    };
+    }
     font-size: calc(12px + 1vw);
 
 
@@ -435,8 +467,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
     flex-direction: row;
+    flex: 1 1 auto;
+    margin: 0 0 3rem 0;
+    @media (--tablet), (--desktop) {
+      margin: 0;
+      width: 50%;
+    }
 
 
     @nest & .x {
@@ -449,12 +486,13 @@ header {
     @nest & img, & svg {
       max-width: 200px;
 
-      min-height: 100px;
+      /* min-height: 100px; */
 
       height: auto;
       display: block;
 
-      width: 40%;    }
+      width: 40%;
+          }
     }
 
     position: relative;
@@ -548,21 +586,32 @@ header {
   img {
     max-width: 100%;
   }
-  .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-
-  }
+  
 
   footer {
-    margin: 3rem;
-    text-align: center;
+    background-color: #EACEAC;
+    text-align: left;
+    @nest & div.container {
+      display: flex;
+      @nest & div {
+        flex: 1 1 auto;
+      }
+    @nest & h4 {
+      font-weight: 900;
+      font-family: 'IBM Plex Mono', Courier, 'Courier New', monospace;
+    }
+    }
 
   }
 
   .schedule {
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
+    flex: 1 1 auto;
+    justify-items: center;
+    align-items: center;
+    @media (--tablet), (--desktop) {
+      width: 50%;
+    }
     @media (--tablet), (--desktop) {
       /* margin: 4rem auto; */
       display: flex;
@@ -643,7 +692,7 @@ header {
     font-style: normal;
     font-weight: 900;
     letter-spacing: -1px;
-    color: var(--color-green);
+    color: var(--color-blue);
     font-size: 32px;
   }
   .saturday {
@@ -653,7 +702,7 @@ header {
   }
   p.time {
     font-size: 32px;
-    color: var(--color-light-green);
+    /* color: var(--color-light-green); */
     @media (--tablet), (--desktop) {
       font-size: 48px;
     }

@@ -36,9 +36,10 @@ module.exports = {
         graphql: {
           url: 'https://graphql.datocms.com/',
           query: ` {
-            allProjects(filter: {editions: {eq: "950754"}}, orderBy: [name_ASC], first: 100) {
+            allProjects(filter: {editions: {eq: "950754"}}, orderBy: [id_DESC], first: 100) {
               name
               category
+              link
               creator { name }
               image { url }
             }
