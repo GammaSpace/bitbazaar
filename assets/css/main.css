@@ -220,8 +220,7 @@ a {
   flex-wrap: wrap;
   grid-gap: 0;
 
-  @media (--tablet),
-  (--desktop) {
+  @media (--tablet), (--desktop) {
     display: grid;
     /* padding: 0; */
     grid-template-columns: 1fr 1fr 1fr;
@@ -437,19 +436,21 @@ ul {
       }
     }
   }
-
-  &.social {
+  @nest &.social {
     margin: 0;
     padding: 0;
     list-style: none;
     text-indent: 0;
 
     & li {
-      margin: 0 4px;
-      display: inline;
+      /* margin: 0 4px; */
+      display: flex;
 
       & a {
         text-decoration: none;
+        background: #fff;
+        display: flex;
+        font-size: 40px;
       }
 
       &:before {}
@@ -545,20 +546,24 @@ h4 {
 
 .about-text .about-content>div {
   padding: 24px;
-  width: 50%;
   flex: 1 1 0;
+  @media (--tablet), (--desktop) {
+  width: 50%;
+  
+}
 }
 
 .about-text .about-content {
 
-  @media (--tablet),
-  (--desktop),
-  (--desktop-xl) {
-
+  @media (--tablet), (--desktop), (--desktop-xl) {
     margin: 0 auto;
     align-items: top;
     justify-content: space-evenly;
     display: flex;
+  }
+  @nest & .logo {
+    width: 120px;
+    height: auto;
   }
 
   font-size: calc(12px + 1vw);
@@ -722,6 +727,7 @@ img {
 footer {
   background-color: #EACEAC;
   text-align: left;
+  margin-top: 3rem;
   background-image: url(https://www.datocms-assets.com/6140/1557003035-photo.jpg?bm=darken&fit=crop&w=1200&htn=2&blend64=I0FEREFERA);
   background-size: cover;
   background-position: center center;
@@ -730,6 +736,7 @@ footer {
   background-color: #fff;
   padding: 4px 8px;
   display: inline-block;
+  align-self: center;
 }
   @nest & a, & span {
     background: #fff;
@@ -737,14 +744,24 @@ footer {
   }
   @nest & div.container {
     display: flex;
+    flex-wrap: wrap;
 
     @nest & div {
       flex: 1 1 auto;
+    width: 100%;
+    @media (--tablet), (--desktop) {
+  max-width: 33%;
+}
 
     }
 
     @nest & h4 {
       font-weight: 900;
+      background: #CAF5C7;
+
+display: inline-block;
+
+padding: 2px 8px;
       font-family: 'IBM Plex Mono', Courier, 'Courier New', monospace;
     }
   }
