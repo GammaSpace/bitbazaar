@@ -38,8 +38,9 @@
               <a href="{{ project.link ? project.link : '#'}}" target="_blank">
                 <h4>
                   <small class="category">{{ project.category }}</small><br>
-                  <name>{{ project.name }}</name><br>
+                  <name>{{ project.name }}</name>
                   <if condition="project.creator[0].name !== project.name">
+                    <br>
                     <small class="creators">
                       <each loop="creator in project.creator">
                         <span class="creators">{{ creator.name }}</span>
@@ -55,7 +56,7 @@
     </div>
     <div class="about-text" id="about">
       <h2>About</h2>
-      <div class="content">
+      <div class="about-content">
         <div class="bb">
           <div class="text">
             <p><b>Bit Bazaar</b> is a free one-day fair showcasing Toronto's indie game designers, comic artists,
@@ -63,9 +64,9 @@
             <p>Meet the makers, hand them money, swap a zine – or just make some cool new friends!</p>
             <p>Bit Bazaar is a project by <a href="https://www.gammaspace.ca">Gamma Space</a>.</p>
           </div>
-          <div class="images">
-            <img src="/img/photo.jpg" alt="">
-          </div>
+
+          <include src="includes/gamma_space_logo_black.html"></include>
+
         </div>
 
         <div class="ttz">
@@ -74,8 +75,10 @@
             illustrators to activists— anyone who wants to think about technology on paper.</p>
           <p>TTZ is a place for zines about internet infrastructure, love, surveillance, gentrification, dance,
             futurism, accessibility, games, race, food, geometry, indigineity, instagram, earth, and more.</p>
-          <p>TTZ is a project by <a href="https://onesandzeros.ca/">Ones and Zeroes</a>.</p>
+          <p>TTZ is a project by <a href="https://onesandzeros.ca/">Ones and Zeros</a>.</p>
+          <img src="/img/logo.png" alt="">
         </div>
+
       </div>
     </div>
 
