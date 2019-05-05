@@ -40,6 +40,7 @@ module.exports = {
               name
               category
               link
+              slug
               creator { name }
               image { url }
             }

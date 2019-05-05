@@ -1,4 +1,10 @@
 <extends src="layout.html">
+  <block name="head">
+    <each loop="project in projects">
+      <link rel="stylesheet"
+        href='{{ project.image ? project.image.url + "?w=640&h=320&fit=crop&palette=css&colors=1&class=" + project.slug : "" }}'>
+    </each>
+  </block>
   <block name="content">
 
     <header>
@@ -23,11 +29,15 @@
       <h2>Exhibitors</h2>
       <ol class="lineup">
         <each loop="project in projects">
+
+
           <li
             style='{{ project.image ? "background-image: url(" + project.image.url + "?htn=2&fit=crop&w=400)" : "background-color: #0C60CE" }}'>
+
+
             <div class="content">
               <a href="{{ project.link ? project.link : '#'}}" target="_blank">
-                <h4>
+                <h4 class="{{ project.image ? project.slug + '-fg-vibrant-light' : '' }}">
                   <small class="category">{{ project.category }}</small><br>
                   <name>{{ project.name }}</name>
                   <if condition="project.creator[0].name !== project.name">
