@@ -1,6 +1,9 @@
 @import "bb_grid.css";
 @import "forms.css";
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700|Old+Standard+TT:400,400i,700');
+
+
+
 /* @import "schedule"; */
 
 :root {
@@ -728,7 +731,7 @@ footer {
   background-color: #EACEAC;
   text-align: left;
   margin-top: 3rem;
-  background-image: url(https://www.datocms-assets.com/6140/1557003035-photo.jpg?bm=darken&fit=crop&w=1200&htn=2&blend64=I0FEREFERA);
+  background-image: url(https://www.datocms-assets.com/6140/1557003035-photo.jpg?bm=darken&fit=crop&w=900&htn=2&blend64=I0FEREFERA&auto=compress);
   background-size: cover;
   background-position: center center;
 @nest & p {
@@ -738,9 +741,24 @@ footer {
   display: inline-block;
   align-self: center;
 }
+
+  @nest & li {
+    line-height: 1;
+  }
+  @nest & a {
+     background: #FFE7EA;
+  }
+  @nest & span {
+     background: #fff;
+  }
   @nest & a, & span {
-    background: #fff;
+   
     padding: 4px 8px;
+    text-decoration: none;
+  }
+  @nest & a:hover {
+    background: #000;
+    color: #fff;
   }
   @nest & div.container {
     display: flex;

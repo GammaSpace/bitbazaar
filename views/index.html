@@ -1,10 +1,14 @@
 <extends src="layout.html">
   <block name="head">
     <each loop="project in projects">
-      <link rel="stylesheet"
-        href='{{ project.image ? project.image.url + "?w=640&h=320&fit=crop&palette=css&colors=1&class=" + project.slug : "" }}'>
+      <if condition="project.image">
+        <link rel="stylesheet" href='{{ project.image ? project.image.url + "?w=640&h=320&fit=crop&palette=css&colors=1&class=" + project.slug : "" }}'>
+      </if>
     </each>
+
+
   </block>
+
   <block name="content">
 
     <header>
@@ -32,7 +36,7 @@
 
 
           <li
-            style='{{ project.image ? "background-image: url(" + project.image.url + "?htn=2&fit=crop&w=400)" : "background-color: #0C60CE" }}'>
+            style='{{ project.image ? "background-image: url(" + project.image.url + "?htn=2&fit=crop&w=400&auto=compress)" : "background-color: #0C60CE" }}'>
 
 
             <div class="content">
