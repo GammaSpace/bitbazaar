@@ -33,12 +33,7 @@
       <h2>Exhibitors</h2>
       <ol class="lineup">
         <each loop="project in projects">
-
-
-          <li
-            style='{{ project.image ? "background-image: url(" + project.image.url + "?htn=2&fit=crop&w=400&auto=compress)" : "background-color: #0C60CE" }}'>
-
-
+          <li class="lazy project" id="{{ project.slug }}" data-bg='{{ project.image ? "url(" + project.image.url + "?htn=2&fit=crop&w=400&auto=compress)" : "url(https://www.datocms-assets.com/6140/1557085539-17524702471b09358e7c5k.jpg?htn=2&fit=crop&w=400&auto=compress)" }}'>
             <div class="content">
               <a href="{{ project.link ? project.link : '#'}}" target="_blank">
                 <h4 class="{{ project.image ? project.slug + '-fg-vibrant-light' : '' }}">
@@ -70,7 +65,6 @@
             <p>Bit Bazaar is a project by <a href="https://www.gammaspace.ca">Gamma Space</a>.</p>
           </div>
           <div class="logo">
-
             <include src="includes/gamma_space_logo_black.html"></include>
           </div>
         </div>
@@ -84,8 +78,6 @@
           <p>TTZ is a project by <a href="https://onesandzeros.ca/">Ones and Zeros</a>.</p>
 
           <div class="logo">
-
-
             <img src="/img/logo.png" alt="">
           </div>
         </div>

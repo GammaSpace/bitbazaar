@@ -229,7 +229,11 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 12px;
   }
-
+@nest & .project {
+  a, a:link, a:hover {
+    text-decoration: none !important;
+  }
+}
   /* &.games { background: color-mod(var(--color-flamingo) tint(60%)) }
   &.food { background: color-mod(var(--color-red) tint(90%)) }
   &.comics { background: color-mod(var(--color-teal) tint(80%)) }
@@ -731,7 +735,7 @@ footer {
   background-color: #EACEAC;
   text-align: left;
   margin-top: 3rem;
-  background-image: url(https://www.datocms-assets.com/6140/1557003035-photo.jpg?bm=darken&fit=crop&w=900&htn=2&blend64=I0FEREFERA&auto=compress);
+  
   background-size: cover;
   background-position: center center;
 @nest & p {
