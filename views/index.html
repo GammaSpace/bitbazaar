@@ -2,7 +2,8 @@
   <block name="head">
     <each loop="project in projects">
       <if condition="project.image">
-        <link rel="stylesheet" href='{{ project.image ? project.image.url + "?w=640&h=320&fit=crop&palette=css&colors=1&class=" + project.slug : "" }}'>
+        <link rel="stylesheet"
+          href='{{ project.image ? project.image.url + "?w=640&h=320&fit=crop&palette=css&colors=1&class=" + project.slug : "" }}'>
       </if>
     </each>
 
@@ -22,37 +23,42 @@
               <span class="year"> 2019 </span>
             </h3>
             <p class="time">12-7pm</p>
-            <div><a href="https://www.tomediaarts.org/" target="_blank">Toronto Media Arts Centre</a> ▾ 32 Lisgar
-              Street</div>
+            <div class="venue"><a href="https://www.tomediaarts.org/" target="_blank">Toronto Media Arts
+                Centre</a><span> ▾ 32 Lisgar Street</span>
+            </div>
           </div>
         </div>
       </div>
 
     </header>
     <div id="sections" class="content" role="main">
-      <h2>Exhibitors</h2>
-      <ol class="lineup">
-        <each loop="project in projects">
-          <li class="lazy project" id="{{ project.slug }}" data-bg='{{ project.image ? "url(" + project.image.url + "?htn=2&fit=crop&w=400&auto=compress)" : "url(https://www.datocms-assets.com/6140/1557085539-17524702471b09358e7c5k.jpg?htn=2&fit=crop&w=400&auto=compress)" }}'>
-            <div class="content">
-              <a href="{{ project.link ? project.link : '#'}}" target="_blank">
-                <h4 class="{{ project.image ? project.slug + '-fg-vibrant-light' : '' }}">
-                  <small class="category">{{ project.category }}</small><br>
-                  <name>{{ project.name }}</name>
-                  <if condition="project.creator[0].name !== project.name">
-                    <br>
-                    <small class="creators">
-                      <each loop="creator in project.creator">
-                        <span class="creators">{{ creator.name }}</span>
-                      </each>
-                    </small>
-                  </if>
-                </h4>
-              </a>
-            </div>
-          </li>
-        </each>
-      </ol>
+      <div id="exhibitors">
+        <h2>Exhibitors</h2>
+        <p>More games, comics, zines, and food vendors to be announced soon!</p>
+        <ol class="lineup">
+          <each loop="project in projects">
+            <li class="lazy project" id="{{ project.slug }}"
+              data-bg='{{ project.image ? "url(" + project.image.url + "?htn=2&fit=crop&w=400&auto=compress)" : "url(https://www.datocms-assets.com/6140/1557085539-17524702471b09358e7c5k.jpg?htn=2&fit=crop&w=400&auto=compress)" }}'>
+              <div class="content">
+                <a href="{{ project.link ? project.link : '#'}}" target="_blank">
+                  <h4 class="{{ project.image ? project.slug + '-fg-vibrant-light' : '' }}">
+                    <small class="category">{{ project.category }}</small><br>
+                    <name>{{ project.name }}</name>
+                    <if condition="project.creator[0].name !== project.name">
+                      <br>
+                      <small class="creators">
+                        <each loop="creator in project.creator">
+                          <span class="creators">{{ creator.name }}</span>
+                        </each>
+                      </small>
+                    </if>
+                  </h4>
+                </a>
+              </div>
+            </li>
+          </each>
+        </ol>
+      </div>
     </div>
     <div class="about-text" id="about">
       <h2>About</h2>

@@ -24,7 +24,7 @@
   --color-indigo: #5949C6;
 
   --color-yellow: #f9fd50;
-  --color-blue: #0C60CE;
+  --color-blue: #3455F5;
   --color-green: #00bd56;
   --color-light-green: #85ef47;
 
@@ -71,7 +71,7 @@ p.lead {
 
 h2,
 h3 {
-  color: #3455F5
+  color: var(--color-blue)
 }
 
 h2 {
@@ -249,16 +249,27 @@ a {
     flex: 1 1 auto;
     width: 100%;
 
+    @nest &:nth-child(2n) {
+      @nest & .content h4 {
+        /* color: #FF96B6; */
+        transform: rotate(2deg);
+      }
+    }
     @nest &:nth-child(3n) {
       @nest & .content h4 {
-        color: #FF96B6;
+        /* color: #FF96B6; */
         transform: rotate(3deg);
+      }
+    }
+    @nest &:nth-child(4n) {
+      @nest & .content h4 {
+        transform: rotate(-2deg);
       }
     }
 
     @nest &:nth-child(5n) {
       @nest & .content h4 {
-        color: #ADDADD;
+        /* color: #ADDADD; */
         transform: rotate(5deg);
       }
     }
@@ -266,14 +277,14 @@ a {
     @nest &:nth-child(6n),
     &:first-child {
       @nest & .content h4 {
-        color: #EACEAC;
+        /* color: #EACEAC; */
         transform: rotate(-4deg);
       }
     }
 
     @nest &:nth-child(7n) {
       @nest & .content h4 {
-        color: #F9FD50;
+        /* color: #F9FD50; */
         transform: rotate(-4deg);
       }
     }
@@ -663,7 +674,16 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-flow: column nowrap;
-
+  @nest & #exhibitors {
+    @nest & h2 {
+      margin-bottom: 0;
+    }
+    @nest & p {
+      color: var(--color-blue);
+      font-size: 22px;
+      text-align: center;
+    }
+  }
   @nest & section {
     margin: 3rem 0 0;
 
@@ -916,7 +936,9 @@ h3 {
     margin-top: 3rem;
   }
 }
-
+.venue span {
+  white-space: nowrap;
+}
 p.time {
   font-size: 32px;
 
