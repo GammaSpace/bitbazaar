@@ -1,86 +1,521 @@
-<extends src="layout.html">
-  <block name="content">
+<!DOCTYPE html>
+<html>
 
-    <header>
-      <div class="container">
+<head>
 
-        <include src="includes/logos.html"></include>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  <script src="bb2013_files/webfont.js" type="text/javascript" async=""></script>
+  <link rel="stylesheet" type="text/css" href="bb2013_files/banner-styles.css">
+  <link rel="stylesheet" type="text/css" href="bb2013_files/iconochive.css">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+  <meta name="google-site-verification" content="1bB_5GjLUwtRRL3piTDtyvszq3lMSHuCmga7ChQhpNM">
+  <meta name="description" content="A unique zine-fair-meets-arcade, presented by TCAF and Bento Miso">
+  <meta name="keywords" content="bit bazaar, indie games, zine fair, toronto indie games">
+  <meta name="author" content="">
+
+  <title>
+    Bit Bazaar: A unique celebration of the art and craft of indie games in the tradition of zine fairs.
+  </title>
+
+  <link rel="stylesheet" href="bb2013_files/29137.css" type="text/css">
 
 
 
-        <div class="schedule">
-          <div class="friday date">
-            <h3>
-              <span class="day">
-                Saturday
-              </span>
-              <span class="date">
-                June 22
-              </span>
-              <span class="year">
-                2019
-              </span>
-            </h3>
-            <p class="time">12-7pm</p>
-            <div><a href="https://www.tomediaarts.org/" target="_blank">Toronto Media Arts Centre</a> ▾ 32 Lisgar
-              Street</div>
-          </div>
+  <link rel="stylesheet" href="bb2013_files/bitbazaar.css" type="text/css" media="screen" title="no title"
+    charset="utf-8">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS"
+    href="https://web.archive.org/web/20160406103741/https://bentomiso.com/rss/">
+  <script type="text/javascript" src="bb2013_files/jquery_003.js"></script>
+
+
+
+  <style id="holderjs-style" type="text/css"></style>
+</head>
+
+
+
+<body id="bit-bazaar-spring-fair-2013" class="bit-bazaar" style="padding-right: 1px;">
+
+  <div class="wrapper">
+    <!-- Masthead
+      ================================================== -->
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-2 content">
+
+          <img class="img-responsive" src="bb2013_files/logo.gif" alt="Bit Bazaar">
+
+          <p class="lead"><a href="https://web.archive.org/web/20160406103741/http://torontocomics.com/">TCAF</a> and
+            Bento Miso are teaming up to present the first-ever Bit Bazaar on <strong>Saturday, May 11, 2013</strong>,
+            part of Comics Vs. Games 2.</p>
+
+          <img class="img-responsive" src="bb2013_files/arrow.gif" alt="Arrow image" id="arrow">
+          <img class="img-responsive" src="bb2013_files/comics_vs_games_logo_bw_300px.png" alt="Comics Vs. Games 2">
+
+          <p id="attribution">Comics Vs. Games 2 is a <a
+              href="https://web.archive.org/web/20160406103741/http://torontocomics.com/">Toronto Comic Arts
+              Festival</a> event sponsored by <a
+              href="https://web.archive.org/web/20160406103741/https://bentomiso.com/">Bento Miso</a> and co-organized
+            with <a href="https://web.archive.org/web/20160406103741/http://handeyesociety.com/">The Hand Eye
+              Society</a> and <a href="https://web.archive.org/web/20160406103741/http://attractmo.de/">Attract
+              Mode</a>.</p>
+
+          <img class="img-responsive" src="bb2013_files/tcaf_logo.gif" alt="">
+
         </div>
-      </div>
+        <div class="col-md-4 content">
 
-    </header>
-    <div id="sections" class="content" role="main">
-      <h2>Exhibitors</h2>
-      <ol class="lineup">
-        <each loop="project in projects">
-          <li style='{{ project.image ? "background-image: url(" + project.image.url + "?htn=2&fit=crop&w=400)" : "background-color: #0C60CE" }}'>
-            <div class="content">
-              <a href="{{ project.link ? project.link : '#'}}" target="_blank">
-                <h4>
-                  <small class="category">{{ project.category }}</small><br>
-                  <name>{{ project.name }}</name>
-                  <if condition="project.creator[0].name !== project.name">
-                    <br>
-                    <small class="creators">
-                      <each loop="creator in project.creator">
-                        <span class="creators">{{ creator.name }}</span>
-                      </each>
-                    </small>
-                  </if>
-                </h4>
-              </a>
+          <div class="page-header">
+            <h2>Who + What</h2>
+          </div>
+
+
+
+          <p class="lead">With over 20 independent game developers and studios
+            exhibiting, Bit Bazaar is unique celebration of the art and craft of
+            indie games in the tradition of zine fairs.</p>
+          <p class="">Fans meet the developers behind games they love–and some
+            they don't know about yet–and take home one-of-a-kind, limited-edition
+            merchandise such as <strong>zines, books, comics, t-shirts, posters, mixtapes and toys</strong>.</p>
+
+          <div class="page-header">
+            <h2>Where + When</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-9">
+              <div class="fivews">
+                <p><strong>What:</strong> A unique zine-fair-meets-arcade.</p>
+                <p><strong>When:</strong> Saturday, May 11, from 12-8 p.m.</p>
+                <p><strong>How much:</strong> FREE (but bring $$)</p>
+                <p><strong>Where:</strong> Bento Miso // <a
+                    href="https://web.archive.org/web/20160406103741/https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Bento+Miso&amp;aq=0&amp;oq=bento+&amp;sll=43.644476,-79.41228&amp;sspn=0.006436,0.011501&amp;vpsrc=0&amp;gl=ca&amp;ie=UTF8&amp;hq=Bento+Miso&amp;hnear=&amp;t=m&amp;z=17&amp;iwloc=A&amp;cid=4280401176955102331">862
+                    Richmond Street West</a></p>
+                <p><em>Just south of the gates of Trinity-Bellwoods Park, near Strachan and Richmond.</em></p>
+
+              </div>
+              <img class="img-responsive" src="bb2013_files/map_bento_miso.png" alt="">
             </div>
-          </li>
-        </each>
-      </ol>
-    </div>
-    <div class="about-text" id="about">
-      <h2>About</h2>
-      <div class="about-content">
-        <div class="bb">
-          <div class="text">
-            <p><b>Bit Bazaar</b> is a free one-day fair showcasing Toronto's indie game designers, comic artists,
-              zine-makers and DIY creators – with tasty snacks &amp; sips by members of our community.</p>
-            <p>Meet the makers, hand them money, swap a zine – or just make some cool new friends!</p>
-            <p>Bit Bazaar is a project by <a href="https://www.gammaspace.ca">Gamma Space</a>.</p>
+            <div class="col-md-3"><img class="img-responsive" src="bb2013_files/miso_logo_500x214.png" alt=""></div>
           </div>
 
-          <include src="includes/gamma_space_logo_black.html"></include>
+          <div class="page-header">
+            <h2>Bonus!!</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-9">
+              <p><strong>The Comics Vs. Games Gallery</strong>, presented by <a
+                  href="https://web.archive.org/web/20160406103741/http://attractmo.de/">Attract Mode</a>,
+                will feature a selection of artwork from noted and celebrated
+                cartoonists and illustrators, who have all been asked to explore the the
+                world of video games in a medium that they know best. Curated and
+                organized by <strong>Matt Hawkins</strong> and <strong>Adam Robezzoli</strong>.</p>
+              <p><strong>Original works by:</strong> Natasha Allegri, Lindsay
+                Collins, Ashely Davis, Daniel Dussault, Jacob Ferguson, Kyle Fewell,
+                Chris Furniss, Zac Gorman, Corey Lewis, Giannis Milonogiannis, Kris
+                Mukai, Maré Odomo, John Pham, Aleth Romanillos, Asif Siddiky, Jacob
+                Smiley, Jovo Ve</p>
+              <p>At Bento Miso (862 Richmond St. W.)<br>Opening party: 5/9 at 7 p.m.; Gallery open daily 5/10-5/12.</p>
+            </div>
+            <div class="col-md-3"><img class="img-responsive" src="bb2013_files/attract_mode_logo.png" alt=""></div>
+          </div>
+
+          <hr>
+          <div class="row">
+            <div class="col-md-9">
+              <p><strong>The Comics Vs. Games Showcase</strong>, presented by <a
+                  href="https://web.archive.org/web/20160406103741/http://handeyesociety.com/event/tcaf-comics-vs-games-2-showcase/">The
+                  Hand Eye Society</a>,
+                will spotlight four existing independent games from around the world
+                that borrow structural elements from comics in their game design and
+                presentation. Each of these games explores space, sequence and narrative
+                in unique ways that show great things can happen when the two forms are
+                combined! All four Showcase games will be playable at the TCAF main
+                location for the entire weekend.</p>
+
+
+              <p>At the Toronto Reference Library (789 Yonge Street)<br>5/11 9 a.m. to 5 p.m. and 5/12, 11 a.m. - 5 p.m.
+              </p>
+            </div>
+            <div class="col-md-3"><img class="img-responsive" src="bb2013_files/hand_eye_society_logo.png" alt=""></div>
+          </div>
+
+
+
 
         </div>
+        <div class="col-md-6 content">
+          <div class="page-header">
+            <h2>Exhibitors</h2>
+          </div>
 
-        <div class="ttz">
 
-          <p><b>Toronto Tech Zines</b> (TTZ) is a unique gathering space for everyone from artists to coders and
-            illustrators to activists— anyone who wants to think about technology on paper.</p>
-          <p>TTZ is a place for zines about internet infrastructure, love, surveillance, gentrification, dance,
-            futurism, accessibility, games, race, food, geometry, indigineity, instagram, earth, and more.</p>
-          <p>TTZ is a project by <a href="https://onesandzeros.ca/">Ones and Zeros</a>.</p>
-          <img src="/img/logo.png" alt="">
+
+
+
+          <div class="row plain-gallery isotope" style="position: relative; overflow: hidden; height: 1359px;">
+
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/lovers.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Asteroid Base</h3>
+                  <h4 class="game">Lovers in a Dangerous Spacetime</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(195px, 0px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/sidebar_booth.jpg" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Attract Mode</h3>
+                  <h4 class="game">Various Artists</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(390px, 0px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/capy.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Capy</h3>
+                  <h4 class="game">Super TIME Force</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(390px, 157px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/analogue.jpg" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Christine Love</h3>
+                  <h4 class="game">Analogue: A Hate Story</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(195px, 178px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/google_chrome.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Circuiton World Design</h3>
+                  <h4 class="game">Tower of the Gorillion</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 196px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/tbrs.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Daniel Orellana &amp; Patrick Rainville</h3>
+                  <h4 class="game">TBRS [Turn Based Rhythm Shooter]</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(390px, 334px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/igtced.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">David S. Gallant</h3>
+                  <h4 class="game">I Get This Call Every Day</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(195px, 356px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/dmg.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">DMG</h3>
+                  <h4 class="game">Various</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 414px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/guac.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Drinkbox Studios</h3>
+                  <h4 class="game">Guacamelee</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(390px, 511px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/starseed.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Droqen</h3>
+                  <h4 class="game">Starseed Pilgrim</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(195px, 513px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/yawgh.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Emily Carroll &amp; Damian Sommer</h3>
+                  <h4 class="game">The Yawhg</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 592px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/psxxxyborg.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Hannah Epstein, Sagan Yee + Alex Leitch</h3>
+                  <h4 class="game">PsXXXYborg / McMickey and Air Jordan</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(390px, 668px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/archive.jpg" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Hypermetric Studios</h3>
+                  <h4 class="game">Archive</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(195px, 691px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/jazzpunk.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Luis Hernandez</h3>
+                  <h4 class="game">Jazzpunk</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 830px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/glitchy.gif" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">netgrind</h3>
+                  <h4 class="game">Make Glitchy</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(390px, 846px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/pipetrouble.gif" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Pop Sandbox</h3>
+                  <h4 class="game">Pipe Trouble</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(195px, 848px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/bijouxred.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Revolver Games</h3>
+                  <h4 class="game">Galaxy Parade, Bijoux Red</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 987px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/ghost_hunter.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Rocket 5 Studios</h3>
+                  <h4 class="game">Ghost Hunter, GTO</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(390px, 1003px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/tbp.jpg" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Spooky Squid Games</h3>
+                  <h4 class="game">They Bleed Pixels</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(195px, 1025px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/vectorforbitbazaar.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Team Vector</h3>
+                  <h4 class="game">Various Artists</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 1165px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/rex_rocket.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Tyler Bud &amp; Rob Maher</h3>
+                  <h4 class="game">Rex Rocket</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(390px, 1181px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/spellirum.jpg" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Untold Entertainment</h3>
+                  <h4 class="game">Spellirium</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 isotope-item"
+              style="position: absolute; left: 0px; top: 0px; transform: translate3d(195px, 1182px, 0px);">
+              <div class="thumb">
+
+
+                <img src="bb2013_files/actual_sinlight.png" alt="Name!" class="img-responsive">
+
+
+                <div class="caption">
+                  <h3 class="dev">Will O'Neill</h3>
+                  <h4 class="game">Actual Sunlight</h4>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
         </div>
 
       </div>
     </div>
 
-  </block>
-</extends>
+
+
+
+  </div>
+</body>
+</html>
