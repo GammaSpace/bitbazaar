@@ -9,6 +9,23 @@
   </block>
 
   <block name="content">
+    <ul>
+
+      <each loop="project in projects">
+        <li>
+          
+          <name>{{ project.name }}</name>
+          <if condition="project.creator[0].name !== project.name">
+            <small class="creators">–
+              <each loop="creator in project.creator">
+                <span class="creators">{{ creator.name }}</span>
+              </each>
+            </small>
+          </if>
+        </li>
+      </each>
+    </ul>
+
 
     <header>
       <div class="container">
