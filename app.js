@@ -36,7 +36,7 @@ module.exports = {
         graphql: {
           url: 'https://graphql.datocms.com/',
           query: ` {
-            allProjects(filter: {editions: {eq: "950754"}}, orderBy: [name_ASC], first: 100) {
+            allProjects(filter: {editions: {anyIn: "950754"}}, orderBy: [name_ASC], first: 100) {
               name
               category
               link
