@@ -1,0 +1,39 @@
+<extends src="layout.html">
+  <block name="head">
+    <each loop="project in projects">
+      <if condition="project.image">
+        <link rel="stylesheet"
+          href='{{ project.image ? project.image.url + "?w=640&h=320&fit=crop&palette=css&colors=1&class=" + project.slug : "" }}'>
+      </if>
+    </each>
+  </block>
+
+  <block name="content">
+
+    <div id="sections" class="content" role="main">
+      <div id="exhibitors">
+        <h2>Exhibitors</h2>
+        <table class="lineup">
+          <each loop="project in projects">
+
+
+            <tr class="lazy project" id="{{ project.slug }}">
+              <td>{{ project.category }}</td>
+
+              <td>{{ project.name }}</td>
+              <if condition="project.creator[0].name !== project.name">
+                <td>
+                  <each loop="creator in project.creator">
+                    <span class="creators">{{ creator.name }}</span>
+                  </each>
+                </td>
+              </if>
+
+            </tr>
+          </each>
+        </ol>
+      </div>
+    </div>
+    
+  </block>
+</extends>

@@ -15,6 +15,7 @@
         <include src="includes/logos.html"></include>
         <div class="schedule">
           <div class="friday date">
+
             <h3>
               <span class="day"> Saturday </span>
               <span class="date"> June 22 </span>
@@ -24,15 +25,20 @@
             <div class="venue"><a href="https://www.tomediaarts.org/" target="_blank">Toronto Media Arts
                 Centre</a><span> ▾ 32 Lisgar Street</span>
             </div>
+
           </div>
         </div>
       </div>
-
+      
+      <div class="fb">
+        <button onclick="window.location.href='https://www.facebook.com/events/2548955775132495/';" class="slide">
+          Facebook Event
+        </button>
+      </div>
     </header>
     <div id="sections" class="content" role="main">
       <div id="exhibitors">
         <h2>Exhibitors</h2>
-        <p>More games, comics, zines, and food vendors to be announced soon!</p>
         <ol class="lineup">
           <each loop="project in projects">
             <li class="lazy project" id="{{ project.slug }}"
@@ -43,8 +49,7 @@
                     <small class="category">{{ project.category }}</small><br>
                     <name>{{ project.name }}</name>
                     <if condition="project.creator[0].name !== project.name">
-                      <br>
-                      <small class="creators">
+                      <br><small class="creators">
                         <each loop="creator in project.creator">
                           <span class="creators">{{ creator.name }}</span>
                         </each>
