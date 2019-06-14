@@ -982,7 +982,7 @@ p.time {
 
 #thank-you {
   @nest & .thanks-text {
-    padding: 0 3rem;
+    padding: 3rem;
   }
 
   @nest & .thanks-text p {
