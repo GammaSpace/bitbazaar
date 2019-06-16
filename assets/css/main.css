@@ -587,10 +587,13 @@ h4 {
     display: flex;
   }
   @nest & div.logo {
-    width: 120px;
     background-color: #fff;
     padding: 8px;
     display: flex;
+    width: 120px;
+    @nest & img, & svg {
+      width: 120px;
+    }
 
   }
 
@@ -1087,6 +1090,5 @@ button.slide:hover::before {
   box-sizing: border-box;
   display: inline;
   overflow-wrap: break-word;
-  padding-left: 5px;
-  padding-right: 5px;
+  
 }
