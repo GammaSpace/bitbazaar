@@ -1,0 +1,4914 @@
+{
+  "project": [
+    {
+      "id": "1140596",
+      "name": "Bilgebirds",
+      "creator": {
+        "id": "1140564",
+        "name": "Rosalind + Kaelan"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "*BILGEBIRDS* is a turn-based naval strategy game in which you play seven birds defending their archipelago from a host of Krakens. Flock with a colorful cast of characters, from the eccentric Parrot to the sarcastic Crow. Command a fleet of ships with deep strategic elements including wind speed, currents and procedurally-generated island landscapes. Take up arms against the fearsome Krakens or against a fleet of pirate birds commanded by a friend.",
+      "link": "https://twitter.com/rosalyndmc?lang=en",
+      "contentWarning": false,
+      "slug": "bilgebirdos",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1561045124-2019-06-2011-38-37.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1140575",
+      "name": "BILGEBIRDS",
+      "creator": {
+        "id": "1140564",
+        "name": "Rosalind + Kaelan"
+      },
+      "category": "",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "bilgebirds",
+      "image": null,
+      "editions": []
+    },
+    {
+      "id": "950761",
+      "name": "Space Youth Cadets",
+      "creator": {
+        "id": "321500",
+        "name": "Kelly K"
+      },
+      "category": "Comics",
+      "subCategory": "card game",
+      "description": "LEFTOVERS: Leftover Adventurers!! Band together in this card game to take on sought-after jobs, spread rumours, leave scars, rise amongst your peers,and collect the latest good-lookin gear so you can flaunt your cool while doing it! Prove your worth and no one will leave you behind again.",
+      "link": "http://okaykellyk.com",
+      "contentWarning": false,
+      "slug": "syc",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1560378341-sycoriginal.gif"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951976",
+      "name": "Tacos!",
+      "creator": {
+        "id": "950741",
+        "name": "Santo Pecado"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "\ud83c\udf2e",
+      "link": "http://www.santopecado.ca",
+      "contentWarning": false,
+      "slug": "tacos",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1560367932-39586ffa149a-d0a3-5cea-a993-8f080c3145b6.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002669",
+      "name": "Making TV with BUMP TV",
+      "creator": {
+        "id": "1002665",
+        "name": "BUMP Television"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "A zine all about how to use our analog video green screening gear to make your own DIY TV shows!",
+      "link": "https://www.bumptelevision.com",
+      "contentWarning": false,
+      "slug": "making-tv-with-bump-tv",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558885850-2019-05-2611-50-24.png"
+      },
+      "editions": []
+    },
+    {
+      "id": "950763",
+      "name": "GenArt2Go",
+      "creator": {
+        "id": "950719",
+        "name": "Luc Palombo"
+      },
+      "category": "Art",
+      "subCategory": "",
+      "description": "GenArt2Go is a travelling art project where I create and sell unique algorithmically generated artwork. All of the art is printed on the fly while exhibiting using my custom built 3D printer turned pen plotter.",
+      "link": "https://lucp.xyz/experiments/2019/02/12/genart2go.html",
+      "contentWarning": false,
+      "slug": "genart2go",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556859972-genart2go2.jpg"
+      },
+      "editions": []
+    },
+    {
+      "id": "952002",
+      "name": "Skywell",
+      "creator": {
+        "id": "950752",
+        "name": "Riyo Games"
+      },
+      "category": "Games",
+      "subCategory": "",
+      "description": "A 2.5D building survival game where you play as a single character. In it, you\u2019re able to select any citizen to follow you to then assign to do various actions or turn into various professions \u2013 i.e knight, cook, archer, farmer etc. There's a day night cycle where you defend your settlement at night from attacks and we also have a underlying simulation so you need to manage your populations\u2019 happiness, health and food. ",
+      "link": "",
+      "contentWarning": false,
+      "slug": "skywell",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556939384-skywellfight1.png"
+      },
+      "editions": []
+    },
+    {
+      "id": "1002652",
+      "name": "Atelier",
+      "creator": {
+        "id": "1002647",
+        "name": "Atelier"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "Atelier is a journal made to navigate new media, design, and futures by bringing together the emerging, preferred, and possible \u2013\u00a0that is, efforts that shape cultural horizons.",
+      "link": "https://2019.bitbazaar.world/",
+      "contentWarning": false,
+      "slug": "atelier",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557085539-17524702471b09358e7c5k.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003208",
+      "name": "hello*today",
+      "creator": {
+        "id": "1003207",
+        "name": "eecks"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "hello-today",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558891475-2019-05-2613-23-51.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003206",
+      "name": "Fractally",
+      "creator": {
+        "id": "1003205",
+        "name": "Franky Plata"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "",
+      "link": "https://www.instagram.com/fractalfranky/",
+      "contentWarning": false,
+      "slug": "fractally",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558890906-2019-05-2613-14-56.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003204",
+      "name": "The Fantastical World of Books + more",
+      "creator": {
+        "id": "1003203",
+        "name": "La Lin"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "Much of my work focuses on mental health, fantastical themes, and the interconnection between characters with their nature by visual metaphors. I especially love to work in editorial and children\u2019s illustration. I'm currently studying my last semester of Visual & Digital Arts at Humber College.",
+      "link": "https://www.lalin0901.com/",
+      "contentWarning": false,
+      "slug": "the-fantastical-world-of-books",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558890800-lelinministack3.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003202",
+      "name": "sketch ops",
+      "creator": {
+        "id": "1003201",
+        "name": "Denise Yu"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "",
+      "link": "http://deniseyu.io/art",
+      "contentWarning": false,
+      "slug": "sketch-ops",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558890551-2019-05-2613-08-29.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003190",
+      "name": "Protecting Your Digital Privates",
+      "creator": {
+        "id": "1002697",
+        "name": "Citizen Lab & Friends"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "Illustrated zines and comics that I've made in collaboration with various digital security/anti-surveillance research groups (including the University of Toronto's Citizen Lab).",
+      "link": "https://netalert.me/encrypted-messaging.html",
+      "contentWarning": false,
+      "slug": "protecting-your-digital-privates",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558888344-2019-05-2612-13-51.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002696",
+      "name": "Chance Poetry + more",
+      "creator": {
+        "id": "1002695",
+        "name": "Alyssa Pisciotto"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "I have a number of zines revolving around the theme of digital chance poetry, analog art making, and media. I also make small wairable things like pins, patches, and hair assesories. ",
+      "link": "https://www.instagram.com/that_glitter_chick_",
+      "contentWarning": false,
+      "slug": "papermaking-chance-poetry-more",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558886979-2019-05-2612-09-14.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002694",
+      "name": "Gloomy Series 01 + various",
+      "creator": {
+        "id": "1002693",
+        "name": "Eryn Raimondo"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "Characters, places and objects inspired by interactions with memoir photography, magazines, music, internet and text.",
+      "link": "https://www.erynraimondo.com/zine-gallery",
+      "contentWarning": false,
+      "slug": "gloomy-series-01-various",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558886773-2019-05-2612-06-00.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002692",
+      "name": "Dear Clickhole",
+      "creator": {
+        "id": "1002686",
+        "name": "Rachel McCormick"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "Dear Clickhole is both a love letter to the satirical news site, as well as a not so subtle hint to the hiring department that I can start whenever.",
+      "link": "https://rachelmccormick.myportfolio.com/dear-clickhole",
+      "contentWarning": false,
+      "slug": "dear-clickhole",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558886618-2019-05-2612-01-56.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002678",
+      "name": "How Knitting Machines Work",
+      "creator": {
+        "id": "1002673",
+        "name": "Tom Hobson"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "This zine is an illustrated guide to exactly how electronically and mechanically the popular-with-textile-hackers Brother KH940 knitting machine works, right down to the cams and levers.",
+      "link": "http://bothmoons.com/posts/knit_work.html",
+      "contentWarning": false,
+      "slug": "how-knitting-machines-work",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558886010-2019-05-2611-53-19.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002659",
+      "name": "fellow tinderites + airplanes are weird",
+      "creator": {
+        "id": "1002658",
+        "name": "karen zurek"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "*fellow tinderites* is a series of illustrations exploring self representation and identity curation on digital platforms. \n\n*airplanes are weird* is a brief exploration of how technologies shape social life.\n\n*publication TBD* is a work in progress but will incorporate ecosystems, textiles ",
+      "link": "http://karenzurek.space",
+      "contentWarning": false,
+      "slug": "fellow-tinderites",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558885478-2019-05-2611-44-28.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002657",
+      "name": "in-dunes",
+      "creator": {
+        "id": "1002656",
+        "name": "Ananda Gabo"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "in-dunes, volume 1 is an illustrated/written zine based on the novella by Kobo Abe (*Woman in the Dunes*), about a woman who gets trapped in an abandoned smart city in China. The first volume is a combination of written and drawn work and will be printed in black and white with a riso cover. Final version will be 15 pages.",
+      "link": "https://www.instagram.com/trashhumanist/",
+      "contentWarning": false,
+      "slug": "in-dunes",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558885002-2019-05-2611-36-07.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002646",
+      "name": "A Case Study on the Modern Phenomena Known As N.E.PH.I.LI.M.",
+      "creator": {
+        "id": "1002645",
+        "name": "Crow and Moon Press"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "Lanh Hrafn is a non-binary multimedia artist from the Forest City. Their works explore what happens to knowldge when it is left to decay, either through neglect or deliberate means, and the ramifications these acts have on society. Their most recent series delves into a world where unimaginably sized living machines begin appearing within the Sol System, and their interactions with a now multi-planetary human race.",
+      "link": "https://www.instagram.com/crowandmoonpress/",
+      "contentWarning": false,
+      "slug": "a-case-study-on-the-modern-phenomena-known-as-n-e-ph-i-li-m-interactions-with-the",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558884329-2019-05-2611-25-10.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002644",
+      "name": "Book of Videogame Bosses",
+      "creator": {
+        "id": "1002643",
+        "name": "yudoart"
+      },
+      "category": "Tech Zines",
+      "subCategory": "",
+      "description": "",
+      "link": "http://www.yudoart.com",
+      "contentWarning": false,
+      "slug": "book-of-videogame-bosses",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558884076-2019-05-2611-19-23.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951980",
+      "name": "Bapy",
+      "creator": {
+        "id": "950735",
+        "name": "teamon"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A virtual pet for the year 2019! take care of this infant demon while its health is in freefall!",
+      "link": "https://wonderbreath.itch.io",
+      "contentWarning": false,
+      "slug": "bapy",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1558388431-2019-05-2017-39-27.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951858",
+      "name": "Monster Prom and Other Adventures",
+      "creator": {
+        "id": "950723",
+        "name": "Jillian Wakarchuk"
+      },
+      "category": "Zines",
+      "subCategory": "tabletop game",
+      "description": "A Monsterhearts 2 companion zine and more.",
+      "link": "http://jillianwakarchuk.com/monster-prom-wip/",
+      "contentWarning": true,
+      "slug": "monster-prom",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556914421-2019-05-0316-13-32.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952825",
+      "name": "Wiggle Room",
+      "creator": {
+        "id": "952824",
+        "name": "Sad Gong Collective"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Wiggle Room is a single-player puzzle game where a group squeezed into a tight space tries to move a ball to the exit. It's cute and colourful, comes with 40 levels, and also includes an editor for making and sharing your own puzzles.",
+      "link": "",
+      "contentWarning": false,
+      "slug": "wiggle-room",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557073282-e-9qpr.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951995",
+      "name": "Lost Orbit",
+      "creator": {
+        "id": "950743",
+        "name": "PixelNAUTS Inc."
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Stranded after his ship is destroyed in deep space, Harrison, a lowly maintenance worker and our hero, must struggle to find his way home...\n\nLOST ORBIT centers around the exploration of space. Players take control of a lone astronaut (Harrison) who sets off on a dangerous journey to rejoin his civilization, armed with only an improvised set of equipment and a relentless spirit. Without the help of his ship, Harrison will need to use the gravitational forces of planets to navigate and propel himself through space.",
+      "link": "https://pixelnauts.ca/lostorbit/",
+      "contentWarning": false,
+      "slug": "lost-orbit-terminal-velocity",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556938105-lostorbit-06.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "953555",
+      "name": "ALCHAMATION",
+      "creator": {
+        "id": "953552",
+        "name": "Tyra D'Costa"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Augmented Reality experience inspired by magical girl themes and alchemy sigils using wearable art. Users can put on stickers or tattoos that trigger magical powers in the AR world. Powers increase with additional players and in combinations.",
+      "link": "https://salisajat.format.com/alchamation",
+      "contentWarning": false,
+      "slug": "alchamation",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557090863-2019-05-0517-14-16.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951992",
+      "name": "Sometimes Always Monsters",
+      "creator": {
+        "id": "950738",
+        "name": "Vagabond Dog"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Sometimes Always Monsters is a game about how life is an assured downfall after the peaks of your success. It's a sequel to Always Sometimes Monsters.",
+      "link": "https://www.vagabonddog.com",
+      "contentWarning": false,
+      "slug": "sometimes-always-monsters",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556936816-sometimesalwaysmonsters.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "953543",
+      "name": "Plymouth, Catnip Tea & More",
+      "creator": {
+        "id": "953542",
+        "name": "Bad Pet"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "plymouth-catnip-tea-and-more",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557090173-2019-05-0517-02-38.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951875",
+      "name": "Ricky Lima",
+      "creator": {
+        "id": "321450",
+        "name": "Ricky Lima"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "I make inclusive comics, zines, and books for a living.",
+      "link": "http://limepressonline.com",
+      "contentWarning": false,
+      "slug": "the-ricky-lima-project",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556915101-heagn-cover.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952853",
+      "name": "NN Chan",
+      "creator": {
+        "id": "952852",
+        "name": "NN Chan"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "I'm a Toronto-based artist who freelances for comics and games. I love indie games/comics and the energy in the indie scene. I make visual novels and short comics about baking. I like tackling queer themes in my work as well as making autobiographical zines.",
+      "link": "https://www.nnchan.ca",
+      "contentWarning": false,
+      "slug": "nn-chan",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557079663-e1832f88d4c7c6f15a4b3d8c60d5839b8af602-mv2.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952850",
+      "name": "Midnight",
+      "creator": {
+        "id": "952849",
+        "name": "Jade Zhang"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "",
+      "link": "https://daikonbaby.format.com/",
+      "contentWarning": false,
+      "slug": "midnight",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557079422-unadjustednonrawthumb981.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952848",
+      "name": "The Devil Haunts Us All",
+      "creator": {
+        "id": "952846",
+        "name": "Vincy Lim"
+      },
+      "category": "Zines",
+      "subCategory": "",
+      "description": "Hello! My name is Vincy and I am a Chinese-Canadian illustrator who aims to shed light on queer topics, disability, and abuse!! My illustrative and comic works focus on queer identities and self-love! In addition to bringing understanding to abuse and supporting survivors through shared experiences, and humanizing disability to make the world a less ableist place!! I also paint a lot of frogs!",
+      "link": "https://vincylim.format.com/c-omics",
+      "contentWarning": true,
+      "slug": "the-devil-haunts-us-all",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557079265-5.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952845",
+      "name": "Just a Few Things Comix",
+      "creator": {
+        "id": "952844",
+        "name": "Emily Fay Fin"
+      },
+      "category": "Comics",
+      "subCategory": "illustration",
+      "description": "",
+      "link": "https://www.fayforest.com/",
+      "contentWarning": false,
+      "slug": "just-a-few-things-comix",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557078225-take-that.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952843",
+      "name": "Sebby Confetti",
+      "creator": {
+        "id": "952842",
+        "name": "Sarah Chan"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "",
+      "link": "http://sebbyconfetti.com/",
+      "contentWarning": false,
+      "slug": "sebby-confetti",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557077879-tomato-pattern.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321424",
+      "name": "Now Recharging",
+      "creator": {
+        "id": "321423",
+        "name": "Maiji/Mary Huang"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "Maiji/Mary Huang is a happy little squirrel and also a Taiwanese-Canadian artist and writer. Her work incorporates themes of mythology, introspection, everyday human experiences, and small fat animals. She is the creator of Now Recharging, a slice-of-life webcomic about a sheep-loving android who is bad at math and worried about nonexistence.",
+      "link": "http://www.humangray.com",
+      "contentWarning": true,
+      "slug": "now-recharging",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557077405-1nofrz2gjtpw3u.jpg"
+      },
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        },
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951999",
+      "name": "Cheese Mayhem",
+      "creator": {
+        "id": "950747",
+        "name": "Thousand Stars Studio"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Play as the legendary cheese spirit, Lemon Sprinkles, on a quest to defend towns from raiding rabid cheese robot zombies.",
+      "link": "http://www.thousandstarsstudio.com/",
+      "contentWarning": false,
+      "slug": "cheese-mayhem",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557076209-cheesemayhemthumbnail.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952836",
+      "name": "Light Fingers",
+      "creator": {
+        "id": "952833",
+        "name": "Numizmatic Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Played on a magical clockworks game board, this turn-based multiplayer game has real-time action and devious opportunities for misdirection, all in the pursuit of securing more loot than your opponents.\n\nFor friends among thieves, bragging rights for the most deft are the biggest steal of all.",
+      "link": "https://www.lightfingersgame.com/",
+      "contentWarning": false,
+      "slug": "light-fingers",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557074570-lightfingers.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952835",
+      "name": "Quench",
+      "creator": {
+        "id": "952832",
+        "name": "Axon Interactive"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Each generation, the Elephant Tribe makes a grand pilgrimage from the Western Elder Tree to the Eastern Elder Tree. But this time, something is different...\n\nBecome Shepherd, an avatar of nature, and guide herds of animals on their diffcult journey. Help Shaman, the young Elephant leader, convince the other animal tribes to join her. Protect the herds as they are beset by flood, fire, drought, and the dark smokebeasts that have spread across the land.",
+      "link": "http://quenchgame.com/",
+      "contentWarning": false,
+      "slug": "quench",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557074462-quench.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952834",
+      "name": "CHUD Buddies",
+      "creator": {
+        "id": "952831",
+        "name": "CHUD Buddies"
+      },
+      "category": "Zines",
+      "subCategory": "",
+      "description": "An online pop-culture collective & community.",
+      "link": "http://chudbuddies.club/",
+      "contentWarning": false,
+      "slug": "chud-buddies",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557074446-ilfullxfull-159777026570nt.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952829",
+      "name": "Zeke's Peak",
+      "creator": {
+        "id": "952828",
+        "name": "56k Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Zeke\u2019s Peak brings the 1983 pub classic into the digital age. The pioneer of the mechanical \u201cbar and ball\u201d game, Zeke\u2019s Peak will make the transition from analogue to digital, taking advantage of the new possibilities this provides while retaining the tactile feel that made the original an instant classic. Dozens of new game modes, brand new game mechanics, and unique play styles will tell the story of a hero who wants nothing more than to climb all of the things. In partnership with Taito, 56k Games will be releasing Zeke\u2019s Peak into early access in early 2019.",
+      "link": "https://56k.games/portfolio/",
+      "contentWarning": false,
+      "slug": "zekes-peak",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557073809-56kgames-home-work-1-zekespeak.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952827",
+      "name": "Guildmaster Story",
+      "creator": {
+        "id": "952826",
+        "name": "WZO Games Inc."
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A puzzle-match comedy about fame, misfortune and working for nothing.",
+      "link": "https://willoneill.com/guildmasterstory/",
+      "contentWarning": false,
+      "slug": "guildmaster-story",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557073631-icon.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321445",
+      "name": "Arcane Bullshit",
+      "creator": {
+        "id": "321444",
+        "name": "Arcane Bullshit"
+      },
+      "category": "Games",
+      "subCategory": "card game",
+      "description": "Arcane Bullshit is a satirical tarot deck that can be used for everything from dark, unspeakable rites, to completely harmless and non-apocalyptic casual fortune-telling.",
+      "link": "http://arcanebullshit.com",
+      "contentWarning": true,
+      "slug": "arcane-bullshit",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557073408-homepage3.jpg"
+      },
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        },
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952823",
+      "name": "NO LOVE",
+      "creator": {
+        "id": "952822",
+        "name": "Wallace Lovecraft"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "NO LOVE is an RPG where you try to stop the being Darkness from destroying the world, in hopes of saving the innocent and the ones you love. A game about the human condition.",
+      "link": "https://wallacelovecraft.itch.io/no-love",
+      "contentWarning": true,
+      "slug": "no-love",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557073109-aucrmg.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952821",
+      "name": "Lina Wu",
+      "creator": {
+        "id": "321421",
+        "name": "Lina Wu"
+      },
+      "category": "Zines",
+      "subCategory": "illustration",
+      "description": "I am an illustrator, artist and storyteller. I am interested in making images, games, poetry, and zines; some of which include Hellbaby Chronicles, Sleepwalker, Im/Permanent, and Homely Crevices. ",
+      "link": "https://linaw.format.com/",
+      "contentWarning": false,
+      "slug": "lina-wu",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557072866-dragonhugfinal.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952820",
+      "name": "PROXY (1.0)",
+      "creator": {
+        "id": "952819",
+        "name": "Hex/Hack Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "PROXY (1.0) is an interactive installation through which the role of the user as an explorer is projected through the experiences of a rebellious tinkerer whose fate/existence is questioned by the System which he himself has built (illegally). Through the workstation of Erik H. March (a software developer of the Fractured Haze Realities Corp.), the user navigates the fabric of the realities Erik has created through his own \u2018Proxy' named \u201cHexen\"\" in order to collect and protect vital information and prevent the System from collapse.\n\nThe full installation is an office space \u201ccubicle\u201d, where the user can explore Erik\u2019s workspace and learn about his current developments on the System. The user fends off \u201cattacks\u201d from the rogue Proxy using the \u201cFractured Haze Employee Interface Device\u201d to minimize data loss and progress through the story.",
+      "link": "",
+      "contentWarning": false,
+      "slug": "proxy-10",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557072884-proxy.jpeg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952677",
+      "name": "Trap Labs",
+      "creator": {
+        "id": "952676",
+        "name": "Packet1337 Inc."
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Trap Labs is a deceptively challenging action puzzle featuring loveable cartoon art style reminiscent o Butch Hartman and Genndy Tartakovsky. The core gameplay was inspired by a type of StarCraft map called \"\"bound\"\". Trap Labs' overall gameplay is mostly original. It is a unique of StarCraft, Portal, Super Mario Maker, and Kirby Super Star.\n\nI will also show off a new 2D horror themed game that I've been working on. It is a horror cat and mouse survival game.",
+      "link": "http://traplabs.net",
+      "contentWarning": false,
+      "slug": "trap-labs",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557030696-traplabs.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952675",
+      "name": "Robo's World: The Zarnok Fortress",
+      "creator": {
+        "id": "952674",
+        "name": "Bluish-Green Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Take on the planet-sized warship; the Zarnok Fortress in this open ended Megaman-style 2D action platformer. Battle an ever learning foe who seeks to repair each zone you sabotage. Can you master your abilities to put an end to the dark reign of the Zarnok once and for all?",
+      "link": "http://www.bluishgreenproductions.com/zarnokfortress",
+      "contentWarning": false,
+      "slug": "robos-world-the-zarnok-fortress",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557030384-zarnoxfortress.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951997",
+      "name": "Junk Puncher",
+      "creator": {
+        "id": "321435",
+        "name": "Neon Deity Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Junk Puncher is a love letter to the NES-era action game.",
+      "link": "http://neondeity.com/",
+      "contentWarning": false,
+      "slug": "junk-puncher",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1557029829-junkpuncher.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "950765",
+      "name": "Fortune Tasker 3.0 + Fixations 1.0",
+      "creator": {
+        "id": "950720",
+        "name": "Nadine Lessio"
+      },
+      "category": "Art",
+      "subCategory": "",
+      "description": "Fortune Tasker 3.0 is an absurdist fortune giving bot that prints messages in a bottle for people to take home (table top version). Fixations 1.0 is a series of small ticker tape zines of looping poetry made using machine learning.",
+      "link": "https://fortunetasker.com",
+      "contentWarning": false,
+      "slug": "fortune-tasker-30-fixations-10",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556914111-30773242898a9bb357dfbk.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952001",
+      "name": "DON'T WAKE THE NIGHT",
+      "creator": {
+        "id": "950749",
+        "name": "Brujer\u00eda @ Werk"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A point-and-click game where the player embodies a spirit that has been summoned by a forest community that is facing turmoil while trying to fairly judge one of their members.",
+      "link": "https://brujeriaatwerk.itch.io/dont-wake-the-night-halloween-demo",
+      "contentWarning": false,
+      "slug": "dont-wake-the-night",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556939262-dontwakethenight.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "952000",
+      "name": "Gigco: Escape the Gig Economy",
+      "creator": {
+        "id": "950748",
+        "name": "SpekWork"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "In the Gig Economy, you\u2019ve got to get the job done-- or risk automation. In a world where Amazon, Uber, and Facebook are looming mega-opolies, you need to work, \u2018like\u2019, and subscribe to stay alive. Gigco: Escape the Gig Economy is a pro-worker mobile game exploring the changing conditions of work and play.",
+      "link": "http://www.gigco.app",
+      "contentWarning": false,
+      "slug": "gigco-escape-the-gig-economy",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556939142-gigco.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951998",
+      "name": "Tyre Strummin Leads Everyone Astray",
+      "creator": {
+        "id": "950746",
+        "name": "SYSTEM PANIC"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A forestpunk misadventure about disappointing your friends.",
+      "link": "https://twitter.com/mentalpoppixels",
+      "contentWarning": false,
+      "slug": "tyre-strummin-leads-everyone-astray",
+      "image": null,
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951996",
+      "name": "Sandbox",
+      "creator": {
+        "id": "321427",
+        "name": "Ofir Rosen"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Sandbox is a tangible table focused on facilitating social interactions through play. One player uses a controller mounted to the table to move a character through an environment projected on the tabletop. Others may gather around the table and change the environment using resin clouds. \n\nBy removing, placing and shifting these clouds around the tabletop the players create platforms and hazards within the digital game. Using a set of soft rules that the players discover and bend through continuous interaction, Sandbox aims to create and drive social interactions through the act of play.",
+      "link": "https://ofir-rosen.com/sandbox",
+      "contentWarning": false,
+      "slug": "sandbox",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556938217-sandbox.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951994",
+      "name": "Gunhead / Wytchwood",
+      "creator": {
+        "id": "321437",
+        "name": "Alientrap Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Gunhead is a fast paced roguelike FPS! \n\nWytchwood is a crafting adventure game set in a land of gothic fables and fairytales!",
+      "link": "http://www.alientrap.com",
+      "contentWarning": false,
+      "slug": "gunhead-wytchwood",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556937997-napkin-21-19-05-03-10-46-35-pm.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951993",
+      "name": "Ritual of the Moon",
+      "creator": {
+        "id": "950740",
+        "name": "Haunts Collective"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Ritual of the Moon is a durational multi-narrative videogame about a witch who has been exiled to the moon. It consists of short meditational activities and mood charting. The visuals were all handmade then scanned and digitally manipulated, blending craft and technology. ",
+      "link": "https://www.ritualofthemoongame.com",
+      "contentWarning": false,
+      "slug": "ritual-of-the-moon",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556937395-ritualofthemoon.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951991",
+      "name": "Types of Romance",
+      "creator": {
+        "id": "950737",
+        "name": "Sleepy Pixel Studios"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A 70\u2019s shoujo-manga inspired typing-game dating sim. Woo the lady of your dreams but beware your choice of words and clarity of voice lest you reduce her to tears!",
+      "link": "https://sleepypixel.wixsite.com/games",
+      "contentWarning": false,
+      "slug": "types-of-romance",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556936304-typesofromand.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951981",
+      "name": "XOB",
+      "creator": {
+        "id": "950736",
+        "name": "MrTedders"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "XOB is a kinetic puzzle game with a psychedelic poetic aesthetic ",
+      "link": "",
+      "contentWarning": false,
+      "slug": "xob",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556922674-flash691583largestcrop.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951979",
+      "name": "Skateboard Games",
+      "creator": {
+        "id": "950734",
+        "name": "Kim Nguyen"
+      },
+      "category": "Zines",
+      "subCategory": "analog game",
+      "description": "The zine depicts an ideation of a new skateboard game/remake of old skateboard games to reflect today's contemporary and more inclusive skate culture. People envision males when they think of what skaters look like and that is the audience skateboard games cater to, but this is not an accurate view of the emerging wave of new and old skaters: women, children, and older adults. The zine will feature video game sketches and assets of a re-envisioned and truer depiction of today's skaters and culture. I will also advertise my all girl's skateboard group (@skatepizzazz) so any visitors who are interested in skating in an inclusive environment can come to our meetups and skate!",
+      "link": "http://www.kimtn.ca",
+      "contentWarning": false,
+      "slug": "skateboard-games",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556921655-skate-pizzazz-011orig.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951978",
+      "name": "Catastrophe",
+      "creator": {
+        "id": "321419",
+        "name": "CurryCarrots"
+      },
+      "category": "Pins and Patches",
+      "subCategory": "",
+      "description": "",
+      "link": "http://currycarrots.storenvy.com/",
+      "contentWarning": false,
+      "slug": "catastrophe",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556921475-file72e5b41720original.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951977",
+      "name": "Farewell to the Stars",
+      "creator": {
+        "id": "950732",
+        "name": "Holly McGillis"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "I am a Non-binary lesbian who enjoys drawing the small wonders of the world. The tiny details that create magic around and within you. My favourite stories are the ones that make you feel an intense longing for a deep sadness or a joyful warmth. Those bittersweet memories of your youth that you cling to.\n\nAs of now I share those feelings through the merchandise I have made. From pins and pillows, to tape and postcards. In the future I wish to continue telling these tales through comics. I find great joy in sharing my creations with others.",
+      "link": "https://www.hollymcgillis.com/",
+      "contentWarning": false,
+      "slug": "farewell-to-the-stars",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556921319-2019-05-0318-08-23.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951975",
+      "name": "Thready To Go",
+      "creator": {
+        "id": "950731",
+        "name": "Thready To Go"
+      },
+      "category": "Pins and Patches",
+      "subCategory": "",
+      "description": "The goal of Thready To Go is to make patches and other goods affordable for all, done with hand embroidery the topics range from comics, video games, and television along with some smatterings of LGBTQ+ material. These patches are made with love and hand stitched to create something that is one of a kind and unique. ",
+      "link": "https://www.storenvy.com/stores/1175349-thready-to-go",
+      "contentWarning": false,
+      "slug": "thready-to-go",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556920260-file9a1dcfc965original.jpeg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951974",
+      "name": "Webspookie Shop",
+      "creator": {
+        "id": "950730",
+        "name": "Webspookie Shop"
+      },
+      "category": "Pins and Patches",
+      "subCategory": "",
+      "description": "Sid drmay is a queer non-binary artist who makes zines and tees inspired by their experiences growing up online",
+      "link": "https://www.instagram.com/webspookie/",
+      "contentWarning": false,
+      "slug": "webspookie-shop",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556920171-ilfullxfull-1536562250qw5p.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951972",
+      "name": "Googie Girls & EARTH EMOTIONS: a Star Trek Zine. ",
+      "creator": {
+        "id": "321442",
+        "name": "Fake Geek Girls Like Us"
+      },
+      "category": "Zines",
+      "subCategory": "",
+      "description": "I make work that is femme queer and nerdy. I have been working on more zines that talk about the intersection of pop culture and mental health.",
+      "link": "https://fakegeekgirlslikeus.bigcartel.com",
+      "contentWarning": false,
+      "slug": "googie-girls-earth-emotions-a-star-trek-zine",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556919902-startrekzine.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951894",
+      "name": "Nurse Owwie & Happy, Dodge Club Party",
+      "creator": {
+        "id": "321429",
+        "name": "Linzb0t & Jakten"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "",
+      "link": "http://linzb0t.daportfolio.com/",
+      "contentWarning": false,
+      "slug": "nurse-owwie-happy-dodge-club-party",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556916229-19c19d5cd78e208e65adb7ea12a353b9.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951878",
+      "name": "Monster Cliche",
+      "creator": {
+        "id": "321417",
+        "name": "Monster Cliche"
+      },
+      "category": "Pins and Patches",
+      "subCategory": "",
+      "description": "Monster Cliche is the devil\u2019s baby of staying up late watching anime and stumbling upon some questionable content. Created by a part-time witch, full-time disabled non-binary queer, Monster Cliche can be summed up as blunt, anime inspired, intersectional realness.",
+      "link": "https://www.monstercliche.com",
+      "contentWarning": true,
+      "slug": "monster-cliche",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556915808-img-4021.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951877",
+      "name": "Tapezine / Ready Computer / Lucky Cat Novelty",
+      "creator": {
+        "id": "950726",
+        "name": "Jesse Lafleur"
+      },
+      "category": "Art",
+      "subCategory": "video game",
+      "description": "Analogue Encoded Data Tapes, Retro-Printed Zines, 8bit Computer Program Demonstrations",
+      "link": "http://jesselafleur.ca",
+      "contentWarning": false,
+      "slug": "tapezine-ready-computer-lucky-cat-novelty",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556915626-view.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951876",
+      "name": "GIRLS + Magical Beatdown",
+      "creator": {
+        "id": "950725",
+        "name": "Jenn Woodall"
+      },
+      "category": "Comics",
+      "subCategory": "graphic novel",
+      "description": "Jenn Woodall is an illustrator and comics creator who lives in Toronto, Ontario.",
+      "link": "https://jennwoodall.format.com/",
+      "contentWarning": true,
+      "slug": "girls-magical-beatdown",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556915309-coverfinalrgb.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "951868",
+      "name": "miss'ing hun(t)",
+      "creator": {
+        "id": "950722",
+        "name": "Rose Goodwin"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A cyber world where you explore online identities and try to find your missing friends.",
+      "link": "https://beegood.itch.io/missing-hunt",
+      "contentWarning": true,
+      "slug": "missing-hunt",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556914767-2019-04-2415-35-08.png"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "950762",
+      "name": "Meat and Bone",
+      "creator": {
+        "id": "950718",
+        "name": "verwho comics"
+      },
+      "category": "Comics",
+      "subCategory": "graphic novel",
+      "description": "",
+      "link": "http://verwho.com/comics.php",
+      "contentWarning": false,
+      "slug": "meat-and-bone",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556859791-tumblrpbvnhy8oyr1qfu8e9o11280.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "950758",
+      "name": "Dead Last Delivery",
+      "creator": {
+        "id": "950716",
+        "name": "Droqen"
+      },
+      "category": "Games",
+      "subCategory": "card game",
+      "description": "Dead Last Delivery is a semi-competitive roleplaying arts & craftsy card game.",
+      "link": "https://droqen.itch.io/",
+      "contentWarning": false,
+      "slug": "dead-last-delivery",
+      "image": null,
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "950756",
+      "name": "Anthology of Intimacy",
+      "creator": {
+        "id": "950715",
+        "name": "Allison Kyran Cole"
+      },
+      "category": "Games",
+      "subCategory": "analog game",
+      "description": "Anthology of Intimacy is a series of seven Larps about intimacy. Each game is co-designed with a different person that I had a different relationship with. It is an exploration of process, design, intimacy and play. The product is six digitally distributable PDFs of the games, and a printed art book.",
+      "link": "https://www.allisonkcole.com/intimacy",
+      "contentWarning": false,
+      "slug": "anthology-of-intimacy",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556858879-dsc0851.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "950755",
+      "name": "One Hour World Builders",
+      "creator": {
+        "id": "950713",
+        "name": "Kaelan Doyle-Myerscough"
+      },
+      "category": "Games",
+      "subCategory": "analog game",
+      "description": "One Hour Worldbuilders is a four-player card game that enables players to collaboratively build a fictional world from the ground up in under an hour. One part creative prompt, one part icebreaker, One Hour Worldbuilders encourages players to think outside of genre boxes, pay attention to power relationships, and negotiate with each other's creative visions to create interesting and nuanced worlds in a short period of time.",
+      "link": "https://kaelan.online/portfolio/one-hour-worldbuilders/",
+      "contentWarning": false,
+      "slug": "one-hour-world-builders",
+      "image": {
+        "url": "https://www.datocms-assets.com/6140/1556858684-img1415.jpg"
+      },
+      "editions": [
+        {
+          "id": "950754",
+          "name": "Summer 2019",
+          "number": 10,
+          "locationName": "TMAC",
+          "description": "",
+          "dates": [
+            {
+              "id": "950753",
+              "startDateTime": "2019-06-22T12:00:00+01:00",
+              "endDateTime": "2019-06-22T19:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "337562",
+      "name": "Jenn Woodall & Trevor Henderson",
+      "creator": {
+        "id": "337561",
+        "name": "Jenn Woodall & Trevor Henderson"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "jenn-woodall-trevor-henderson",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321416",
+      "name": "Jackalope Factory",
+      "creator": {
+        "id": "321415",
+        "name": "Jackalope Factory"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "Lots of flair and knick-knacks featuring video game consoles, international gamer slang, galactic food items and deep sea creatures!",
+      "link": "https://www.instagram.com/jackalopefactory/",
+      "contentWarning": false,
+      "slug": "jackalope-factory",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321509",
+      "name": "Emergent Fates",
+      "creator": {
+        "id": "321508",
+        "name": "Emergent Fates"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Emergent Fates is a Japanese-inspired RPG featuring hand-drawn artwork and an engaging multi-class leveling system. Join Rasch as he searches for meaning in a neglected, ancient land. The game\u2019s first playable demo pits the characters against a demon that has escaped its ethereal prison, and teases at the much larger story awaiting in the full game.",
+      "link": "http://www.emergentfates.com/",
+      "contentWarning": false,
+      "slug": "emergent-fates",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "333026",
+      "name": "Art of Patrick Sparrow",
+      "creator": {
+        "id": "333024",
+        "name": "Patrick Sparrow"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "",
+      "link": "http://www.patricksparrow.com",
+      "contentWarning": false,
+      "slug": "art-of-patrick-sparrow",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "333023",
+      "name": "Maps, Scores, and Notations",
+      "creator": {
+        "id": "333022",
+        "name": "Rebecca Noone"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "A project about asking folks for directions within conditions of digital mapping (in Toronto, St. Louis, and Brighton) and an email project with theoretical physicists",
+      "link": "",
+      "contentWarning": false,
+      "slug": "maps-scores-and-notations",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332176",
+      "name": "Market fresh fruit and vegetables",
+      "creator": {
+        "id": "332175",
+        "name": "Foodland Ontario"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "market-fresh-fruit-and-vegetables",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332174",
+      "name": "Shrubs",
+      "creator": {
+        "id": "332173",
+        "name": "Manning Canning"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "shrubs",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332171",
+      "name": "Vegan sushi",
+      "creator": {
+        "id": "332170",
+        "name": "Culture City"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "vegan-sushi",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332168",
+      "name": "Sweet & savoury popcorn",
+      "creator": {
+        "id": "332167",
+        "name": "Toronto Popcorn Company"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "sweet-savoury-popcorn",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332166",
+      "name": "Fresh, handmade doughnuts",
+      "creator": {
+        "id": "332165",
+        "name": "Glory Hole Doughnuts"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "fresh-handmade-doughnuts",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332164",
+      "name": "Succulents",
+      "creator": {
+        "id": "332163",
+        "name": "Planet Y"
+      },
+      "category": "Art",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "succulents",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332161",
+      "name": "Tacos & churros",
+      "creator": {
+        "id": "332160",
+        "name": "El Chapo"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "tacos-churros",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332159",
+      "name": "Gelato",
+      "creator": {
+        "id": "332158",
+        "name": "Death in Venice"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "gelato",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "332156",
+      "name": "Coffee & baked goods",
+      "creator": {
+        "id": "332155",
+        "name": "OMG on the Park"
+      },
+      "category": "Food",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "coffee-baked-goods",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321524",
+      "name": "Terrorarium",
+      "creator": {
+        "id": "321522",
+        "name": "Stitch Media"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "An all-powerful space grandma and her army of expendable mushroom servants. The game features a lot of adorable gore!",
+      "link": "http://terrorarium.games/",
+      "contentWarning": false,
+      "slug": "terrorarium",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321430",
+      "name": "Linzb0t & Jakten",
+      "creator": {
+        "id": "321429",
+        "name": "Linzb0t & Jakten"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "The colourful world of Linzb0t!",
+      "link": "http://linzb0t.com",
+      "contentWarning": false,
+      "slug": "linzb0t-jakten",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "329354",
+      "name": "Artisanal Plugins + Voids",
+      "creator": {
+        "id": "329353",
+        "name": "Lindy Wilkins"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": true,
+      "slug": "artisanal-plugins-voids",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "329352",
+      "name": "Fortune Tasker",
+      "creator": {
+        "id": "329351",
+        "name": "Nadine Lessio / Alenn Predko"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "",
+      "link": "",
+      "contentWarning": false,
+      "slug": "fortune-tasker",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321422",
+      "name": "Sleepwalker & Other Zines",
+      "creator": {
+        "id": "321421",
+        "name": "Lina Wu"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "Zines and digital works, many discussing what it's like to maintain relationships and what it's like to grow older.",
+      "link": "https://gumroad.com/linaw",
+      "contentWarning": false,
+      "slug": "sleepwalker-other-zines",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321455",
+      "name": "Pocket Dungeons",
+      "creator": {
+        "id": "321454",
+        "name": "The Sorcerer's Catalogue"
+      },
+      "category": "Games",
+      "subCategory": "analog game",
+      "description": "Pocket Dungeons are system-agnostic tabletop rpg adventures published in small zines, packaged with fabric gaming aids like maps, hexes and patches, in a custom pencil case.",
+      "link": "http://pocketdungeons.portablecity.net/",
+      "contentWarning": false,
+      "slug": "pocket-dungeons",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321517",
+      "name": "PythiAI - a virtual oracle",
+      "creator": {
+        "id": "321516",
+        "name": "Adrien Lamarque"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "In 385 AD, article 16.10.9 of the Theosodian Code edicted the ban of all oracles across the Roman Empire. On that day ended almost 12 centuries of activity at the oracle of Apollo in Delphi, Greece. \n\nPythiAI proposes to remedy that by offering an interactive oracle, trained in the methods of the historic Pythia, and adapted to the 21st century! \nTuned for increased ambiguousness, doing away with unnecessary animal sacrifices, leveraging computational linguistics, she is of course written in Python. \n\nSeek the guidance, wisdom and farseeing powers of AIpollo, and get the answer to those questions that were consuming you!",
+      "link": "",
+      "contentWarning": false,
+      "slug": "pythiai-a-virtual-oracle",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321526",
+      "name": "A Type of Cryptographic Handshake",
+      "creator": {
+        "id": "321525",
+        "name": "XLNT"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "The realm of digital ownership (i.e., the digital things we own like identity, gaming items, art, facebook profiles, etc), is being re-discovered as a side effect of the popularity of blockchain. Traditionally, digitally owned things are not really _yours_; they're controlled by a central entity; facebook owns your facebook profile, WoW owns your game items, and the government owns your identity. Now, with **cryptography** and **smart contracts** we can remove that middleman and effectively create \"direct\" digital ownership. You can prove ownership of a digital asset with cryptography. This is a sort of fundamental change in how people, psychologically, experience owning things on the internet.\n",
+      "link": "",
+      "contentWarning": false,
+      "slug": "a-type-of-cryptographic-handshake",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321523",
+      "name": "Rival Books of Aster",
+      "creator": {
+        "id": "321522",
+        "name": "Stitch Media"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Rival Books of Aster, a strategy deck building game that features over 140 hand illustrated spells and is based on actual medieval grimoires and spell books.",
+      "link": "https://store.steampowered.com/app/639230/Rival_Books_of_Aster/",
+      "contentWarning": false,
+      "slug": "rival-books-of-aster",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321521",
+      "name": "All-Inclusive Fully Automated Vacation",
+      "creator": {
+        "id": "321520",
+        "name": "Shivaun Hoad"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "Sci-fi / horror / comedy comic about queer ladies troubleshooting a resort hotel run by AI",
+      "link": "https://shivaunhoad.ca/stories/fully-automated-vacation/",
+      "contentWarning": true,
+      "slug": "all-inclusive-fully-automated-vacation",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321515",
+      "name": "SHNIPERS",
+      "creator": {
+        "id": "321514",
+        "name": "Brenden Cameron Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "SHNIPERS is a combat platformer where up to 4 players fire bullets that bounce off of everything! A game of \"bullet-hell pong\" where your shots are as much a danger to you as they are to your enemies.",
+      "link": "",
+      "contentWarning": false,
+      "slug": "shnipers",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321513",
+      "name": "Lump",
+      "creator": {
+        "id": "321512",
+        "name": "Competent Thursday"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A mobile game about a cute space tumor.",
+      "link": "https://vimeo.com/276125106",
+      "contentWarning": false,
+      "slug": "lump",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321511",
+      "name": "Flea Internet",
+      "creator": {
+        "id": "321510",
+        "name": "Misc."
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "This is your typical flea market table selling all kinds of random Internet merchandises at a Yami-Ichi. It\u2019s kind of like buying useless things on eBay, but the other way around.",
+      "link": "",
+      "contentWarning": false,
+      "slug": "flea-internet",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321507",
+      "name": "Ad Astra Comix",
+      "creator": {
+        "id": "321506",
+        "name": "Ad Astra Comix"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "Founded in 2013, the Ad Astra publishing collective specializes in producing comics with social justice themes.",
+      "link": "http://adastracomix.com",
+      "contentWarning": true,
+      "slug": "ad-astra-comix",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321505",
+      "name": "Clapback",
+      "creator": {
+        "id": "321504",
+        "name": "Clapback App"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "A little tool that helps folks calculate discrimination after it happens (I know it sounds crazy) but some people have been really vibing with it. I got a live demo working demo of the app that I can share with people so they play, use and ask questions about the app.",
+      "link": "https://www.clapback.app/",
+      "contentWarning": false,
+      "slug": "clapback",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321503",
+      "name": "Free Geek Toronto",
+      "creator": {
+        "id": "321502",
+        "name": "CyberEquality"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "Free Geek Toronto is a non-profit social enterprise focused on reusing and refurbished e-waste to create afford technology for all",
+      "link": "http://freegeektoronto.org",
+      "contentWarning": false,
+      "slug": "free-geek-toronto",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321501",
+      "name": "Space Youth Cadets",
+      "creator": {
+        "id": "321500",
+        "name": "Kelly K"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "SYC is back for bummer'18! I'll be releasing new merchandise and zines that will hopefully help you get through this trying year.",
+      "link": "http://spaceyouthcadets.storenvy.com",
+      "contentWarning": false,
+      "slug": "space-youth-cadets",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321499",
+      "name": "ANYTHING bizarre",
+      "creator": {
+        "id": "321498",
+        "name": "Dogson"
+      },
+      "category": "Art",
+      "subCategory": "fine art",
+      "description": "ANYTHING is a collaborative virtual reality improvisation. Dogson enters VR for the duration of the show, and people e-mail him images, audio, and models to build with in real-time.",
+      "link": "http://www.dogson.art",
+      "contentWarning": true,
+      "slug": "anything-bizarre",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321495",
+      "name": "Cat and The Starlephant",
+      "creator": {
+        "id": "321494",
+        "name": "Sebby Confetti"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "Story book about a cat who attempts to look for aliens with their best friend bird.",
+      "link": "http://sebbyconfetti.com/work-1/#/cat-and-the-starlephant-2/",
+      "contentWarning": false,
+      "slug": "cat-and-the-starlephant",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321493",
+      "name": "Heartfelt Spam Mail",
+      "creator": {
+        "id": "321491",
+        "name": "Katsuki Nogami"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "Heartfelt Spam is handwritten letter in envelope.But that sentence is by various spam mail made by bot!",
+      "link": "https://vimeo.com/106085068",
+      "contentWarning": false,
+      "slug": "heartfelt-spam-mail",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321488",
+      "name": "Exorcism",
+      "creator": {
+        "id": "321487",
+        "name": "Meaghan Carter"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "I draw and write comics about aggressive female leads!",
+      "link": "http://www.megacarter.com",
+      "contentWarning": true,
+      "slug": "exorcism",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321492",
+      "name": "Smart Bot Speaker Dialogue",
+      "creator": {
+        "id": "321491",
+        "name": "Katsuki Nogami"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "",
+      "description": "Those custom smart speakers speak with each others.It gathered comment from Twitter troll and Yahoo!Answer and Donald Trump, etc\u2026",
+      "link": "https://vimeo.com/263728207",
+      "contentWarning": false,
+      "slug": "smart-bot-speaker-dialogue",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321490",
+      "name": "Love",
+      "creator": {
+        "id": "321489",
+        "name": "Rocketship Park"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Love is a puzzle game about neighborhoods, connections, and the moments that feed our soul. Players solve puzzles by exploring the outside of an apartment building in both the past and present, rotating floors and interacting with the environment to reveal the stories of the tenants within.",
+      "link": "https://photos.app.goo.gl/A2yjn0dFdiRrSqwN2",
+      "contentWarning": false,
+      "slug": "love",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321465",
+      "name": "Appeeling Personality",
+      "creator": {
+        "id": "321464",
+        "name": "GIF Peanut Butter"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Enter an eating contest, leave with a date!\n\nIn this unusual eating contest, you begin to feel delirious and see the bananas talking to you! Each banana has a different yet dazzling personality and they are sure to charm you! Beware, however! If you don't keep eating, you'll starve! \n\nMake your choice! Find true love or be victorious!",
+      "link": "https://arcadim.itch.io/appeeling-personality",
+      "contentWarning": false,
+      "slug": "appeeling-personality",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321463",
+      "name": "Light Fingers",
+      "creator": {
+        "id": "321462",
+        "name": "Numizmatic"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "What do skulking thieves do after a night of procuring shady spoils? They gather at a favorite tavern and wager it away on a friendly game of Light Fingers!",
+      "link": "http://lightfingersgame.com",
+      "contentWarning": false,
+      "slug": "light-fingers",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321461",
+      "name": "A Fold Apart",
+      "creator": {
+        "id": "321460",
+        "name": "Lightning Rod Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A Fold Apart is an award-winning 3D puzzle game from Lightning Rod Games that explores the emotional struggles of a long-distance relationship through a unique new mechanic \u2014 folding paper!\n\nAfter career choices force them down separate paths, Alex and Sam vow to make their relationship work despite the challenges of living apart. Though they frequently communicate through text messages, misunderstandings are inevitable and cause the characters to erect emotional barriers that physically bar their path. By folding the pieces of paper these characters inhabit, players are able to help the couple safely navigate around their relationship hurdles and find a way forward.\n\nWith over fifty unique paper folding puzzles exploring the emotional journey of a long-distance couple, A Fold Apart is sure to touch the hearts and minds of puzzle gamers everywhere.",
+      "link": "http://www.afoldapart.com",
+      "contentWarning": false,
+      "slug": "a-fold-apart",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321459",
+      "name": "Perished Pixels",
+      "creator": {
+        "id": "321458",
+        "name": "Ben Mcilmoyle Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Perished Pixels is a 2D puzzle platformer whose quirks come from controlling two characters simultaneously. Players are forced to use their heads and reflexes to keep both characters out of harms way in aim to achieve one simple goal, get to the end of the level.",
+      "link": "http://www.perishedpixels.com",
+      "contentWarning": false,
+      "slug": "perished-pixels",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321453",
+      "name": "A Summer with the Shiba Inu",
+      "creator": {
+        "id": "321452",
+        "name": "Quill Studios"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A Summer with the Shiba Inu is a visual novel that I am working on. The artwork style is distinct, and I'd love to be able to showcase it, as well as sell or give away some small items for exposure. ",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=881043040",
+      "contentWarning": false,
+      "slug": "a-summer-with-the-shiba-inu",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321451",
+      "name": "Project Ricky Lima",
+      "creator": {
+        "id": "321450",
+        "name": "Ricky Lima"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "A Kidnapped Princess uses a dating app to find knights to come and rescue her. Meanwhile, her captor discovers what love truly means to her.",
+      "link": "https://imgur.com/a/iw4bV",
+      "contentWarning": false,
+      "slug": "project-ricky-lima",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321449",
+      "name": "Quench",
+      "creator": {
+        "id": "321448",
+        "name": "Axon Interactive"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Quench is a story-driven puzzle game set in a colourful, lo-fi world. Become Shepherd, an avatar of nature, and guide herds of animals on their diffcult journey. Help Shaman, the young Elephant leader, convince the other animal tribes to join her. Protect your herds as they are beset by flood, fire, drought, and the dark smokebeasts that have spread across the land.",
+      "link": "https://axoninteractive.itch.io/quench-demo/download/mCH19UG2u17pWk7X2uh2M4C2hVUFWQCUYY4zhyD1",
+      "contentWarning": false,
+      "slug": "quench",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321447",
+      "name": "Greater Toronto Animalia",
+      "creator": {
+        "id": "321446",
+        "name": "Jason RT Bond"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Arcane Bullshit is a satirical tarot deck that can be used for everything from dark, unspeakable rites, to completely harmless and non-apocalyptic casual fortune-telling.",
+      "link": "https://www.youtube.com/watch?v=Njeb4AfEIhM",
+      "contentWarning": false,
+      "slug": "greater-toronto-animalia",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321441",
+      "name": "Werewolf Vs. Space Invaders",
+      "creator": {
+        "id": "321440",
+        "name": "Shiny Pliers"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "Comics and assorted printed goods featuring Werewolf Vs. Space Invaders and other cool stuff!",
+      "link": "https://bit.ly/2x2SqON",
+      "contentWarning": false,
+      "slug": "werewolf-vs-space-invaders",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321439",
+      "name": "Wytchwood",
+      "creator": {
+        "id": "321437",
+        "name": "Alientrap Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A crafting adventure game!",
+      "link": "https://www.youtube.com/watch?v=h3dZgMx6Ymg",
+      "contentWarning": false,
+      "slug": "wytchwood",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321438",
+      "name": "Gunhead",
+      "creator": {
+        "id": "321437",
+        "name": "Alientrap Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Gunhead: a roguelike FPS.",
+      "link": "https://www.youtube.com/watch?v=vy6iAEi7Ym0 ",
+      "contentWarning": false,
+      "slug": "gunhead",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321434",
+      "name": "Sky Rogue",
+      "creator": {
+        "id": "321433",
+        "name": "Fractal Phase"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Sky Rogue is a fwooshy rogue-lite action flight simulator! Blow things up over land, sea, and air, on an infinite number of procedurally-generated islands. Go toe-to-toe with enemy aces or assault giant flying aircraft carriers, but watch out for volleys of missiles; when you die, you're dead.",
+      "link": "https://www.youtube.com/watch?v=RGFPwx31O7o",
+      "contentWarning": false,
+      "slug": "sky-rogue",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321436",
+      "name": "Bruisin Cruisers",
+      "creator": {
+        "id": "321435",
+        "name": "Neon Deity Games"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "Bruis'n cruise your way toward saving a legendary sandwich stolen by the nefarious Jerkwad and his gang of miscreants. Crash and bash your foes while avoiding obstacles and collecting cherries in this action-packed top-down car combat game.",
+      "link": "http://bruisincruisers.com/",
+      "contentWarning": false,
+      "slug": "bruisin-cruisers",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321432",
+      "name": "Hello Boyfriend ",
+      "creator": {
+        "id": "321431",
+        "name": "Hello Boyfriend "
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "We're five pals who make comics!",
+      "link": "http://eleganttacochildren.tumblr.com/image/174133937103",
+      "contentWarning": false,
+      "slug": "hello-boyfriend",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321428",
+      "name": "Anti-Controller",
+      "creator": {
+        "id": "321427",
+        "name": "Ofir Rosen"
+      },
+      "category": "Art",
+      "subCategory": "fine art",
+      "description": "The piece is a body centric alternative game controller. The point of it is to create an overwhelming experience out of one of the simplest controllers. The piece takes data from a gyroscope on the player's elbow and send them to a motor over the d pad and the a button. The rotation of each axis of the user's elbow will real time be mirrored by each of the motors, pressing left, right, or A. the controller will be hooked up to level 1-1 of Mario.",
+      "link": "https://www.instagram.com/p/Bi8E2nHnj70/",
+      "contentWarning": false,
+      "slug": "anti-controller",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321426",
+      "name": "store.gif",
+      "creator": {
+        "id": "321425",
+        "name": "netgrind.net"
+      },
+      "category": "Yami-Ichi",
+      "subCategory": "fine art",
+      "description": "An assortment of fresh never frozen looping motion graphics",
+      "link": "http://netgrind.net#loops",
+      "contentWarning": false,
+      "slug": "storegif",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321403",
+      "name": "Fossil Hunters",
+      "creator": {
+        "id": "321402",
+        "name": "Reptoid Games Inc"
+      },
+      "category": "Games",
+      "subCategory": "",
+      "description": "Fossil Hunters is an action-adventure game\nabout digging for fossils and building your own dinosaurs.",
+      "link": "http://fossilgame.com/",
+      "contentWarning": false,
+      "slug": "fossil-hunters",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321418",
+      "name": "Cry Baby",
+      "creator": {
+        "id": "321417",
+        "name": "Monster Cliche"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "I am a fat disbled queer who creates cool wearable works of art focusing on nostalgia, witchy vibes, and smashing the patriarchy.",
+      "link": "http://instagram.com/monstercliche",
+      "contentWarning": true,
+      "slug": "cry-baby",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321420",
+      "name": "Welcome to CurryCarrots",
+      "creator": {
+        "id": "321419",
+        "name": "CurryCarrots"
+      },
+      "category": "Comics",
+      "subCategory": "",
+      "description": "Illustration and character products based off my own designs. Fanarts too.",
+      "link": "http://www.currycarrots.com",
+      "contentWarning": false,
+      "slug": "welcome-to-currycarrots",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "321412",
+      "name": "Subserial Network",
+      "creator": {
+        "id": "321411",
+        "name": "Aether Interactive"
+      },
+      "category": "Games",
+      "subCategory": "video game",
+      "description": "A multi-window narrative experience for organics.",
+      "link": "http://subserial.network",
+      "contentWarning": false,
+      "slug": "subserial-network",
+      "image": null,
+      "editions": [
+        {
+          "id": "316108",
+          "name": "Summer 2018",
+          "number": 9,
+          "locationName": "Toronto Media Arts Centre",
+          "description": "Play minty-fresh games! Buy one-of-a-kind, limited-edition and handmade/DIY items\u2014pins, zines, boxed games, card decks, art prints, posters, comics, t-shirts, game soundtracks on vinyl, mixtapes, papercraft and toys\u2014direct from 50+ independent game developers!",
+          "dates": [
+            {
+              "id": "316107",
+              "startDateTime": "2018-07-13T15:00:00+01:00",
+              "endDateTime": "2018-07-13T21:00:00+01:00"
+            },
+            {
+              "id": "316106",
+              "startDateTime": "2018-07-14T12:00:00+01:00",
+              "endDateTime": "2018-07-14T18:00:00+01:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "creator": [
+    {
+      "id": "1140564",
+      "name": "Rosalind + Kaelan"
+    },
+    {
+      "id": "1003207",
+      "name": "eecks"
+    },
+    {
+      "id": "1003205",
+      "name": "Franky Plata"
+    },
+    {
+      "id": "1003203",
+      "name": "La Lin"
+    },
+    {
+      "id": "1003201",
+      "name": "Denise Yu"
+    },
+    {
+      "id": "1002697",
+      "name": "Citizen Lab & Friends"
+    },
+    {
+      "id": "1002695",
+      "name": "Alyssa Pisciotto"
+    },
+    {
+      "id": "1002693",
+      "name": "Eryn Raimondo"
+    },
+    {
+      "id": "1002686",
+      "name": "Rachel McCormick"
+    },
+    {
+      "id": "1002673",
+      "name": "Tom Hobson"
+    },
+    {
+      "id": "1002665",
+      "name": "BUMP Television"
+    },
+    {
+      "id": "1002658",
+      "name": "karen zurek"
+    },
+    {
+      "id": "1002656",
+      "name": "Ananda Gabo"
+    },
+    {
+      "id": "1002647",
+      "name": "Atelier"
+    },
+    {
+      "id": "1002645",
+      "name": "Crow and Moon Press"
+    },
+    {
+      "id": "1002643",
+      "name": "yudoart"
+    },
+    {
+      "id": "953554",
+      "name": "Mahnoor Shahid"
+    },
+    {
+      "id": "953553",
+      "name": "Salisa Jat"
+    },
+    {
+      "id": "953552",
+      "name": "Tyra D'Costa"
+    },
+    {
+      "id": "953542",
+      "name": "Bad Pet"
+    },
+    {
+      "id": "952852",
+      "name": "NN Chan"
+    },
+    {
+      "id": "952849",
+      "name": "Jade Zhang"
+    },
+    {
+      "id": "952846",
+      "name": "Vincy Lim"
+    },
+    {
+      "id": "952844",
+      "name": "Emily Fay Fin"
+    },
+    {
+      "id": "952842",
+      "name": "Sarah Chan"
+    },
+    {
+      "id": "952833",
+      "name": "Numizmatic Games"
+    },
+    {
+      "id": "952832",
+      "name": "Axon Interactive"
+    },
+    {
+      "id": "952831",
+      "name": "CHUD Buddies"
+    },
+    {
+      "id": "952828",
+      "name": "56k Games"
+    },
+    {
+      "id": "952826",
+      "name": "WZO Games Inc."
+    },
+    {
+      "id": "952824",
+      "name": "Sad Gong Collective"
+    },
+    {
+      "id": "952822",
+      "name": "Wallace Lovecraft"
+    },
+    {
+      "id": "952819",
+      "name": "Hex/Hack Games"
+    },
+    {
+      "id": "952676",
+      "name": "Packet1337 Inc."
+    },
+    {
+      "id": "952674",
+      "name": "Bluish-Green Games"
+    },
+    {
+      "id": "952562",
+      "name": "Alenn Predko"
+    },
+    {
+      "id": "950716",
+      "name": "Droqen"
+    },
+    {
+      "id": "950752",
+      "name": "Riyo Games"
+    },
+    {
+      "id": "950751",
+      "name": "Salisa Jat"
+    },
+    {
+      "id": "950750",
+      "name": "Tyra D'Costa"
+    },
+    {
+      "id": "950749",
+      "name": "Brujer\u00eda @ Werk"
+    },
+    {
+      "id": "950748",
+      "name": "SpekWork"
+    },
+    {
+      "id": "950747",
+      "name": "Thousand Stars Studio"
+    },
+    {
+      "id": "950746",
+      "name": "SYSTEM PANIC"
+    },
+    {
+      "id": "950743",
+      "name": "PixelNAUTS Inc."
+    },
+    {
+      "id": "950741",
+      "name": "Santo Pecado"
+    },
+    {
+      "id": "950740",
+      "name": "Haunts Collective"
+    },
+    {
+      "id": "950739",
+      "name": "Lodder Digital Media"
+    },
+    {
+      "id": "950738",
+      "name": "Vagabond Dog"
+    },
+    {
+      "id": "950737",
+      "name": "Sleepy Pixel Studios"
+    },
+    {
+      "id": "950736",
+      "name": "MrTedders"
+    },
+    {
+      "id": "950735",
+      "name": "teamon"
+    },
+    {
+      "id": "950734",
+      "name": "Kim Nguyen"
+    },
+    {
+      "id": "950732",
+      "name": "Holly McGillis"
+    },
+    {
+      "id": "950731",
+      "name": "Thready To Go"
+    },
+    {
+      "id": "950730",
+      "name": "Webspookie Shop"
+    },
+    {
+      "id": "950726",
+      "name": "Jesse Lafleur"
+    },
+    {
+      "id": "950725",
+      "name": "Jenn Woodall"
+    },
+    {
+      "id": "950723",
+      "name": "Jillian Wakarchuk"
+    },
+    {
+      "id": "950722",
+      "name": "Rose Goodwin"
+    },
+    {
+      "id": "950721",
+      "name": "Lenn Predko"
+    },
+    {
+      "id": "950720",
+      "name": "Nadine Lessio"
+    },
+    {
+      "id": "950719",
+      "name": "Luc Palombo"
+    },
+    {
+      "id": "950718",
+      "name": "verwho comics"
+    },
+    {
+      "id": "950715",
+      "name": "Allison Kyran Cole"
+    },
+    {
+      "id": "950713",
+      "name": "Kaelan Doyle-Myerscough"
+    },
+    {
+      "id": "337561",
+      "name": "Jenn Woodall & Trevor Henderson"
+    },
+    {
+      "id": "329353",
+      "name": "Lindy Wilkins"
+    },
+    {
+      "id": "333024",
+      "name": "Patrick Sparrow"
+    },
+    {
+      "id": "333022",
+      "name": "Rebecca Noone"
+    },
+    {
+      "id": "333021",
+      "name": "Rebecca Noone"
+    },
+    {
+      "id": "332175",
+      "name": "Foodland Ontario"
+    },
+    {
+      "id": "332173",
+      "name": "Manning Canning"
+    },
+    {
+      "id": "332170",
+      "name": "Culture City"
+    },
+    {
+      "id": "332167",
+      "name": "Toronto Popcorn Company"
+    },
+    {
+      "id": "332165",
+      "name": "Glory Hole Doughnuts"
+    },
+    {
+      "id": "332163",
+      "name": "Planet Y"
+    },
+    {
+      "id": "332160",
+      "name": "El Chapo"
+    },
+    {
+      "id": "332158",
+      "name": "Death in Venice"
+    },
+    {
+      "id": "332155",
+      "name": "OMG on the Park"
+    },
+    {
+      "id": "329351",
+      "name": "Nadine Lessio / Alenn Predko"
+    },
+    {
+      "id": "321454",
+      "name": "The Sorcerer's Catalogue"
+    },
+    {
+      "id": "321516",
+      "name": "Adrien Lamarque"
+    },
+    {
+      "id": "321525",
+      "name": "XLNT"
+    },
+    {
+      "id": "321522",
+      "name": "Stitch Media"
+    },
+    {
+      "id": "321520",
+      "name": "Shivaun Hoad"
+    },
+    {
+      "id": "321514",
+      "name": "Brenden Cameron Games"
+    },
+    {
+      "id": "321512",
+      "name": "Competent Thursday"
+    },
+    {
+      "id": "321510",
+      "name": "Misc."
+    },
+    {
+      "id": "321508",
+      "name": "Emergent Fates"
+    },
+    {
+      "id": "321506",
+      "name": "Ad Astra Comix"
+    },
+    {
+      "id": "321504",
+      "name": "Clapback App"
+    },
+    {
+      "id": "321502",
+      "name": "CyberEquality"
+    },
+    {
+      "id": "321500",
+      "name": "Kelly K"
+    },
+    {
+      "id": "321498",
+      "name": "Dogson"
+    },
+    {
+      "id": "321494",
+      "name": "Sebby Confetti"
+    },
+    {
+      "id": "321491",
+      "name": "Katsuki Nogami"
+    },
+    {
+      "id": "321489",
+      "name": "Rocketship Park"
+    },
+    {
+      "id": "321487",
+      "name": "Meaghan Carter"
+    },
+    {
+      "id": "321464",
+      "name": "GIF Peanut Butter"
+    },
+    {
+      "id": "321462",
+      "name": "Numizmatic"
+    },
+    {
+      "id": "321460",
+      "name": "Lightning Rod Games"
+    },
+    {
+      "id": "321458",
+      "name": "Ben Mcilmoyle Games"
+    },
+    {
+      "id": "321456",
+      "name": "Lumo Amuzo Gameworks"
+    },
+    {
+      "id": "321452",
+      "name": "Quill Studios"
+    },
+    {
+      "id": "321450",
+      "name": "Ricky Lima"
+    },
+    {
+      "id": "321448",
+      "name": "Axon Interactive"
+    },
+    {
+      "id": "321446",
+      "name": "Jason RT Bond"
+    },
+    {
+      "id": "321444",
+      "name": "Arcane Bullshit"
+    },
+    {
+      "id": "321442",
+      "name": "Fake Geek Girls Like Us"
+    },
+    {
+      "id": "321440",
+      "name": "Shiny Pliers"
+    },
+    {
+      "id": "321437",
+      "name": "Alientrap Games"
+    },
+    {
+      "id": "321435",
+      "name": "Neon Deity Games"
+    },
+    {
+      "id": "321433",
+      "name": "Fractal Phase"
+    },
+    {
+      "id": "321431",
+      "name": "Hello Boyfriend "
+    },
+    {
+      "id": "321429",
+      "name": "Linzb0t & Jakten"
+    },
+    {
+      "id": "321427",
+      "name": "Ofir Rosen"
+    },
+    {
+      "id": "321425",
+      "name": "netgrind.net"
+    },
+    {
+      "id": "321423",
+      "name": "Maiji/Mary Huang"
+    },
+    {
+      "id": "321421",
+      "name": "Lina Wu"
+    },
+    {
+      "id": "321419",
+      "name": "CurryCarrots"
+    },
+    {
+      "id": "321417",
+      "name": "Monster Cliche"
+    },
+    {
+      "id": "321415",
+      "name": "Jackalope Factory"
+    },
+    {
+      "id": "321413",
+      "name": "Linework and Lesbians"
+    },
+    {
+      "id": "321411",
+      "name": "Aether Interactive"
+    },
+    {
+      "id": "321407",
+      "name": "Bottom Feeders Development Team"
+    },
+    {
+      "id": "321402",
+      "name": "Reptoid Games Inc"
+    }
+  ]
+}
